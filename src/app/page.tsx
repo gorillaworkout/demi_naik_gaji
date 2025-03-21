@@ -46,14 +46,25 @@ export default function Home() {
       <div className="bg-white p-6 rounded-lg shadow-lg max-w-md w-full text-center">
         {!quizFinished ? (
           <>
-            <motion.h2
-              className="text-2xl font-bold mb-6 text-black"
+          <div className="flex flex-col">
+          <motion.h2
+              className="text-2xl font-bold mb-6 text-black text-center"
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
             >
-              {questions[currentQuestion].question}
+             {currentQuestion + 1} / {questions.length}
             </motion.h2>
+
+            <motion.h2
+              className="text-2xl font-bold mb-6 text-black text-left"
+              initial={{ opacity: 0, y: -20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5 }}
+            >
+            {questions[currentQuestion].question}
+            </motion.h2>
+          </div>
 
             <div className="space-y-3">
               {questions[currentQuestion].options.map((option, index) => (
