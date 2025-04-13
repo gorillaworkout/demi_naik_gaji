@@ -47,14 +47,24 @@ export default function Home() {
         {!quizFinished ? (
           <>
           <div className="flex flex-col">
-          <motion.h2
-              className="text-2xl font-bold mb-6 text-black text-center"
-              initial={{ opacity: 0, y: -20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5 }}
-            >
-             {currentQuestion + 1} / {questions.length}
-            </motion.h2>
+            <div className="flex flex-row gap-x-4 justify-between items-center">
+              <motion.h2
+                className="text-2xl font-bold mb-6 text-black text-center"
+                initial={{ opacity: 0, y: -20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5 }}
+              >
+              Competency: {questions[currentQuestion].competency}
+              </motion.h2>
+              <motion.h2
+                className="text-2xl font-bold mb-6 text-black text-center"
+                initial={{ opacity: 0, y: -20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5 }}
+              >
+              {currentQuestion + 1} / {questions.length}
+              </motion.h2>
+            </div>
 
             <motion.h2
               className="text-2xl font-bold mb-6 text-black text-left"

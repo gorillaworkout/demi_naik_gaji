@@ -1,5 +1,6 @@
 const questions = [
     {
+      competency: 1,
       question: "What is an organization in Sitecore XM Cloud?",
       options: [
         "A) A logical grouping of XM Cloud environments",
@@ -10,6 +11,7 @@ const questions = [
       correct: "B) A business unit that manages team members and Sitecore products"
     },
     {
+      competency: 1,
       question: "What tool is used to create and manage XM Cloud projects?",
       options: [
         "A) Experience Edge",
@@ -20,6 +22,7 @@ const questions = [
       correct: "C) Deploy app"
     },
     {
+      competency: 1,
       question: "Which of the following is NOT included in an XM Cloud environment?",
       options: [
         "A) Content Management (CM) instance",
@@ -30,6 +33,7 @@ const questions = [
       correct: "C) Machine Learning models"
     },
     {
+      competency: 1,
       question: "What is the main purpose of the Content Management (CM) instance?",
       options: [
         "A) To store and serve user analytics",
@@ -40,6 +44,7 @@ const questions = [
       correct: "B) To create, store, and manage site content"
     },
     {
+      competency: 1,
       question: "What does a project in XM Cloud contain?",
       options: [
         "A) Multiple organizations",
@@ -50,6 +55,7 @@ const questions = [
       correct: "B) A logical grouping of environments"
     },
     {
+      competency: 1,
       question: "What is the function of Experience Edge in XM Cloud?",
       options: [
         "A) It manages environment deployments",
@@ -60,6 +66,7 @@ const questions = [
       correct: "C) It retrieves content using GraphQL and distributes it via a CDN"
     },
     {
+      competency: 1,
       question: "What are renderings used for in XM Cloud?",
       options: [
         "A) Managing user permissions",
@@ -70,6 +77,7 @@ const questions = [
       correct: "C) Defining individual components in the headless application"
     },
     {
+      competency: 1,
       question: "What is a rendering variant?",
       options: [
         "A) A predefined environment configuration",
@@ -80,6 +88,7 @@ const questions = [
       correct: "B) A variation of a rendering to display data differently"
     },
     {
+      competency: 1,
       question: "What is a data source in XM Cloud?",
       options: [
         "A) The location of environment variables",
@@ -90,6 +99,8 @@ const questions = [
       correct: "C) Content managed outside a specific component and called at runtime"
     },
     {
+      
+      competency:1,
       question: "What is the purpose of the Sitecore Cloud Portal?",
       options: [
         "A) Managing external APIs",
@@ -100,6 +111,7 @@ const questions = [
       correct: "C) Centralizing access to Sitecore DXP products and managing users"
     },
     {
+      competency:1,
       question: "What is the XM Cloud starter kit?",
       options: [
         "A) A cloud-based analytics tool",
@@ -110,6 +122,7 @@ const questions = [
       correct: "B) A code base to kickstart XM Cloud implementations"
     },
     {
+      competency:1,
       question: "What are environment variables used for in XM Cloud?",
       options: [
         "A) Managing user permissions",
@@ -120,6 +133,7 @@ const questions = [
       correct: "B) Storing key-value pairs for environment configuration"
     },
     {
+      competency:1,
       question: "What are system environment variables?",
       options: [
         "A) User-defined key-value pairs",
@@ -130,6 +144,7 @@ const questions = [
       correct: "C) Core settings that control the XM Cloud environment"
     },
     {
+      competency:1,
       question: "Which of the following is a user-controlled environment variable?",
       options: [
         "A) System-level identifiers",
@@ -140,6 +155,7 @@ const questions = [
       correct: "C) Predefined variables that users can modify"
     },
     {
+      competency:1,
       question: "What is the role of the rendering host?",
       options: [
         "A) To store user analytics",
@@ -150,6 +166,7 @@ const questions = [
       correct: "B) To render dynamic pages and interact with the CM instance"
     },
     {
+      competency:1,
       question: "What is a site collection?",
       options: [
         "A) A group of renderings",
@@ -160,6 +177,7 @@ const questions = [
       correct: "C) A parent item that groups related sites for content sharing"
     },
     {
+      competency:1,
       question: "What is a standard template in XM Cloud?",
       options: [
         "A) A core rendering definition",
@@ -170,6 +188,7 @@ const questions = [
       correct: "B) The default base template from which others inherit"
     },
     {
+      competency:1,
       question: "What does the Deploy app do after creating a project?",
       options: [
         "A) Monitors user interactions",
@@ -180,6 +199,7 @@ const questions = [
       correct: "C) Executes the provision, build, and deploy processes"
     },
     {
+      competency:1,
       question: "What type of data is stored in a field?",
       options: [
         "A) User permissions",
@@ -190,6 +210,7 @@ const questions = [
       correct: "C) Data about an item, such as text, numbers, or links"
     },
     {
+      competency:1,
       question: "What is a rendering definition?",
       options: [
         "A) A parent item for grouping sites",
@@ -200,6 +221,7 @@ const questions = [
       correct: "B) A reference to a rendering parameter template"
     },
     {
+      competency:1,
       question: "Which of the following describes an internal data source?",
       options: [
         "A) Data stored in external databases",
@@ -210,6 +232,7 @@ const questions = [
       correct: "B) Data created and managed within XM Cloud"
     },
     {
+      competency:1,
       question: "What does a dynamic component do?",
       options: [
         "A) Statically display content",
@@ -221,6 +244,7 @@ const questions = [
     },
     // ================================== COMPETENCY 2 ==========================================
     {
+      competency:3,
       question: "What is the purpose of the Sitecore XM Cloud Deploy app?",
       options: [
         "A) To create and manage XM Cloud projects and environments",
@@ -231,6 +255,7 @@ const questions = [
       correct: "A) To create and manage XM Cloud projects and environments"
     },
     {
+      competency:3,
       question: "Which of the following best describes an XM Cloud project?",
       options: [
         "A) A logical grouping of XM Cloud environments",
@@ -241,6 +266,7 @@ const questions = [
       correct: "A) A logical grouping of XM Cloud environments"
     },
     {
+      competency:3,
       question: "What is an XM Cloud environment?",
       options: [
         "A) A collection of reusable Sitecore components",
@@ -251,6 +277,7 @@ const questions = [
       correct: "B) An isolated instance within an XM Cloud project"
     },
     {
+      competency:3,
       question: "What is the primary purpose of the Starter Foundation Template?",
       options: [
         "A) To provide a pre-configured codebase for XM Cloud development",
@@ -261,6 +288,7 @@ const questions = [
       correct: "A) To provide a pre-configured codebase for XM Cloud development"
     },
     {
+      competency:3,
       question: "Which software component is NOT required for running the XM Cloud Foundation Template locally?",
       options: [
         "A) .NET Core 6.0 SDK",
@@ -271,6 +299,7 @@ const questions = [
       correct: "D) Kubernetes"
     },
     {
+      competency:3,
       question: "What is the role of Experience Edge in XM Cloud?",
       options: [
         "A) It provides a global CDN for content delivery",
@@ -281,6 +310,7 @@ const questions = [
       correct: "A) It provides a global CDN for content delivery"
     },
     {
+      competency:3,
       question: "What is the purpose of the Sitecore CLI in XM Cloud development?",
       options: [
         "A) To interact with Sitecore instances using terminal commands",
@@ -291,6 +321,7 @@ const questions = [
       correct: "A) To interact with Sitecore instances using terminal commands"
     },
     {
+      competency:3,
       question: "Which statement about the local development setup for XM Cloud is true?",
       options: [
         "A) It requires Docker with Windows Containers enabled",
@@ -301,6 +332,7 @@ const questions = [
       correct: "A) It requires Docker with Windows Containers enabled"
     },
     {
+      competency:3,
       question: "What is the primary role of the authoring environment in XM Cloud?",
       options: [
         "A) To provide a backend interface for content creation and management",
@@ -311,6 +343,7 @@ const questions = [
       correct: "A) To provide a backend interface for content creation and management"
     },
     {
+      competency:3,
       question: "Which command is used to initialize the local XM Cloud development environment?",
       options: [
         "A) ./init.ps1 -InitEnv",
@@ -321,6 +354,7 @@ const questions = [
       correct: "A) ./init.ps1 -InitEnv"
     },
     {
+      competency:3,
       question: "What happens when a new project is created in the XM Cloud Deploy app?",
       options: [
         "A) It automatically provisions an environment and runs an initial deployment",
@@ -331,6 +365,7 @@ const questions = [
       correct: "A) It automatically provisions an environment and runs an initial deployment"
     },
     {
+      competency:3,
       question: "How does a front-end developer work with XM Cloud using a 'FED-first' approach?",
       options: [
         "A) By connecting a local Next.js project to XM Cloud for real-time content updates",
@@ -341,6 +376,7 @@ const questions = [
       correct: "A) By connecting a local Next.js project to XM Cloud for real-time content updates"
     },
     {
+      competency:3,
       question: "Which command is used to start the local Next.js site connected to XM Cloud?",
       options: [
         "A) npm run start:connected",
@@ -351,6 +387,7 @@ const questions = [
       correct: "A) npm run start:connected"
     },
     {
+      competency:3,
       question: "What is the purpose of the 'Available Renderings' setting in XM Cloud?",
       options: [
         "A) To define which components can be used within a site’s pages",
@@ -361,6 +398,7 @@ const questions = [
       correct: "A) To define which components can be used within a site’s pages"
     },
     {
+      competency:3,
       question: "What is required to connect a local XM Cloud project to a remote XM Cloud environment?",
       options: [
         "A) Copying the environment variables from the Deploy app to the .env.local file",
@@ -371,6 +409,7 @@ const questions = [
       correct: "A) Copying the environment variables from the Deploy app to the .env.local file"
     },
     {
+      competency:3,
       question: "What is the first step to creating a site in XM Cloud?",
       options: [
         "A) Installing Node.js",
@@ -381,6 +420,7 @@ const questions = [
       correct: "B) Opening the Deploy app and navigating to XM Cloud"
     },
     {
+      competency:3,
       question: "What is the purpose of a collection when creating a site in XM Cloud?",
       options: [
         "A) It defines the available components in a site",
@@ -391,6 +431,7 @@ const questions = [
       correct: "B) It groups sites according to a theme"
     },
     {
+      competency:3,
       question: "What happens automatically when you create a new collection in XM Cloud?",
       options: [
         "A) A default page is generated",
@@ -401,6 +442,7 @@ const questions = [
       correct: "B) A headless module with the same name is created"
     },
     {
+      competency:3,
       question: "Which component is used to add content to a newly created page in XM Cloud?",
       options: [
         "A) Page Content",
@@ -411,6 +453,7 @@ const questions = [
       correct: "A) Page Content"
     },
     {
+      competency:3,
       question: "Which command is used to clone an environment repository in XM Cloud?",
       options: [
         "A) npm install",
@@ -421,6 +464,7 @@ const questions = [
       correct: "B) git clone"
     },
     {
+      competency:3,
       question: "Where do you set the environment variables for a local development setup in XM Cloud?",
       options: [
         "A) In the .env.local file",
@@ -431,6 +475,7 @@ const questions = [
       correct: "A) In the .env.local file"
     },
     {
+      competency:3,
       question: "What command is used to install the required packages in the local development setup?",
       options: [
         "A) npm run start",
@@ -441,6 +486,7 @@ const questions = [
       correct: "C) npm install"
     },
     {
+      competency:3,
       question: "Which URL should you visit to preview your locally running XM Cloud project?",
       options: [
         "A) http://localhost:8000",
@@ -451,6 +497,7 @@ const questions = [
       correct: "C) http://localhost:3000"
     },
     {
+      competency:3,
       question: "What approach does XM Cloud use for setting up local development?",
       options: [
         "A) Front-End Development (FED) first",
@@ -461,6 +508,7 @@ const questions = [
       correct: "A) Front-End Development (FED) first"
     },
     {
+      competency:3,
       question: "What is the recommended Node.js version for XM Cloud development?",
       options: [
         "A) Any version of Node.js",
@@ -471,6 +519,7 @@ const questions = [
       correct: "B) The latest LTS version"
     },
     {
+      competency:3,
       question: "What is the purpose of the `rendering` property in an XM Cloud component?",
       options: [
         "A) It defines the component’s appearance and data",
@@ -481,6 +530,7 @@ const questions = [
       correct: "A) It defines the component’s appearance and data"
     },
     {
+      competency:3,
       question: "Which of the following parameters is used to apply CSS classes to an XM Cloud component?",
       options: [
         "A) Styles",
@@ -491,6 +541,7 @@ const questions = [
       correct: "A) Styles"
     },
     {
+      competency:3,
       question: "How do you create a new component in XM Cloud?",
       options: [
         "A) Modify the `site.config.js` file",
@@ -501,6 +552,7 @@ const questions = [
       correct: "B) Create a new `.tsx` file in the components folder"
     },
     {
+      competency:3,
       question: "What is the purpose of the `RenderingIdentifier` parameter in an XM Cloud component?",
       options: [
         "A) To apply custom CSS styles",
@@ -511,6 +563,7 @@ const questions = [
       correct: "B) To link the component with analytics tracking"
     },
     {
+      competency:3,
       question: "What happens when you push a new component to your XM Cloud repository?",
       options: [
         "A) It automatically deploys to XM Cloud",
@@ -521,6 +574,7 @@ const questions = [
       correct: "A) It automatically deploys to XM Cloud"
     },
     {
+      competency:3,
       question: "What is the purpose of rendering definitions in XM Cloud?",
       options: [
         "A) To define where the component's .tsx file is located",
@@ -531,6 +585,7 @@ const questions = [
       correct: "D) All of the above"
     },
     {
+      competency:3,
       question: "What should you do to ensure a cloned rendering is visible in Pages?",
       options: [
         "A) Set the Editable checkbox in the Customize Page section",
@@ -541,6 +596,7 @@ const questions = [
       correct: "A) Set the Editable checkbox in the Customize Page section"
     },
     {
+      competency:3,
       question: "Which step is required when adding a new component to a site page in XM Cloud?",
       options: [
         "A) Run 'npm run build' before deploying",
@@ -551,6 +607,7 @@ const questions = [
       correct: "B) Drag the component from the Components tab onto the page"
     },
     {
+      competency:3,
       question: "What happens when you push a new component to your XM Cloud repository?",
       options: [
         "A) It automatically deploys to XM Cloud",
@@ -561,6 +618,7 @@ const questions = [
       correct: "A) It automatically deploys to XM Cloud"
     },
     {
+      competency:3,
       question: "What must be done after creating a rendering clone?",
       options: [
         "A) Modify the rendering’s parameters to reduce dependencies",
@@ -571,6 +629,7 @@ const questions = [
       correct: "A) Modify the rendering’s parameters to reduce dependencies"
     },
     {
+      competency:3,
       question: "How can you change the repository linked to an XM Cloud project?",
       options: [
         "A) Go to 'Projects' and select 'Edit project' under 'Options'",
@@ -581,6 +640,7 @@ const questions = [
       correct: "A) Go to 'Projects' and select 'Edit project' under 'Options'"
     },
     {
+      competency:3,
       question: "What is the maximum number of non-production environments allowed in an XM Cloud project by default?",
       options: [
         "A) One",
@@ -591,6 +651,7 @@ const questions = [
       correct: "B) Two"
     },
     {
+      competency:3,
       question: "Which step is necessary to restart an environment in XM Cloud?",
       options: [
         "A) Click 'Actions' and select 'Restart environment' in the project settings",
@@ -601,6 +662,7 @@ const questions = [
       correct: "A) Click 'Actions' and select 'Restart environment' in the project settings"
     },
     {
+      competency:3,
       question: "What must be done to deploy a new build to an environment?",
       options: [
         "A) Click 'Actions' and select 'Build and deploy'",
@@ -611,6 +673,7 @@ const questions = [
       correct: "A) Click 'Actions' and select 'Build and deploy'"
     },
     {
+      competency:3,
       question: "How do you make a new component available in XM Cloud Pages?",
       options: [
         "A) Add it to 'Available Renderings' in the Content Editor",
@@ -622,6 +685,7 @@ const questions = [
     },
     // ================================== COMPETENCY 3 ==========================================
     {
+      competency:3,
       question: "How do you create a new component in the Components library?",
       options: [
         "A) Click 'Add component' in the library",
@@ -632,6 +696,7 @@ const questions = [
       correct: "A) Click 'Add component' in the library"
     },
     {
+      competency:3,
       question: "What happens when you duplicate a component?",
       options: [
         "A) It creates a new component with no versions",
@@ -642,6 +707,7 @@ const questions = [
       correct: "B) It copies the component along with all versions and responsive bundles"
     },
     {
+      competency:3,
       question: "Which of the following is required to delete a component permanently?",
       options: [
         "A) It must have at least one published version",
@@ -652,6 +718,7 @@ const questions = [
       correct: "C) All its versions must be in draft state"
     },
     {
+      competency:3,
       question: "How can you move a component to another collection?",
       options: [
         "A) Click 'Edit component' and select a different collection",
@@ -662,6 +729,7 @@ const questions = [
       correct: "A) Click 'Edit component' and select a different collection"
     },
     {
+      competency:3,
       question: "What is a page design used for in Sitecore?",
       options: [
         "A) To create a preset layout structure for pages",
@@ -672,6 +740,7 @@ const questions = [
       correct: "A) To create a preset layout structure for pages"
     },
     {
+      competency:3,
       question: "Which tool can be used to create a page design?",
       options: [
         "A) Content Editor",
@@ -682,6 +751,7 @@ const questions = [
       correct: "C) Both A and B"
     },
     {
+      competency:3,
       question: "How do you update the signature of a partial design?",
       options: [
         "A) Change the 'Signature' field in the partial design properties",
@@ -692,6 +762,7 @@ const questions = [
       correct: "D) Only A and B"
     },
     {
+      competency:3,
       question: "What is the purpose of a base partial design?",
       options: [
         "A) To create reusable layouts with common elements",
@@ -702,6 +773,7 @@ const questions = [
       correct: "A) To create reusable layouts with common elements"
     },
     {
+      competency:3,
       question: "How do you assign a page design to a template?",
       options: [
         "A) In the Experience Accelerator tab, click 'Site Page Designs' and assign a design",
@@ -712,6 +784,7 @@ const questions = [
       correct: "A) In the Experience Accelerator tab, click 'Site Page Designs' and assign a design"
     },
     {
+      competency:3,
       question: "What is the best way to ensure headers and footers remain consistent across pages?",
       options: [
         "A) Use a page design that includes them",
@@ -722,6 +795,7 @@ const questions = [
       correct: "A) Use a page design that includes them"
     },
     {
+      competency:3,
       question: "How do you create a new component in the Components library?",
       options: [
         "A) Click 'Add component' in the library",
@@ -732,6 +806,7 @@ const questions = [
       correct: "A) Click 'Add component' in the library"
     },
     {
+      competency:3,
       question: "What is the purpose of a partial design in the Experience Editor?",
       options: [
         "A) To update text and add renderings that apply to multiple pages",
@@ -742,6 +817,7 @@ const questions = [
       correct: "A) To update text and add renderings that apply to multiple pages"
     },
     {
+      competency:3,
       question: "How do you change a partial design in the Experience Editor?",
       options: [
         "A) Edit the HTML code directly",
@@ -752,6 +828,7 @@ const questions = [
       correct: "B) Click 'Partial Design' on the Experience Accelerator tab and make changes"
     },
     {
+      competency:3,
       question: "Which method has the highest precedence when assigning a page design?",
       options: [
         "A) Page design selected on a page level",
@@ -762,6 +839,7 @@ const questions = [
       correct: "A) Page design selected on a page level"
     },
     {
+      competency:3,
       question: "Where do you navigate to in order to create a rule to set a page design?",
       options: [
         "A) sitecore/Content/<site collection>/<site>/Presentation/Page Designs",
@@ -772,6 +850,7 @@ const questions = [
       correct: "A) sitecore/Content/<site collection>/<site>/Presentation/Page Designs"
     },
     {
+      competency:3,
       question: "What condition can be used in a rule to assign a page design?",
       options: [
         "A) The title field is empty",
@@ -782,6 +861,7 @@ const questions = [
       correct: "A) The title field is empty"
     },
     {
+      competency:3,
       question: "How do you change the order of component categories in the toolbox?",
       options: [
         "A) Reorganize items under Available Renderings",
@@ -792,6 +872,7 @@ const questions = [
       correct: "A) Reorganize items under Available Renderings"
     },
     {
+      competency:3,
       question: "What is the benefit of restructuring components in the Experience Editor?",
       options: [
         "A) To organize frequently used components for easier access",
@@ -802,6 +883,7 @@ const questions = [
       correct: "A) To organize frequently used components for easier access"
     },
     {
+      competency:3,
       question: "How do you add a custom category and components in the Experience Editor?",
       options: [
         "A) Right-click 'Available Renderings', insert a new category, and add components",
@@ -812,6 +894,7 @@ const questions = [
       correct: "A) Right-click 'Available Renderings', insert a new category, and add components"
     },
     {
+      competency:3,
       question: "Which of the following is NOT a way to apply a page design?",
       options: [
         "A) Selecting a page design on a page level",
@@ -822,6 +905,7 @@ const questions = [
       correct: "D) Adding custom CSS to override the design"
     },
     {
+      competency:3,
       question: "Which of the following is the purpose of cloning an SXA rendering?",
       options: [
         "A) To delete an existing rendering",
@@ -832,6 +916,7 @@ const questions = [
       correct: "B) To create an exact copy with a different name and styling"
     },
     {
+      competency:3,
       question: "Why is it recommended to create a separate toolbox section for derivative renderings?",
       options: [
         "A) To avoid conflicts with standard SXA toolbox updates",
@@ -842,6 +927,7 @@ const questions = [
       correct: "A) To avoid conflicts with standard SXA toolbox updates"
     },
     {
+      competency:3,
       question: "What is the function of the 'Rendering Parameters' tab when cloning a rendering?",
       options: [
         "A) It allows setting the rendering's CSS class",
@@ -852,6 +938,7 @@ const questions = [
       correct: "B) It determines how the rendering parameters are inherited or copied"
     },
     {
+      competency:3,
       question: "Which of the following options allows the most flexibility when modifying an SXA rendering's view?",
       options: [
         "A) Use original MVC view file",
@@ -862,6 +949,7 @@ const questions = [
       correct: "B) Copy MVC view file (specify path below)"
     },
     {
+      competency:3,
       question: "What is the main purpose of dynamic placeholders in Sitecore SXA?",
       options: [
         "A) To generate unique placeholder keys for components dynamically",
@@ -872,6 +960,7 @@ const questions = [
       correct: "A) To generate unique placeholder keys for components dynamically"
     },
     {
+      competency:3,
       question: "Which property must be added to a component to enable dynamic placeholders?",
       options: [
         "A) DynamicPlaceholderID",
@@ -882,6 +971,7 @@ const questions = [
       correct: "C) IsRenderingsWithDynamicPlaceholders"
     },
     {
+      competency:3,
       question: "When defining a placeholder key for dynamic placeholders, what symbol is used to create unique identifiers?",
       options: [
         "A) #",
@@ -892,6 +982,7 @@ const questions = [
       correct: "C) {}"
     },
     {
+      competency:3,
       question: "What is the main benefit of registering an external React component in XM Cloud?",
       options: [
         "A) It allows components to be reused within XM Cloud Pages",
@@ -902,6 +993,7 @@ const questions = [
       correct: "A) It allows components to be reused within XM Cloud Pages"
     },
     {
+      competency:3,
       question: "Where should the external React component code be hosted before it can be used in XM Cloud?",
       options: [
         "A) On any Sitecore instance",
@@ -912,6 +1004,7 @@ const questions = [
       correct: "B) On an accessible rendering host URL"
     },
     {
+      competency:3,
       question: "What is a key advantage of using SXA components in Sitecore XM Cloud?",
       options: [
         "A) They provide built-in support for content variants",
@@ -923,6 +1016,7 @@ const questions = [
     },
     // ================================== COMPETENCY 4 ==========================================
     {
+      competency:4,
       question: "What is the purpose of Sitecore Content Serialization (SCS)?",
       options: [
         "A) To manage and deploy Sitecore configurations",
@@ -933,6 +1027,7 @@ const questions = [
       correct: "B) To serialize and version control Sitecore content items"
     },
     {
+      competency:4,
       question: "Which command is used to validate serialized content items?",
       options: [
         "A) sitecore ser check",
@@ -943,6 +1038,7 @@ const questions = [
       correct: "C) sitecore ser validate"
     },
     {
+      competency:4,
       question: "What does the `allowedPushOperations` property define?",
       options: [
         "A) How content items are pushed to Sitecore",
@@ -953,6 +1049,7 @@ const questions = [
       correct: "A) How content items are pushed to Sitecore"
     },
     {
+      competency:4,
       question: "Which `allowedPushOperations` value enables creating, updating, and deleting items?",
       options: [
         "A) CreateOnly",
@@ -963,6 +1060,7 @@ const questions = [
       correct: "C) CreateUpdateAndDelete"
     },
     {
+      competency:4,
       question: "What does the `scope` property configure?",
       options: [
         "A) The database used for serialization",
@@ -973,6 +1071,7 @@ const questions = [
       correct: "B) The content items affected by serialization"
     },
     {
+      competency:4,
       question: "Which scope value only serializes the specified item?",
       options: [
         "A) ItemAndChildren",
@@ -983,6 +1082,7 @@ const questions = [
       correct: "C) SingleItem"
     },
     {
+      competency:4,
       question: "Which scope option includes the item and all its descendants?",
       options: [
         "A) ItemAndChildren",
@@ -993,6 +1093,7 @@ const questions = [
       correct: "C) ItemAndDescendants"
     },
     {
+      competency:4,
       question: "Which command creates an SCS package?",
       options: [
         "A) dotnet sitecore ser pkg build",
@@ -1003,6 +1104,7 @@ const questions = [
       correct: "C) dotnet sitecore ser pkg create"
     },
     {
+      competency:4,
       question: "What is the default database for Sitecore Content Serialization?",
       options: [
         "A) core",
@@ -1013,6 +1115,7 @@ const questions = [
       correct: "C) master"
     },
     {
+      competency:4,
       question: "How can you manually fix validation errors in serialized content?",
       options: [
         "A) By running `sitecore ser validate --fix`",
@@ -1023,6 +1126,7 @@ const questions = [
       correct: "A) By running `sitecore ser validate --fix`"
     },
     {
+      competency:4,
       question: "Which component ensures shorter file paths in Sitecore Content Serialization?",
       options: [
         "A) Path hashing",
@@ -1033,6 +1137,7 @@ const questions = [
       correct: "A) Path hashing"
     },
     {
+      competency:4,
       question: "Which option can prevent changes from being pulled before running the watch command?",
       options: [
         "A) --no-sync",
@@ -1043,6 +1148,7 @@ const questions = [
       correct: "B) --skip-pull"
     },
     {
+      competency:4,
       question: "What command is used to install an SCS package?",
       options: [
         "A) dotnet sitecore ser pkg install",
@@ -1053,6 +1159,7 @@ const questions = [
       correct: "A) dotnet sitecore ser pkg install"
     },
     {
+      competency:4,
       question: "Which command continuously monitors changes to serialized items?",
       options: [
         "A) dotnet sitecore ser watch",
@@ -1063,6 +1170,7 @@ const questions = [
       correct: "A) dotnet sitecore ser watch"
     },
     {
+      competency:4,
       question: "What is the default value for `maxRelativePathLength`?",
       options: [
         "A) 100",
@@ -1073,6 +1181,7 @@ const questions = [
       correct: "B) 130"
     },
     {
+      competency:4,
       question: "Which of these is NOT a valid Sitecore Content Serialization scope?",
       options: [
         "A) SingleItem",
@@ -1083,6 +1192,7 @@ const questions = [
       correct: "D) AllItems"
     },
     {
+      competency:4,
       question: "What is required in an include property for serialization?",
       options: [
         "A) `database`",
@@ -1093,6 +1203,7 @@ const questions = [
       correct: "B) `path`"
     },
     {
+      competency:4,
       question: "Which file must be modified to set the maximum path length for serialization?",
       options: [
         "A) sitecore.config",
@@ -1103,6 +1214,7 @@ const questions = [
       correct: "C) sitecore.json"
     },
     {
+      competency:4,
       question: "Which subcommand provides verbose logging for troubleshooting?",
       options: [
         "A) --debug",
@@ -1113,6 +1225,7 @@ const questions = [
       correct: "C) --verbose"
     },
     {
+      competency:4,
       question: "What does the `--allow-file-changes` option do in the watch command?",
       options: [
         "A) Prevents accidental overwrites",
@@ -1123,6 +1236,7 @@ const questions = [
       correct: "B) Allows file changes even if underlying state is modified"
     },
     {
+      competency:4,
       question: "How does Sitecore Content Serialization help in CI/CD?",
       options: [
         "A) By allowing automatic content serialization and deserialization",
@@ -1133,6 +1247,7 @@ const questions = [
       correct: "A) By allowing automatic content serialization and deserialization"
     },
     {
+      competency:4,
       question: "Which command is required before running serialization commands?",
       options: [
         "A) sitecore ser init",
@@ -1144,6 +1259,7 @@ const questions = [
     },
     // ================================== COMPETENCY 5 ==========================================
     {
+      competency:5,
       question: "What type of API does Experience Edge use to retrieve content?",
       options: [
         "A) REST API",
@@ -1154,6 +1270,7 @@ const questions = [
       correct: "B) GraphQL API"
     },
     {
+      competency:5,
       question: "Which endpoint should be used to access approved and published content in Experience Edge?",
       options: [
         "A) Token API",
@@ -1164,6 +1281,7 @@ const questions = [
       correct: "C) Delivery API"
     },
     {
+      competency:5,
       question: "Which search criterion would you use to find content that includes the word 'apple' anywhere in the field value?",
       options: [
         "A) Exact",
@@ -1174,6 +1292,7 @@ const questions = [
       correct: "C) Contains"
     },
     {
+      competency:5,
       question: "Which mutation is used to create a new item in Sitecore using GraphQL?",
       options: [
         "A) newItem()",
@@ -1184,6 +1303,7 @@ const questions = [
       correct: "B) createItem()"
     },
     {
+      competency:5,
       question: "What does the `permanently` parameter do in the `deleteItem` mutation?",
       options: [
         "A) Makes the item visible permanently",
@@ -1194,6 +1314,7 @@ const questions = [
       correct: "D) Ensures the item is completely removed from Sitecore"
     },
     {
+      competency:5,
       question: "Which API allows you to manage your Sitecore content using GraphQL, including creating templates and custom UIs?",
       options: [
         "A) Layout API",
@@ -1204,6 +1325,7 @@ const questions = [
       correct: "C) Authoring and Management API"
     },
     {
+      competency:5,
       question: "What must be done before using the GraphQL IDE for the Authoring and Management API?",
       options: [
         "A) Set the GraphQL role to Admin",
@@ -1214,6 +1336,7 @@ const questions = [
       correct: "C) Enable and authorize the IDE access"
     },
     {
+      competency:5,
       question: "Which feature in Experience Edge can notify you when a publishing job finishes?",
       options: [
         "A) GraphQL IDE",
@@ -1224,6 +1347,7 @@ const questions = [
       correct: "D) Webhooks"
     },
     {
+      competency:5,
       question: "Which search criterion uses similarity parameters to match typos or variations?",
       options: [
         "A) Proximity",
@@ -1234,6 +1358,7 @@ const questions = [
       correct: "B) Fuzzy"
     },
     {
+      competency:5,
       question: "Which SDK can be used with Experience Edge to render layout service data in a front-end application?",
       options: [
         "A) React SDK",
@@ -1244,6 +1369,7 @@ const questions = [
       correct: "C) Sitecore JavaScript SDK (JSS)"
     },
     {
+      competency:5,
       question: "What environment variable must be set to enable the GraphQL IDE in XM Cloud?",
       options: [
         "A) Sitecore_Enable_GraphQL",
@@ -1254,6 +1380,7 @@ const questions = [
       correct: "C) Sitecore_GraphQL_ExposePlayground"
     },
     {
+      competency:5,
       question: "Which role must a user have to access the GraphQL IDE?",
       options: [
         "A) sitecore\\Sitecore Developers",
@@ -1264,6 +1391,7 @@ const questions = [
       correct: "B) sitecore\\Sitecore Client Users"
     },
     {
+      competency:5,
       question: "How do you authorize the GraphQL IDE to make requests?",
       options: [
         "A) Add token in GraphQL variables",
@@ -1274,6 +1402,7 @@ const questions = [
       correct: "C) Set the Authorization header with Bearer token"
     },
     {
+      competency:5,
       question: "Where can you obtain the access token after logging in via `dotnet sitecore cloud login`?",
       options: [
         "A) From the browser's localStorage",
@@ -1284,6 +1413,7 @@ const questions = [
       correct: "C) In the ./sitecore/user.json file"
     },
     {
+      competency:5,
       question: "Which API provides access to approved and published content?",
       options: [
         "A) Management API",
@@ -1294,6 +1424,7 @@ const questions = [
       correct: "C) Delivery API"
     },
     {
+      competency:5,
       question: "What is the base URL for the Delivery API?",
       options: [
         "A) https://sitecorecloud.io/api/graphql",
@@ -1304,6 +1435,7 @@ const questions = [
       correct: "C) https://edge.sitecorecloud.io/api/graphql"
     },
     {
+      competency:5,
       question: "What command is used to log into XM Cloud to obtain the initial access token?",
       options: [
         "A) sitecore cloud connect",
@@ -1314,6 +1446,7 @@ const questions = [
       correct: "B) dotnet sitecore cloud login"
     },
     {
+      competency:5,
       question: "What HTTP method is used to retrieve a token from an automation client?",
       options: [
         "A) GET",
@@ -1324,6 +1457,7 @@ const questions = [
       correct: "D) POST"
     },
     {
+      competency:5,
       question: "Which of the following is recommended regarding enabling the GraphQL IDE?",
       options: [
         "A) Enable it only in staging environments",
@@ -1334,6 +1468,7 @@ const questions = [
       correct: "D) Enable it only in nonproduction environments"
     },
     {
+      competency:5,
       question: "What endpoint should be used in the IDE for Authoring and Management API?",
       options: [
         "A) /sitecore/api/authoring/graphql",
@@ -1344,6 +1479,7 @@ const questions = [
       correct: "C) /sitecore/api/authoring/graphql/v1/"
     },
     {
+      competency:5,
       question: "What header must be included in all requests to the Delivery API?",
       options: [
         "A) Authorization",
@@ -1354,6 +1490,7 @@ const questions = [
       correct: "C) sc_apikey"
     },
     {
+      competency:5,
       question: "Which scopes are required when creating an API key for the Delivery API?",
       options: [
         "A) audience-management and content-read",
@@ -1364,6 +1501,7 @@ const questions = [
       correct: "B) audience-delivery and content-#everything#"
     },
     {
+      competency:5,
       question: "What is the base URL for the Token API?",
       options: [
         "A) https://api.sitecorecloud.io/token",
@@ -1374,6 +1512,7 @@ const questions = [
       correct: "C) https://edge.sitecorecloud.io/api/apikey/v1"
     },
     {
+      competency:5,
       question: "What type of token is used in the `Authorization` header to access the Token API?",
       options: [
         "A) Personal access token",
@@ -1384,6 +1523,7 @@ const questions = [
       correct: "B) Bearer token (JWT)"
     },
     {
+      competency:5,
       question: "Which endpoint is used to generate a new API key in the Token API?",
       options: [
         "A) /generate",
@@ -1394,6 +1534,7 @@ const questions = [
       correct: "D) /"
     },
     {
+      competency:5,
       question: "Which header is required to get an API key by its token?",
       options: [
         "A) Authorization",
@@ -1404,6 +1545,7 @@ const questions = [
       correct: "C) sc_apikey"
     },
     {
+      competency:5,
       question: "What does the `ListAll` endpoint return?",
       options: [
         "A) Only revoked API keys",
@@ -1414,6 +1556,7 @@ const questions = [
       correct: "C) A list of API keys with pagination metadata"
     },
     {
+      competency:5,
       question: "What is the HTTP verb for revoking an API key using its hash?",
       options: [
         "A) DELETE",
@@ -1424,6 +1567,7 @@ const questions = [
       correct: "B) PUT"
     },
     {
+      competency:5,
       question: "Which endpoint do you use to rename an API key by token?",
       options: [
         "A) /renamebyhash/{token}",
@@ -1434,6 +1578,7 @@ const questions = [
       correct: "C) /renamebytoken"
     },
     {
+      competency:5,
       question: "What is returned when a new API key is successfully created?",
       options: [
         "A) JSON with scopes and label",
@@ -1444,6 +1589,7 @@ const questions = [
       correct: "C) Base64 string token"
     },
     {
+      competency:5,
       question: "What is the base URL for the Admin API?",
       options: [
         "a) https://admin.sitecorecloud.io/api/admin/v1",
@@ -1454,6 +1600,7 @@ const questions = [
       correct: "b) https://edge.sitecorecloud.io/api/admin/v1"
     },
     {
+      competency:5,
       question: "Which HTTP verb is used to clear the cache for a tenant in the Admin API?",
       options: [
         "a) POST",
@@ -1464,6 +1611,7 @@ const questions = [
       correct: "d) DELETE"
     },
     {
+      competency:5,
       question: "What is required in the Authorization header for Admin API requests?",
       options: [
         "a) API Key",
@@ -1474,6 +1622,7 @@ const questions = [
       correct: "d) Both b and c"
     },
     {
+      competency:5,
       question: "Which endpoint is used to remove tenant data from the storage in the Admin API?",
       options: [
         "a) /webhooks",
@@ -1484,6 +1633,7 @@ const questions = [
       correct: "c) /content"
     },
     {
+      competency:5,
       question: "What format should the body be in when using the PATCH operation on the /settings endpoint?",
       options: [
         "a) application/json",
@@ -1494,6 +1644,7 @@ const questions = [
       correct: "c) application/json-patch+json"
     },
     {
+      competency:5,
       question: "Which status code indicates a successful webhook creation using the Admin API?",
       options: [
         "a) 200 OK",
@@ -1504,6 +1655,7 @@ const questions = [
       correct: "b) 201 Created"
     },
     {
+      competency:5,
       question: "What does the contentCacheTtl parameter represent in the Admin API response?",
       options: [
         "a) The total number of content items in cache",
@@ -1514,6 +1666,7 @@ const questions = [
       correct: "b) The time-to-live (TTL) for content cache"
     },
     {
+      competency:5,
       question: "Which method should be used to retrieve all webhooks for a tenant?",
       options: [
         "a) GET /settings",
@@ -1524,6 +1677,7 @@ const questions = [
       correct: "c) GET /webhooks"
     },
     {
+      competency:5,
       question: "How do you specify the TTL (Time-to-Live) for cache in the Admin API settings?",
       options: [
         "a) As a single value in seconds",
@@ -1534,6 +1688,7 @@ const questions = [
       correct: "b) Using the format {days}.{hours}:{minutes}:{seconds}"
     },
     {
+      competency:5,
       question: "What does the response format look like when successfully updating settings using the PUT /settings endpoint?",
       options: [
         "a) JSON object with updated settings",
@@ -1545,6 +1700,7 @@ const questions = [
     },
     // ================================== COMPETENCY 6 ==========================================
     {
+      competency:6,
       question: "What is the purpose of using page templates in Sitecore XM Cloud?",
       options: [
         "a) To ensure all pages share the same header, footer, and key sections",
@@ -1555,6 +1711,7 @@ const questions = [
       correct: "a) To ensure all pages share the same header, footer, and key sections"
     },
     {
+      competency:6,
       question: "What does the 'Personalize' tab in the page builder allow you to do?",
       options: [
         "a) Create different content for different audiences",
@@ -1565,6 +1722,7 @@ const questions = [
       correct: "a) Create different content for different audiences"
     },
     {
+      competency:6,
       question: "How can you test the performance of different page variants in Sitecore?",
       options: [
         "a) By conducting A/B/n tests",
@@ -1575,6 +1733,7 @@ const questions = [
       correct: "a) By conducting A/B/n tests"
     },
     {
+      competency:6,
       question: "Which of the following is true about partial designs in Sitecore?",
       options: [
         "a) They consist of reusable layouts like headers, footers, and main sections",
@@ -1585,6 +1744,7 @@ const questions = [
       correct: "a) They consist of reusable layouts like headers, footers, and main sections"
     },
     {
+      competency:6,
       question: "What is the first step in creating a new page design in Sitecore?",
       options: [
         "a) Assign a page design to a data template",
@@ -1595,6 +1755,7 @@ const questions = [
       correct: "c) Add partial designs to the page canvas"
     },
     {
+      competency:6,
       question: "In which section of the Sitecore page builder can you view and manage page content?",
       options: [
         "a) Editor",
@@ -1605,6 +1766,7 @@ const questions = [
       correct: "a) Editor"
     },
     {
+      competency:6,
       question: "What happens when you publish a partial design in Sitecore?",
       options: [
         "a) The partial design becomes available for use in pages",
@@ -1615,6 +1777,7 @@ const questions = [
       correct: "a) The partial design becomes available for use in pages"
     },
     {
+      competency:6,
       question: "What can you do in the 'Analyze' tab of the page builder?",
       options: [
         "a) Check site performance and insights",
@@ -1625,6 +1788,7 @@ const questions = [
       correct: "a) Check site performance and insights"
     },
     {
+      competency:6,
       question: "What is the recommended way to ensure pages share the same header and footer?",
       options: [
         "a) Use partial designs",
@@ -1635,6 +1799,7 @@ const questions = [
       correct: "a) Use partial designs"
     },
     {
+      competency:6,
       question: "What is the role of the 'Components' tab in the page builder?",
       options: [
         "a) It displays the components available for the site",
@@ -1645,6 +1810,7 @@ const questions = [
       correct: "a) It displays the components available for the site"
     },
     {
+      competency:6,
       question: "What is the first step to assign a page design to a template?",
       options: [
         "a) Click on the Page Design tab",
@@ -1655,6 +1821,7 @@ const questions = [
       correct: "b) Duplicate an existing template"
     },
     {
+      competency:6,
       question: "What is the purpose of the 'Datasource Location' field in SXA?",
       options: [
         "a) It defines where to store the data source items",
@@ -1665,6 +1832,7 @@ const questions = [
       correct: "b) It specifies where the user can search for the data source"
     },
     {
+      competency:6,
       question: "What does the 'Can select Page as a data source' option enable?",
       options: [
         "a) It allows selecting the current page as a data source for renderings",
@@ -1675,6 +1843,7 @@ const questions = [
       correct: "a) It allows selecting the current page as a data source for renderings"
     },
     {
+      competency:6,
       question: "What happens when you duplicate an existing template in the page builder?",
       options: [
         "a) You create a new page design",
@@ -1685,6 +1854,7 @@ const questions = [
       correct: "c) The duplicated template gets the same page design"
     },
     {
+      competency:6,
       question: "What is a reusable data source in SXA?",
       options: [
         "a) A data source that cannot be reused across multiple pages",
@@ -1695,6 +1865,7 @@ const questions = [
       correct: "b) A data source that can be shared across different components"
     },
     {
+      competency:6,
       question: "What is the 'Datasource Template' field used for in SXA?",
       options: [
         "a) It defines the template for the data source item",
@@ -1705,6 +1876,7 @@ const questions = [
       correct: "a) It defines the template for the data source item"
     },
     {
+      competency:6,
       question: "What is the role of the 'Data source' field in SXA?",
       options: [
         "a) It stores the content for the page",
@@ -1715,6 +1887,7 @@ const questions = [
       correct: "b) It links the component to the actual data source item"
     },
     {
+      competency:6,
       question: "What happens when you rename a local data source item in SXA?",
       options: [
         "a) The link between the component and data source is broken",
@@ -1725,6 +1898,7 @@ const questions = [
       correct: "a) The link between the component and data source is broken"
     },
     {
+      competency:6,
       question: "What is the benefit of using the 'Auto-generated data source' feature?",
       options: [
         "a) It automatically creates and stores data when the rendering is added",
@@ -1735,6 +1909,7 @@ const questions = [
       correct: "a) It automatically creates and stores data when the rendering is added"
     },
     {
+      competency:6,
       question: "What should you do if you rename a local data source item?",
       options: [
         "a) Reselect the item in the data source selection dialog",
@@ -1745,6 +1920,7 @@ const questions = [
       correct: "a) Reselect the item in the data source selection dialog"
     },
     {
+      competency:6,
       question: "What should you do if you rename a local data source item?",
       options: [
         "a) Reselect the item in the data source selection dialog",
@@ -1755,6 +1931,7 @@ const questions = [
       correct: "a) Reselect the item in the data source selection dialog"
     },
     {
+      competency:6,
       question: "What is the main purpose of setting the 'Source' field in Sitecore?",
       options: [
         "a) To define the default language",
@@ -1765,6 +1942,7 @@ const questions = [
       correct: "b) To limit the data source selection area"
     },
     {
+      competency:6,
       question: "What does the Source field report script help identify?",
       options: [
         "a) Missing templates",
@@ -1775,6 +1953,7 @@ const questions = [
       correct: "b) Fields without a Source field set"
     },
     {
+      competency:6,
       question: "Where can you configure simulated device widths for previewing in Pages?",
       options: [
         "a) /sitecore/system/Modules/Devices",
@@ -1785,6 +1964,7 @@ const questions = [
       correct: "b) /sitecore/system/Settings/Foundation/Experience Accelerator/Horizon/Devices"
     },
     {
+      competency:6,
       question: "What visibility setting makes a device type unavailable in Pages?",
       options: [
         "a) Optional",
@@ -1795,6 +1975,7 @@ const questions = [
       correct: "d) Disabled"
     },
     {
+      competency:6,
       question: "What happens if you try to delete a component with a published version?",
       options: [
         "a) It gets permanently deleted",
@@ -1805,6 +1986,7 @@ const questions = [
       correct: "b) It gets archived instead of deleted"
     },
     {
+      competency:6,
       question: "Where do you click to create a new component collection in XM Cloud Components?",
       options: [
         "a) In the Content Editor",
@@ -1815,6 +1997,7 @@ const questions = [
       correct: "c) In the Components library"
     },
     {
+      competency:6,
       question: "What feature allows a component to have multiple visual representations?",
       options: [
         "a) Device simulation",
@@ -1825,6 +2008,7 @@ const questions = [
       correct: "c) Component versions"
     },
     {
+      competency:6,
       question: "What is a responsive bundle in XM Cloud Components?",
       options: [
         "a) A precompiled theme file",
@@ -1835,6 +2019,7 @@ const questions = [
       correct: "c) A component that changes layout based on screen width"
     },
     {
+      competency:6,
       question: "How do you restore a previously published and deleted component version?",
       options: [
         "a) Run a restore script from the Content Editor",
@@ -1845,6 +2030,7 @@ const questions = [
       correct: "c) Scroll to 'Show archived versions' and click Unarchive"
     },
     {
+      competency:6,
       question: "How do you create a version of a component for a specific breakpoint in Sitecore XM Cloud?",
       options: [
         "a) Click 'Add Version' and assign a component ID",
@@ -1855,6 +2041,7 @@ const questions = [
       correct: "b) Click 'Duplicate version', then set the desired breakpoints in 'Breakpoint settings'"
     },
     {
+      competency:6,
       question: "What happens if you do not select any breakpoints for a component version?",
       options: [
         "a) The version will not be visible on any screen",
@@ -1865,6 +2052,7 @@ const questions = [
       correct: "c) The version will apply to all screen sizes"
     },
     {
+      competency:6,
       question: "Which default screen width qualifies as 'Extra Large' according to Sitecore's Style Library?",
       options: [
         "a) Less than 576px",
@@ -1875,6 +2063,7 @@ const questions = [
       correct: "d) 1200px to 1400px"
     },
     {
+      competency:6,
       question: "Where should you upload your custom grid's CSS file?",
       options: [
         "a) sitecore/Media Library/System",
@@ -1885,6 +2074,7 @@ const questions = [
       correct: "b) sitecore/Media Library/Feature/Experience Accelerator"
     },
     {
+      competency:6,
       question: "What is the purpose of the Grid Definition item in SXA?",
       options: [
         "a) Defines the layout of pages at runtime",
@@ -1895,6 +2085,7 @@ const questions = [
       correct: "b) Includes all grid system-specific items like devices and classes"
     },
     {
+      competency:6,
       question: "Which field in the Grid Definition item determines how placeholders behave when fixed?",
       options: [
         "a) Flex",
@@ -1905,6 +2096,7 @@ const questions = [
       correct: "c) Fixed"
     },
     {
+      competency:6,
       question: "Why is changing the grid system after creating a site not recommended?",
       options: [
         "a) It requires reinstallation of Sitecore modules",
@@ -1915,6 +2107,7 @@ const questions = [
       correct: "c) It breaks layout due to existing references to the old grid"
     },
     {
+      competency:6,
       question: "Which field in the Grid Definition item specifies the .cshtml file used for page layout?",
       options: [
         "a) Grid body view path",
@@ -1925,6 +2118,7 @@ const questions = [
       correct: "a) Grid body view path"
     },
     {
+      competency:6,
       question: "Which rendering parameter field type is used by default in SXA grids?",
       options: [
         "a) Sitecore.XA.Foundation.Grid.Parser.BasicParser",
@@ -1935,6 +2129,7 @@ const questions = [
       correct: "c) Sitecore.XA.Foundation.Grid.Fields.FieldRenderers.GridRenderingParametersFieldRenderer, Sitecore.XA.Foundation.Grid"
     },
     {
+      competency:6,
       question: "What is the purpose of the 'Grid Setup' item in SXA?",
       options: [
         "a) To determine component spacing rules",
@@ -1947,6 +2142,7 @@ const questions = [
     // ===========================================COMPETENCY 7 =================================
 
     {
+      competency:7,
       question: "Who can invite team members and manage app access in Sitecore Cloud Portal?",
       options: [
         "a) Content Author",
@@ -1957,6 +2153,7 @@ const questions = [
       correct: "c) Organization Admin or Organization Owner"
     },
     {
+      competency:7,
       question: "What additional tasks can Organization Admins or Owners perform in Sitecore Cloud Portal?",
       options: [
         "a) Create workflows",
@@ -1967,6 +2164,7 @@ const questions = [
       correct: "c) Enable SSO, MFA, and create support cases"
     },
     {
+      competency:7,
       question: "What are the three levels of access control in XM Cloud?",
       options: [
         "a) Project, Environment, Role",
@@ -1977,6 +2175,7 @@ const questions = [
       correct: "b) User, Role, Domain"
     },
     {
+      competency:7,
       question: "What is the function of a role in XM Cloud access management?",
       options: [
         "a) Assigning one-time passwords",
@@ -1987,6 +2186,7 @@ const questions = [
       correct: "c) Grouping users and assigning permissions collectively"
     },
     {
+      competency:7,
       question: "How is a user added to an XM Cloud app?",
       options: [
         "a) By creating a local account manually",
@@ -1997,6 +2197,7 @@ const questions = [
       correct: "c) By inviting them to the Sitecore Cloud Portal and giving them app access"
     },
     {
+      competency:7,
       question: "When does a user account get created in an XM Cloud app?",
       options: [
         "a) After assigning a role in the domain",
@@ -2007,6 +2208,7 @@ const questions = [
       correct: "b) When the user logs in to the app for the first time"
     },
     {
+      competency:7,
       question: "How can you assign roles and access rights to a user in XM Cloud?",
       options: [
         "a) Via the user profile page",
@@ -2017,6 +2219,7 @@ const questions = [
       correct: "c) Using Access Management or claims mapping"
     },
     {
+      competency:7,
       question: "Which XM Cloud app role always has the highest level of permissions?",
       options: [
         "a) Content Author",
@@ -2027,6 +2230,7 @@ const questions = [
       correct: "c) Admin"
     },
     {
+      competency:7,
       question: "What is true about users with 'Organization Admin' role in Sitecore Cloud Portal?",
       options: [
         "a) They can be deleted from the app directly",
@@ -2037,6 +2241,7 @@ const questions = [
       correct: "b) They automatically receive the highest role in all XM Cloud apps"
     },
     {
+      competency:7,
       question: "How can you remove or change the role of an Admin user in XM Cloud?",
       options: [
         "a) Through the Access Management page in XM Cloud",
@@ -2047,6 +2252,7 @@ const questions = [
       correct: "d) From the Sitecore Cloud Portal"
     },
     {
+      competency:7,
       question: "What is the purpose of claims mapping in Sitecore XM Cloud?",
       options: [
         "a) To create new Sitecore roles",
@@ -2057,6 +2263,7 @@ const questions = [
       correct: "b) To assign XM Cloud roles based on identity provider claims"
     },
     {
+      competency:7,
       question: "Where do you configure the mapping of IdP claims to Sitecore ID token claims?",
       options: [
         "a) In the Sitecore Role Manager",
@@ -2067,6 +2274,7 @@ const questions = [
       correct: "c) On the Sitecore Cloud Portal SSO page"
     },
     {
+      competency:7,
       question: "What type of regular expressions can be used in claim value matching?",
       options: [
         "a) PCRE",
@@ -2077,6 +2285,7 @@ const questions = [
       correct: "c) ECMAScript syntax"
     },
     {
+      competency:7,
       question: "Where should you place the CustomClaims.config file in the XM Cloud environment?",
       options: [
         "a) root folder",
@@ -2087,6 +2296,7 @@ const questions = [
       correct: "b) authoring/platform/App_Config/Include"
     },
     {
+      competency:7,
       question: "What role is assigned to all users in the example claims mapping?",
       options: [
         "a) Sitecore\\Developer",
@@ -2097,6 +2307,7 @@ const questions = [
       correct: "c) Sitecore\\Default User"
     },
     {
+      competency:7,
       question: "What must the IdP return in order for XM Cloud to assign roles automatically?",
       options: [
         "a) HTML forms",
@@ -2107,6 +2318,7 @@ const questions = [
       correct: "c) ID token or SAML response with proper claims"
     },
     {
+      competency:7,
       question: "What prefix is added to a target claim in the Sitecore token?",
       options: [
         "a) sitecore_",
@@ -2117,6 +2329,7 @@ const questions = [
       correct: "c) The SSO connection ID"
     },
     {
+      competency:7,
       question: "How many claims mappings can you define per SSO connection?",
       options: [
         "a) 10",
@@ -2127,6 +2340,7 @@ const questions = [
       correct: "c) 20"
     },
     {
+      competency:7,
       question: "What happens if multiple claims are mapped with the same name in one token exchange?",
       options: [
         "a) Only the first one is used",
@@ -2137,6 +2351,7 @@ const questions = [
       correct: "c) Claims mapping fails and a warning is shown"
     },
     {
+      competency:7,
       question: "Which claim value is used in the example to assign the Campaign Manager role?",
       options: [
         "a) ^default_user$",
@@ -2147,6 +2362,7 @@ const questions = [
       correct: "c) ^campaign_manager$"
     },
     {
+      competency:7,
       question: "What is the purpose of using roles in Sitecore XM Cloud?",
       options: [
         "a) To limit user login times",
@@ -2157,6 +2373,7 @@ const questions = [
       correct: "b) To group users for security access management"
     },
     {
+      competency:7,
       question: "Where can you manage roles in Sitecore XM Cloud?",
       options: [
         "a) Content Editor",
@@ -2167,6 +2384,7 @@ const questions = [
       correct: "c) Role Manager"
     },
     {
+      competency:7,
       question: "What happens to a role’s access rights when the role is deleted?",
       options: [
         "a) They are transferred to all users",
@@ -2177,6 +2395,7 @@ const questions = [
       correct: "c) They remain stored on the individual items"
     },
     {
+      competency:7,
       question: "Which role gives access to the Experience Editor’s Presentation tab?",
       options: [
         "a) Author",
@@ -2187,6 +2406,7 @@ const questions = [
       correct: "b) Designer"
     },
     {
+      competency:7,
       question: "Which role includes both design and authoring capabilities?",
       options: [
         "a) Author",
@@ -2197,6 +2417,7 @@ const questions = [
       correct: "b) Developer"
     },
     {
+      competency:7,
       question: "Which role has access to template editing features and reporting tools?",
       options: [
         "a) Sitecore Client Translating",
@@ -2207,6 +2428,7 @@ const questions = [
       correct: "c) Sitecore Client Maintaining"
     },
     {
+      competency:7,
       question: "How are users added to a role in XM Cloud?",
       options: [
         "a) Through the User Manager only",
@@ -2217,6 +2439,7 @@ const questions = [
       correct: "c) In the Role Manager > Members section"
     },
     {
+      competency:7,
       question: "Which role is automatically assigned to all users?",
       options: [
         "a) Developer",
@@ -2227,6 +2450,7 @@ const questions = [
       correct: "c) Everyone"
     },
     {
+      competency:7,
       question: "What must be done to assign a new role to all domains?",
       options: [
         "a) Assign the role to the root item",
@@ -2237,6 +2461,7 @@ const questions = [
       correct: "b) Keep the role in the default XM Cloud domain"
     },
     {
+      competency:7,
       question: "Which role gives access to maintain users and domains?",
       options: [
         "a) Sitecore Client Securing",
@@ -2247,6 +2472,7 @@ const questions = [
       correct: "b) Sitecore Client Account Managing"
     },
     {
+      competency:7,
       question: "Which role provides minimal access, allowing only login to the Desktop?",
       options: [
         "a) Sitecore Client Users",
@@ -2257,6 +2483,7 @@ const questions = [
       correct: "a) Sitecore Client Users"
     },
     {
+      competency:7,
       question: "To add access rights to a new role, you must:",
       options: [
         "a) Map claims",
@@ -2267,6 +2494,7 @@ const questions = [
       correct: "c) Assign access rights manually"
     },
     {
+      competency:7,
       question: "Which role is not part of the role database but still used for access rights?",
       options: [
         "a) Developer",
@@ -2277,6 +2505,7 @@ const questions = [
       correct: "b) Everyone"
     },
     {
+      competency:7,
       question: "Which role allows a user to perform republishing?",
       options: [
         "a) Sitecore Client Authoring",
@@ -2287,6 +2516,7 @@ const questions = [
       correct: "b) Sitecore Client Advanced Publishing"
     },
     {
+      competency:7,
       question: "What is a characteristic of a user with multiple roles?",
       options: [
         "a) User can log in only once a day",
@@ -2297,6 +2527,7 @@ const questions = [
       correct: "c) User gains all access rights from all roles"
     },
     {
+      competency:7,
       question: "Which role limits Content Editor to Home, Review, and Publish tabs?",
       options: [
         "a) Sitecore Limited Page Editor",
@@ -2307,6 +2538,7 @@ const questions = [
       correct: "c) Sitecore Limited Content Editor"
     },
     {
+      competency:7,
       question: "Which role allows access to configure item appearance and attributes?",
       options: [
         "a) Sitecore Client Configuring",
@@ -2317,6 +2549,7 @@ const questions = [
       correct: "a) Sitecore Client Configuring"
     },
     {
+      competency:7,
       question: "Which role gives access to the Sitecore translation features?",
       options: [
         "a) Sitecore Client Site Managing",
@@ -2327,6 +2560,7 @@ const questions = [
       correct: "b) Sitecore Client Translating"
     },
     {
+      competency:7,
       question: "When you delete a role, what happens to its members?",
       options: [
         "a) They are removed from Sitecore",
@@ -2337,6 +2571,7 @@ const questions = [
       correct: "c) They lose all permissions granted by that role"
     },
     {
+      competency:7,
       question: "Which of the following is **not** automatically included in the Developer role?",
       options: [
         "a) Sitecore Client Authoring",
@@ -2348,6 +2583,7 @@ const questions = [
     },
     // ========================COMPETENCY 8 ==========================================
     {
+      competency:8,
       question: "What happens when a field value is NULL in a Sitecore item?",
       options: [
         "a) The field is ignored entirely",
@@ -2358,6 +2594,7 @@ const questions = [
       correct: "b) The field uses the standard value from its data template"
     },
     {
+      competency:8,
       question: "Which of the following tokens replaces itself with the name of the item during creation?",
       options: [
         "a) $id",
@@ -2368,6 +2605,7 @@ const questions = [
       correct: "c) $name"
     },
     {
+      competency:8,
       question: "Where are standard values stored in Sitecore?",
       options: [
         "a) As a hidden field in each item",
@@ -2378,6 +2616,7 @@ const questions = [
       correct: "c) As a child item under the data template"
     },
     {
+      competency:8,
       question: "Which Sitecore tab contains the option to reset layout details to standard values?",
       options: [
         "a) Configure",
@@ -2388,6 +2627,7 @@ const questions = [
       correct: "b) Presentation"
     },
     {
+      competency:8,
       question: "What must be checked to convert a blank field into NULL so that standard values can apply?",
       options: [
         "a) Use Standard Value",
@@ -2398,6 +2638,7 @@ const questions = [
       correct: "c) Reset Blank"
     },
     {
+      competency:8,
       question: "Which method can be used in .NET to reset a field to its standard value?",
       options: [
         "a) item.Fields.ResetValue()",
@@ -2408,6 +2649,7 @@ const questions = [
       correct: "c) field.Reset()"
     },
     {
+      competency:8,
       question: "What is the main benefit of defining insert options in standard values instead of individual items?",
       options: [
         "a) Better performance",
@@ -2418,6 +2660,7 @@ const questions = [
       correct: "c) Centralized management and consistency"
     },
     {
+      competency:8,
       question: "Which pipeline is used by Sitecore to construct the list of effective insert options?",
       options: [
         "a) renderLayout",
@@ -2428,6 +2671,7 @@ const questions = [
       correct: "b) uiGetMasters"
     },
     {
+      competency:8,
       question: "What is the difference between assigned insert options and effective insert options?",
       options: [
         "a) Assigned options are temporary, effective options are permanent",
@@ -2438,6 +2682,7 @@ const questions = [
       correct: "b) Effective options are resolved at runtime using assigned options and rules"
     },
     {
+      competency:8,
       question: "What happens if multiple base templates define a standard value for the same field?",
       options: [
         "a) The values are merged together",
@@ -2448,6 +2693,7 @@ const questions = [
       correct: "c) The value from the first template in the inheritance list is used"
     },
     {
+      competency:8,
       question: "What defines the structure of items in Sitecore?",
       options: [
         "a) Fields",
@@ -2458,6 +2704,7 @@ const questions = [
       correct: "c) Data templates"
     },
     {
+      competency:8,
       question: "What happens when you change a data template in Sitecore?",
       options: [
         "a) The items based on the template are immediately republished",
@@ -2468,6 +2715,7 @@ const questions = [
       correct: "b) The change applies to all items based on the template without changing their revision numbers"
     },
     {
+      competency:8,
       question: "What is the primary purpose of data template sections in Sitecore?",
       options: [
         "a) To organize fields for easier navigation in the content editor",
@@ -2478,6 +2726,7 @@ const questions = [
       correct: "a) To organize fields for easier navigation in the content editor"
     },
     {
+      competency:8,
       question: "Which of the following is true about base templates in Sitecore?",
       options: [
         "a) They override fields in the data template",
@@ -2488,6 +2737,7 @@ const questions = [
       correct: "b) Fields from base templates are merged into the data template"
     },
     {
+      competency:8,
       question: "What happens when you add a section to a data template in Sitecore?",
       options: [
         "a) The section is added to the data template and visible in the content editor",
@@ -2498,6 +2748,7 @@ const questions = [
       correct: "a) The section is added to the data template and visible in the content editor"
     },
     {
+      competency:8,
       question: "Which of the following actions can you perform in the Template Manager in Sitecore?",
       options: [
         "a) Edit base templates",
@@ -2508,6 +2759,7 @@ const questions = [
       correct: "b) Add a new field to an existing data template"
     },
     {
+      competency:8,
       question: "In Sitecore, how are icons configured for a data template?",
       options: [
         "a) Icons are automatically assigned based on the template type",
@@ -2518,6 +2770,7 @@ const questions = [
       correct: "b) Icons must be manually set using the Configure tab"
     },
     {
+      competency:8,
       question: "Which statement is true about the inheritance of base templates in Sitecore?",
       options: [
         "a) Data templates can inherit from multiple base templates",
@@ -2528,6 +2781,7 @@ const questions = [
       correct: "a) Data templates can inherit from multiple base templates"
     },
     {
+      competency:8,
       question: "What happens if a data template field is defined in both the data template and a base template?",
       options: [
         "a) The field value from the data template is used",
@@ -2538,6 +2792,7 @@ const questions = [
       correct: "b) The field value from the base template is used"
     },
     {
+      competency:8,
       question: "How can you change the template associated with an item in Sitecore?",
       options: [
         "a) By editing the item's content",
@@ -2548,6 +2803,7 @@ const questions = [
       correct: "b) By using the Configure tab and clicking 'Change Template'"
     },
     {
+      competency:8,
       question: "What does a section in a data template in Sitecore help with?",
       options: [
         "a) Grouping related fields for better organization",
@@ -2558,6 +2814,7 @@ const questions = [
       correct: "a) Grouping related fields for better organization"
     },
     {
+      competency:8,
       question: "What happens when a base template defines a field but the data template does not?",
       options: [
         "a) The field is ignored by Sitecore",
@@ -2568,6 +2825,7 @@ const questions = [
       correct: "b) The field value from the base template is inherited"
     },
     {
+      competency:8,
       question: "Which of the following options is not available in the Template Manager for a data template?",
       options: [
         "a) Add a field",
@@ -2578,6 +2836,7 @@ const questions = [
       correct: "d) Republish all items associated with the template"
     },
     {
+      competency:8,
       question: "How can you view hidden items in the Template Manager or Content Editor?",
       options: [
         "a) By selecting the 'Show Hidden Items' checkbox in the View tab",
@@ -2588,6 +2847,7 @@ const questions = [
       correct: "a) By selecting the 'Show Hidden Items' checkbox in the View tab"
     },
     {
+      competency:8,
       question: "What is the purpose of the 'Add Site Language' script in Sitecore?",
       options: [
         "a) To add a new language version to the entire site",
@@ -2598,6 +2858,7 @@ const questions = [
       correct: "a) To add a new language version to the entire site"
     },
     {
+      competency:8,
       question: "Where do you add languages to a Sitecore environment?",
       options: [
         "a) sitecore/System/Languages",
@@ -2608,6 +2869,7 @@ const questions = [
       correct: "a) sitecore/System/Languages"
     },
     {
+      competency:8,
       question: "What happens when you add a language version to an SXA site in Sitecore?",
       options: [
         "a) All site items and field values are copied from the source language to the target language",
@@ -2618,6 +2880,7 @@ const questions = [
       correct: "a) All site items and field values are copied from the source language to the target language"
     },
     {
+      competency:8,
       question: "What should you do before adding a new language version in Sitecore?",
       options: [
         "a) Ensure that the target languages have been added to the environment",
@@ -2628,6 +2891,7 @@ const questions = [
       correct: "a) Ensure that the target languages have been added to the environment"
     },
     {
+      competency:8,
       question: "How can you add a language version to a Sitecore SXA site?",
       options: [
         "a) Right-click the site item and select 'Add Site Language' from the Scripts menu",
@@ -2638,6 +2902,7 @@ const questions = [
       correct: "a) Right-click the site item and select 'Add Site Language' from the Scripts menu"
     },
     {
+      competency:8,
       question: "Where can you find the option to view your site in a different language in Sitecore?",
       options: [
         "a) In the Versions tab, under the Language group",
@@ -2648,6 +2913,7 @@ const questions = [
       correct: "a) In the Versions tab, under the Language group"
     },
     {
+      competency:8,
       question: "What is the Experience Edge schema in Sitecore designed for?",
       options: [
         "a) It is a read-only GraphQL schema for headless Sitecore development",
@@ -2658,6 +2924,7 @@ const questions = [
       correct: "a) It is a read-only GraphQL schema for headless Sitecore development"
     },
     {
+      competency:8,
       question: "Which query in the Experience Edge schema allows querying an item by its path or ID?",
       options: [
         "a) item",
@@ -2668,6 +2935,7 @@ const questions = [
       correct: "a) item"
     },
     {
+      competency:8,
       question: "What does the 'search' query in the Experience Edge schema allow you to do?",
       options: [
         "a) Search for items by field value or common properties",
@@ -2678,6 +2946,7 @@ const questions = [
       correct: "a) Search for items by field value or common properties"
     },
     {
+      competency:8,
       question: "What should you do if your Experience Edge query is too complex?",
       options: [
         "a) Break the query into multiple smaller queries",
@@ -2688,6 +2957,7 @@ const questions = [
       correct: "a) Break the query into multiple smaller queries"
     },
     {
+      competency:8,
       question: "In the Experience Edge schema, what does the '_parent' field represent?",
       options: [
         "a) The ID of the item's immediate parent",
@@ -2698,6 +2968,7 @@ const questions = [
       correct: "a) The ID of the item's immediate parent"
     },
     {
+      competency:8,
       question: "What is a special field available for content search in the Experience Edge schema?",
       options: [
         "a) _path",
@@ -2708,6 +2979,7 @@ const questions = [
       correct: "a) _path"
     },
     {
+      competency:8,
       question: "In Sitecore Experience Edge, what does the '_hasLayout' field indicate?",
       options: [
         "a) Whether the item has presentation details/layout data",
@@ -2718,6 +2990,7 @@ const questions = [
       correct: "a) Whether the item has presentation details/layout data"
     },
     {
+      competency:8,
       question: "How can you manipulate an image using Sitecore Experience Edge?",
       options: [
         "a) By applying query parameters such as width (w) and height (h)",
@@ -2728,6 +3001,7 @@ const questions = [
       correct: "a) By applying query parameters such as width (w) and height (h)"
     },
     {
+      competency:8,
       question: "Which image file formats are supported for manipulation in Sitecore Experience Edge?",
       options: [
         "a) avif, webp, jpeg",
@@ -2738,6 +3012,7 @@ const questions = [
       correct: "a) avif, webp, jpeg"
     },
     {
+      competency:8,
       question: "What is the 'first' argument used for in paginated queries in the Experience Edge schema?",
       options: [
         "a) To define the number of results to return",
@@ -2748,6 +3023,7 @@ const questions = [
       correct: "a) To define the number of results to return"
     },
     {
+      competency:8,
       question: "What does the 'endCursor' in a paginated query result indicate?",
       options: [
         "a) The cursor used to obtain the next page of results",
@@ -2758,6 +3034,7 @@ const questions = [
       correct: "a) The cursor used to obtain the next page of results"
     },
     {
+      competency:8,
       question: "What does a naming collision in GraphQL schema types indicate?",
       options: [
         "a) The newest creation date item or field has '_{guid}' appended to the name",
