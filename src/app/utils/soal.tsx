@@ -244,7 +244,7 @@ const questions = [
     },
     // ================================== COMPETENCY 2 ==========================================
     {
-      competency:3,
+      competency:2,
       question: "What is the purpose of the Sitecore XM Cloud Deploy app?",
       options: [
         "A) To create and manage XM Cloud projects and environments",
@@ -255,7 +255,7 @@ const questions = [
       correct: "A) To create and manage XM Cloud projects and environments"
     },
     {
-      competency:3,
+      competency:2,
       question: "Which of the following best describes an XM Cloud project?",
       options: [
         "A) A logical grouping of XM Cloud environments",
@@ -266,7 +266,7 @@ const questions = [
       correct: "A) A logical grouping of XM Cloud environments"
     },
     {
-      competency:3,
+      competency:2,
       question: "What is an XM Cloud environment?",
       options: [
         "A) A collection of reusable Sitecore components",
@@ -277,7 +277,7 @@ const questions = [
       correct: "B) An isolated instance within an XM Cloud project"
     },
     {
-      competency:3,
+      competency:2,
       question: "What is the primary purpose of the Starter Foundation Template?",
       options: [
         "A) To provide a pre-configured codebase for XM Cloud development",
@@ -288,7 +288,7 @@ const questions = [
       correct: "A) To provide a pre-configured codebase for XM Cloud development"
     },
     {
-      competency:3,
+      competency:2,
       question: "Which software component is NOT required for running the XM Cloud Foundation Template locally?",
       options: [
         "A) .NET Core 6.0 SDK",
@@ -299,7 +299,7 @@ const questions = [
       correct: "D) Kubernetes"
     },
     {
-      competency:3,
+      competency:2,
       question: "What is the role of Experience Edge in XM Cloud?",
       options: [
         "A) It provides a global CDN for content delivery",
@@ -310,7 +310,7 @@ const questions = [
       correct: "A) It provides a global CDN for content delivery"
     },
     {
-      competency:3,
+      competency:2,
       question: "What is the purpose of the Sitecore CLI in XM Cloud development?",
       options: [
         "A) To interact with Sitecore instances using terminal commands",
@@ -321,7 +321,7 @@ const questions = [
       correct: "A) To interact with Sitecore instances using terminal commands"
     },
     {
-      competency:3,
+      competency:2,
       question: "Which statement about the local development setup for XM Cloud is true?",
       options: [
         "A) It requires Docker with Windows Containers enabled",
@@ -332,7 +332,7 @@ const questions = [
       correct: "A) It requires Docker with Windows Containers enabled"
     },
     {
-      competency:3,
+      competency:2,
       question: "What is the primary role of the authoring environment in XM Cloud?",
       options: [
         "A) To provide a backend interface for content creation and management",
@@ -343,7 +343,7 @@ const questions = [
       correct: "A) To provide a backend interface for content creation and management"
     },
     {
-      competency:3,
+      competency:2,
       question: "Which command is used to initialize the local XM Cloud development environment?",
       options: [
         "A) ./init.ps1 -InitEnv",
@@ -354,7 +354,7 @@ const questions = [
       correct: "A) ./init.ps1 -InitEnv"
     },
     {
-      competency:3,
+      competency:2,
       question: "What happens when a new project is created in the XM Cloud Deploy app?",
       options: [
         "A) It automatically provisions an environment and runs an initial deployment",
@@ -365,7 +365,7 @@ const questions = [
       correct: "A) It automatically provisions an environment and runs an initial deployment"
     },
     {
-      competency:3,
+      competency:2,
       question: "How does a front-end developer work with XM Cloud using a 'FED-first' approach?",
       options: [
         "A) By connecting a local Next.js project to XM Cloud for real-time content updates",
@@ -376,7 +376,7 @@ const questions = [
       correct: "A) By connecting a local Next.js project to XM Cloud for real-time content updates"
     },
     {
-      competency:3,
+      competency:2,
       question: "Which command is used to start the local Next.js site connected to XM Cloud?",
       options: [
         "A) npm run start:connected",
@@ -387,7 +387,7 @@ const questions = [
       correct: "A) npm run start:connected"
     },
     {
-      competency:3,
+      competency:2,
       question: "What is the purpose of the 'Available Renderings' setting in XM Cloud?",
       options: [
         "A) To define which components can be used within a site’s pages",
@@ -398,7 +398,7 @@ const questions = [
       correct: "A) To define which components can be used within a site’s pages"
     },
     {
-      competency:3,
+      competency:2,
       question: "What is required to connect a local XM Cloud project to a remote XM Cloud environment?",
       options: [
         "A) Copying the environment variables from the Deploy app to the .env.local file",
@@ -409,7 +409,7 @@ const questions = [
       correct: "A) Copying the environment variables from the Deploy app to the .env.local file"
     },
     {
-      competency:3,
+      competency:2,
       question: "What is the first step to creating a site in XM Cloud?",
       options: [
         "A) Installing Node.js",
@@ -420,7 +420,7 @@ const questions = [
       correct: "B) Opening the Deploy app and navigating to XM Cloud"
     },
     {
-      competency:3,
+      competency:2,
       question: "What is the purpose of a collection when creating a site in XM Cloud?",
       options: [
         "A) It defines the available components in a site",
@@ -431,7 +431,7 @@ const questions = [
       correct: "B) It groups sites according to a theme"
     },
     {
-      competency:3,
+      competency:2,
       question: "What happens automatically when you create a new collection in XM Cloud?",
       options: [
         "A) A default page is generated",
@@ -442,7 +442,7 @@ const questions = [
       correct: "B) A headless module with the same name is created"
     },
     {
-      competency:3,
+      competency:2,
       question: "Which component is used to add content to a newly created page in XM Cloud?",
       options: [
         "A) Page Content",
@@ -453,7 +453,7 @@ const questions = [
       correct: "A) Page Content"
     },
     {
-      competency:3,
+      competency:2,
       question: "Which command is used to clone an environment repository in XM Cloud?",
       options: [
         "A) npm install",
@@ -464,7 +464,7 @@ const questions = [
       correct: "B) git clone"
     },
     {
-      competency:3,
+      competency:2,
       question: "Where do you set the environment variables for a local development setup in XM Cloud?",
       options: [
         "A) In the .env.local file",
@@ -475,7 +475,7 @@ const questions = [
       correct: "A) In the .env.local file"
     },
     {
-      competency:3,
+      competency:2,
       question: "What command is used to install the required packages in the local development setup?",
       options: [
         "A) npm run start",
@@ -486,7 +486,7 @@ const questions = [
       correct: "C) npm install"
     },
     {
-      competency:3,
+      competency:2,
       question: "Which URL should you visit to preview your locally running XM Cloud project?",
       options: [
         "A) http://localhost:8000",
@@ -497,7 +497,7 @@ const questions = [
       correct: "C) http://localhost:3000"
     },
     {
-      competency:3,
+      competency:2,
       question: "What approach does XM Cloud use for setting up local development?",
       options: [
         "A) Front-End Development (FED) first",
@@ -508,7 +508,7 @@ const questions = [
       correct: "A) Front-End Development (FED) first"
     },
     {
-      competency:3,
+      competency:2,
       question: "What is the recommended Node.js version for XM Cloud development?",
       options: [
         "A) Any version of Node.js",
@@ -519,7 +519,7 @@ const questions = [
       correct: "B) The latest LTS version"
     },
     {
-      competency:3,
+      competency:2,
       question: "What is the purpose of the `rendering` property in an XM Cloud component?",
       options: [
         "A) It defines the component’s appearance and data",
@@ -530,7 +530,7 @@ const questions = [
       correct: "A) It defines the component’s appearance and data"
     },
     {
-      competency:3,
+      competency:2,
       question: "Which of the following parameters is used to apply CSS classes to an XM Cloud component?",
       options: [
         "A) Styles",
@@ -541,7 +541,7 @@ const questions = [
       correct: "A) Styles"
     },
     {
-      competency:3,
+      competency:2,
       question: "How do you create a new component in XM Cloud?",
       options: [
         "A) Modify the `site.config.js` file",
@@ -552,7 +552,7 @@ const questions = [
       correct: "B) Create a new `.tsx` file in the components folder"
     },
     {
-      competency:3,
+      competency:2,
       question: "What is the purpose of the `RenderingIdentifier` parameter in an XM Cloud component?",
       options: [
         "A) To apply custom CSS styles",
@@ -563,7 +563,7 @@ const questions = [
       correct: "B) To link the component with analytics tracking"
     },
     {
-      competency:3,
+      competency:2,
       question: "What happens when you push a new component to your XM Cloud repository?",
       options: [
         "A) It automatically deploys to XM Cloud",
@@ -574,7 +574,7 @@ const questions = [
       correct: "A) It automatically deploys to XM Cloud"
     },
     {
-      competency:3,
+      competency:2,
       question: "What is the purpose of rendering definitions in XM Cloud?",
       options: [
         "A) To define where the component's .tsx file is located",
@@ -585,7 +585,7 @@ const questions = [
       correct: "D) All of the above"
     },
     {
-      competency:3,
+      competency:2,
       question: "What should you do to ensure a cloned rendering is visible in Pages?",
       options: [
         "A) Set the Editable checkbox in the Customize Page section",
@@ -596,7 +596,7 @@ const questions = [
       correct: "A) Set the Editable checkbox in the Customize Page section"
     },
     {
-      competency:3,
+      competency:2,
       question: "Which step is required when adding a new component to a site page in XM Cloud?",
       options: [
         "A) Run 'npm run build' before deploying",
@@ -607,7 +607,7 @@ const questions = [
       correct: "B) Drag the component from the Components tab onto the page"
     },
     {
-      competency:3,
+      competency:2,
       question: "What happens when you push a new component to your XM Cloud repository?",
       options: [
         "A) It automatically deploys to XM Cloud",
@@ -618,7 +618,7 @@ const questions = [
       correct: "A) It automatically deploys to XM Cloud"
     },
     {
-      competency:3,
+      competency:2,
       question: "What must be done after creating a rendering clone?",
       options: [
         "A) Modify the rendering’s parameters to reduce dependencies",
@@ -629,7 +629,7 @@ const questions = [
       correct: "A) Modify the rendering’s parameters to reduce dependencies"
     },
     {
-      competency:3,
+      competency:2,
       question: "How can you change the repository linked to an XM Cloud project?",
       options: [
         "A) Go to 'Projects' and select 'Edit project' under 'Options'",
@@ -640,7 +640,7 @@ const questions = [
       correct: "A) Go to 'Projects' and select 'Edit project' under 'Options'"
     },
     {
-      competency:3,
+      competency:2,
       question: "What is the maximum number of non-production environments allowed in an XM Cloud project by default?",
       options: [
         "A) One",
@@ -651,7 +651,7 @@ const questions = [
       correct: "B) Two"
     },
     {
-      competency:3,
+      competency:2,
       question: "Which step is necessary to restart an environment in XM Cloud?",
       options: [
         "A) Click 'Actions' and select 'Restart environment' in the project settings",
@@ -662,7 +662,7 @@ const questions = [
       correct: "A) Click 'Actions' and select 'Restart environment' in the project settings"
     },
     {
-      competency:3,
+      competency:2,
       question: "What must be done to deploy a new build to an environment?",
       options: [
         "A) Click 'Actions' and select 'Build and deploy'",
@@ -673,7 +673,7 @@ const questions = [
       correct: "A) Click 'Actions' and select 'Build and deploy'"
     },
     {
-      competency:3,
+      competency:2,
       question: "How do you make a new component available in XM Cloud Pages?",
       options: [
         "A) Add it to 'Available Renderings' in the Content Editor",
@@ -681,7 +681,7 @@ const questions = [
         "C) Manually edit the component’s CSS",
         "D) Push the component to a separate repository"
       ],
-      correct: "A) Add it to 'Available Renderings' in the Content Editor'"
+      correct: "A) Add it to 'Available Renderings' in the Content Editor"
     },
     // ================================== COMPETENCY 3 ==========================================
     {
