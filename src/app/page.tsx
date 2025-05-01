@@ -21,10 +21,10 @@ export default function Home() {
     );
 
   const competencies = Array.from(new Set(questions.map((q) => q.competency)));
-  console.log(competencies);
   const handleAnswerClick = (answer: string) => {
     setSelectedAnswer(answer);
     if (answer === filteredQuestions[currentQuestion].correct) {
+      console.log(answer,'answer', filteredQuestions[currentQuestion].correct, answer === filteredQuestions[currentQuestion].correct)
       setIsCorrect(true);
     } else {
       setWrongAnswers((prev) =>
@@ -71,7 +71,15 @@ export default function Home() {
         <select
           id="competency"
           value={selectedCompetency ?? ""}
-          onChange={(e) => setSelectedCompetency(Number(e.target.value))}
+          onChange={(e) =>{
+            // eslint-disable-next-line @typescript-eslint/no-unused-expressions
+            setSelectedCompetency(Number(e.target.value)),
+            setSelectedAnswer(null),
+            setIsCorrect(false),
+            setCurrentQuestion(0),
+            setWrongAnswers([]),
+            setQuizFinished(false)
+          }}
           className="border rounded p-2 text-black"
         >
           {/* <option value="">-- Choose a competency --</option> */}
@@ -126,14 +134,13 @@ export default function Home() {
 
             <div className="space-y-3">
               {filteredQuestions[currentQuestion].options.map((option, index) => {
-                console.log(option, "option");
                 return (
                   <motion.button
                     key={index}
                     className={`w-full py-2 px-4 text-left rounded-lg border transition-all text-lg font-medium text-black
                       ${
                         selectedAnswer === option
-                          ? option === questions[currentQuestion].correct
+                          ? option === filteredQuestions[currentQuestion].correct
                             ? "bg-green-500 text-white border-green-600"
                             : "bg-red-500 text-white border-red-600"
                           : "bg-gray-200 hover:bg-gray-300"
@@ -191,7 +198,7 @@ export default function Home() {
                   {wrongAnswers.map(({ index, correctAnswer }) => (
                     <li key={index} className="text-red-600">
                       <span className="font-semibold text-black">
-                        {index + 1}. {questions[index].question}
+                        {index + 1}. {filteredQuestions[index].question}
                       </span>
                       <br />✅ Jawaban yang benar:{" "}
                       <span className="text-green-600 font-bold">
