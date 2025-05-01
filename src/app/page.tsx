@@ -24,7 +24,6 @@ export default function Home() {
   const handleAnswerClick = (answer: string) => {
     setSelectedAnswer(answer);
     if (answer === filteredQuestions[currentQuestion].correct) {
-      console.log(answer,'answer', filteredQuestions[currentQuestion].correct, answer === filteredQuestions[currentQuestion].correct)
       setIsCorrect(true);
     } else {
       setWrongAnswers((prev) =>
