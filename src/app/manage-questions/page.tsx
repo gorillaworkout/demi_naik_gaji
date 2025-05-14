@@ -55,11 +55,15 @@ export default function ManageQuestions() {
   const [showEditor, setShowEditor] = useState(true);
 
   useEffect(() => {
+    reload();
+  }, []);
+
+  function reload() {
     setIsLoading(true);
     const loadedQuestions = mcqStorage.getQuestions();
     setQuestions(loadedQuestions);
     setIsLoading(false);
-  }, []);
+  }
 
   const handleInputChange = (field: string, value: string, optionKey?: MCQOption) => {
     if (field === 'options' && optionKey) {
@@ -108,6 +112,11 @@ export default function ManageQuestions() {
     setCurrentQuestion(question);
     setIsEditing(true);
     window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  const handleDeleteQuestions = () => {
+    mcqStorage.getQuestions().forEach(q => mcqStorage.deleteQuestion(q.id))
+    reload();
   };
 
   const handleDelete = (id: string) => {
@@ -178,6 +187,9 @@ export default function ManageQuestions() {
             </Button>
             <Button variant="secondary" onClick={() => setShowEditor(prev => !prev)}>
               {showEditor ? 'Hide Editor' : 'Show Editor'}
+            </Button>
+            <Button variant="destructive" onClick={handleDeleteQuestions}>
+              Delete All Questions
             </Button>
           </div>
         </div>
