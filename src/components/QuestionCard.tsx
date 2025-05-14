@@ -1,6 +1,6 @@
 'use client';
 
-import { FormEvent, useState } from 'react';
+import { FormEvent, useEffect, useState } from 'react';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Textarea } from '@/components/ui/textarea';
@@ -32,6 +32,8 @@ export default function QuestionCard({
   const isMultipleCorrect = question.correctAnswers.length > 1;
 
   const [isPeekIfCorrect, setPeekIfCorrect] = useState(false)
+
+  useEffect(() => setPeekIfCorrect(false), [question.id])
 
   // Function to check answer
   const onCheckAnswer = () => {
