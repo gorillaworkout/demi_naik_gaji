@@ -31,7 +31,7 @@ export default function MCQTest() {
         ? answer.selectedOption
         : [answer.selectedOption];
     });
-    setUserAnswers(answersMap);
+    setUserAnswers({...answersMap, ...userAnswers});
 
     setUserNotes(mcqStorage.getUserNotes());
 
@@ -64,12 +64,15 @@ export default function MCQTest() {
 
   // Handlers
   const handleAnswerSelect = (questionId: string, option: MCQOption) => {
+    console.log("USER ANSWERS", userAnswers)
     setUserAnswers(prev => {
       const current = prev[questionId] || [];
       const updated = current.includes(option)
         ? current.filter(o => o !== option)
         : [...current, option];
-      return { ...prev, [questionId]: updated };
+      const newUserAnswers = { ...prev, [questionId]: updated };
+      console.log("NEW USER ANSWERS", newUserAnswers)
+      return newUserAnswers;
     });
   };
 
@@ -97,6 +100,9 @@ export default function MCQTest() {
         notes: userNotes[q.id],
       });
     });
+
+
+    console.log("USER RESULTS", userAnswers, resultMap)
 
     setResults(resultMap);
     setSubmitted(true);

@@ -132,7 +132,7 @@ export default function QuestionCard({
             >
               {result
                 ? 'Correct'
-                : `Incorrect — Correct: ${question.correctAnswers.join(', ')}`}
+                : `Your answer is incorrect — The correct one is: ${question.correctAnswers.join(', ')}`}
             </div>
           )}
 
