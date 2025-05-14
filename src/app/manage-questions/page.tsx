@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, FormEvent } from 'react';
+import { useState, useEffect, FormEvent, useMemo } from 'react';
 import Link from 'next/link';
 import { MCQQuestion, MCQOption } from '@/types/mcq';
 import mcqStorage from '@/utils/mcqStorage';
@@ -13,7 +13,7 @@ import {
 import { Button } from '@/components/ui/button';
 import QuestionsList from './QuestionList';
 import QuestionEditor from './QuestionEditor';
-import BulkInsertQuestions from './BulkInsertQuestions'; // ✅ make sure this exists
+import BulkInsertQuestions from './BulkInsertQuestions';
 
 const Notification = ({
   message,
@@ -53,7 +53,6 @@ export default function ManageQuestions() {
   const [isLoading, setIsLoading] = useState(true);
   const [showBulkInsert, setShowBulkInsert] = useState(false);
   const [showEditor, setShowEditor] = useState(true);
-
 
   useEffect(() => {
     setIsLoading(true);
@@ -141,17 +140,39 @@ export default function ManageQuestions() {
     }
   };
 
+  const handleExport = () => {
+    const blob = new Blob([JSON.stringify(questions, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = 'questions-export.json';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    URL.revokeObjectURL(url);
+  };
+
   const clearNotification = () => setNotification(null);
+
+  const allTags = useMemo(() => {
+    const tagSet = new Set<string>();
+    questions.forEach(q => q.tag?.forEach(tag => tagSet.add(tag)));
+    return Array.from(tagSet).sort();
+  }, [questions]);
 
   return (
     <div className="min-h-screen p-6 bg-background text-foreground">
-      <div className="container mx-auto space-y-6">
+      <div className="container mx-auto space-y-6 flex flex-col h-full">
         <div className="flex justify-between items-center">
           <h1 className="text-3xl font-bold">Question Management</h1>
           <div className="space-x-2">
             <Link href="/">
               <Button variant="outline">Back to Test</Button>
             </Link>
+            <Button variant="secondary" onClick={handleExport}>
+              Export JSON
+            </Button>
             <Button variant="secondary" onClick={() => setShowBulkInsert(prev => !prev)}>
               {showBulkInsert ? 'Hide Bulk Insert' : 'Show Bulk Insert'}
             </Button>
@@ -161,23 +182,26 @@ export default function ManageQuestions() {
           </div>
         </div>
 
-        {showBulkInsert && <BulkInsertQuestions
-          jsonInput={jsonInput}
-          onChange={setJsonInput}
-          onInsert={handleBulkInsert}
-        />}
-
-        <div className="flex space-x-10 max-h-[900px]">
-          <QuestionsList questions={questions} handleEdit={handleEdit} handleDelete={handleDelete} />
-
-          {showEditor && <QuestionEditor
-            currentQuestion={currentQuestion}
-            isEditing={isEditing}
-            handleInputChange={handleInputChange}
-            handleSubmit={handleSubmit}
-            resetForm={resetForm}
+        {showBulkInsert && (
+          <BulkInsertQuestions
+            jsonInput={jsonInput}
+            onChange={setJsonInput}
+            onInsert={handleBulkInsert}
           />
-          }
+        )}
+
+        <div className="flex space-x-10 max-h-[900px] h-full">
+          <QuestionsList questions={questions} handleEdit={handleEdit} handleDelete={handleDelete} />
+          {showEditor && (
+            <QuestionEditor
+              allTags={allTags}
+              currentQuestion={currentQuestion}
+              isEditing={isEditing}
+              handleInputChange={handleInputChange}
+              handleSubmit={handleSubmit}
+              resetForm={resetForm}
+            />
+          )}
         </div>
 
         {notification && (

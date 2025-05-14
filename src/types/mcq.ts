@@ -15,8 +15,9 @@ export type MCQQuestion = {
     C: string;
     D: string;
   };
-  correctAnswers: MCQOption[];  // Updated to support multiple correct answers
+  correctAnswers: MCQOption[];  // Supports multiple correct answers
   notes?: string;
+  tag?: string[];              // Optional array of tag
 };
 
 // Type for user's answer to a question

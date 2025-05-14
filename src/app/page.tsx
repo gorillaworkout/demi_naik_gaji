@@ -4,7 +4,7 @@ import MCQTest from "@/components/MCQTest";
 export default function Home() {
   return (
     <div className="min-h-screen p-4 sm:p-6 md:p-8 bg-gray-50 dark:bg-gray-900">
-      <header className="max-w-6xl mx-auto mb-8">
+      <header className="container mx-auto mb-8">
         <div className="flex justify-between items-center py-4 border-b border-gray-200 dark:border-gray-800">
           <h1 className="text-2xl sm:text-3xl font-bold">Exam Training Tool</h1>
           <nav className="flex gap-4">
@@ -18,7 +18,7 @@ export default function Home() {
         </div>
       </header>
 
-      <main className="max-w-6xl mx-auto">
+      <main className="container mx-auto">
         {/* MCQ Test Component */}
         <MCQTest />
       </main>

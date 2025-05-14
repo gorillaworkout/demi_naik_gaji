@@ -150,6 +150,7 @@ export default {
   getUserAnswers,
   saveUserAnswer,
   clearUserAnswers,
+  clearUserNotes,
   getTestResults,
   saveTestResult,
   getUserNotes,

@@ -1,6 +1,6 @@
 'use client';
 
-import { FormEvent } from 'react';
+import { FormEvent, useState } from 'react';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Textarea } from '@/components/ui/textarea';
@@ -15,6 +15,7 @@ interface QuestionCardProps {
   result?: boolean;
   onSelect: (qid: string, option: MCQOption) => void;
   onNoteChange: (qid: string, note: string) => void;
+  onNext: (qid: string) => void;
 }
 
 export default function QuestionCard({
@@ -26,15 +27,36 @@ export default function QuestionCard({
   result,
   onSelect,
   onNoteChange,
+  onNext,
 }: QuestionCardProps) {
   const isMultipleCorrect = question.correctAnswers.length > 1;
+
+  const [isPeekIfCorrect, setPeekIfCorrect] = useState(false)
+
+  // Function to check answer
+  const onCheckAnswer = () => {
+    setPeekIfCorrect(true)
+  };
+
+  const showCorrectOrFalse = submitted || isPeekIfCorrect
+
 
   return (
     <div className="w-full md:w-3/4">
       <Card>
         <CardHeader>
+          {question.tag && question.tag?.length > 0 && (
+            <div className="flex flex-wrap gap-2 text-xs text-muted-foreground mb-2">
+              {question.tag.map((tag) => (
+                <span key={tag} className="px-2 py-1 bg-gray-100 rounded">
+                  {tag}
+                </span>
+              ))}
+            </div>
+          )}
+
           <CardTitle>
-            Question {index + 1}
+            <span className='text-2xl font-bold'>Question {index + 1}</span>
             {isMultipleCorrect && (
               <span className="text-sm text-muted-foreground block mt-1">
                 Select all that apply
@@ -52,25 +74,28 @@ export default function QuestionCard({
             {(['A', 'B', 'C', 'D'] as MCQOption[]).map((option) => {
               const isSelected = userAnswers.includes(option);
               const isCorrect = question.correctAnswers.includes(option);
-              const isWrong = isSelected && submitted && !isCorrect;
 
-              const bgClass = submitted
+
+
+              const isWrong = isSelected && showCorrectOrFalse && !isCorrect;
+
+              const bgClass = showCorrectOrFalse
                 ? isCorrect
                   ? 'bg-green-100'
                   : isWrong
-                  ? 'bg-red-100'
-                  : ''
+                    ? 'bg-red-100'
+                    : ''
                 : '';
 
               return (
                 <Button
                   key={option}
                   variant="outline"
-                  className={`w-full justify-between ${
-                    isSelected ? 'border-blue-500 dark:border-blue-500 font-semibold' : ''
-                  } ${bgClass}`}
+                  className={`w-full justify-between ${isSelected ? 'border-blue-500 dark:border-blue-500 font-semibold' : ''
+                    } ${bgClass}`}
                   onClick={(e) => {
                     e.preventDefault();
+                    setPeekIfCorrect(false)
                     onSelect(question.id, option); // should toggle
                   }}
                 >
@@ -93,18 +118,40 @@ export default function QuestionCard({
             />
           </div>
 
+          {showCorrectOrFalse && question.notes && <div className='p-2 bg-yellow-50 border-yellow-300 text-black'>
+            {question.notes}
+          </div>}
+
           {/* Result after submission */}
           {submitted && (
             <div
-              className={`text-sm font-medium mt-2 ${
-                result ? 'text-green-600' : 'text-red-600'
-              }`}
+              className={`text-sm font-medium mt-2 ${result ? 'text-green-600' : 'text-red-600'
+                }`}
             >
               {result
                 ? 'Correct'
                 : `Incorrect — Correct: ${question.correctAnswers.join(', ')}`}
             </div>
           )}
+
+          {/* Check Answer Button */}
+
+          <div className='mt-4 w-full flex space-x-2'>
+            <Button
+              variant="secondary"
+              className="w-1/2"
+              onClick={onCheckAnswer} // Trigger answer check
+            >
+              Check Answer
+            </Button>
+            <Button
+              className="w-1/2"
+              onClick={() => onNext(question.id)} // Trigger answer check
+            >
+              Next Question
+            </Button>
+          </div>
+
         </CardContent>
       </Card>
     </div>
