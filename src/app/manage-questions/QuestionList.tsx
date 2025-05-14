@@ -45,7 +45,7 @@ const QuestionsList: FC<QuestionsListProps> = ({ questions, handleEdit, handleDe
     <div className='flex flex-col h-full space-y-5 w-1/2'>
       <div className='flex flex-col space-y-2 h-full'>
         <div className="flex justify-between items-center mb-2 flex-wrap gap-2">
-          <h2 className="text-xl font-semibold">All Questions</h2>
+          <h2 className="text-xl font-semibold">All Questions ({filteredQuestions.length})</h2>
           <Button
             size="sm"
             variant="secondary"

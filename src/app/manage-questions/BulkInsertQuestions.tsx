@@ -7,6 +7,7 @@ import { Textarea } from '@/components/ui/textarea';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 import { ScrollArea } from '@/components/ui/scroll-area'; // <-- Make sure this exists
 import { MCQQuestion } from '@/types/mcq';
+import defaultQuestionsJson from '../../../questions-export.json'
 
 interface BulkInsertQuestionsProps {
   jsonInput: string;
@@ -97,6 +98,10 @@ TOPIC OR TEXT TO CREATE QUESTION FROM:
     }
   };
 
+  const handleUseDefaultQuestion = () => {
+    onChange(JSON.stringify(defaultQuestionsJson, null, 2))
+  }
+
   const handleFileUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
     if (!file) return;
@@ -117,20 +122,27 @@ TOPIC OR TEXT TO CREATE QUESTION FROM:
         <CardTitle>Bulk Insert Questions (JSON)</CardTitle>
       </CardHeader>
       <CardContent>
-        <div className="flex justify-start mb-2 flex-wrap gap-2">
-          <Button variant="outline" onClick={() => handleCopySample(true)}>
-            Copy Sample Query for LLM generation
-          </Button>
-          <Button variant="outline" onClick={() => handleCopySample(false)}>
-            Copy Sample JSON
-          </Button>
-          <div className="h-full">
-            <label className="inline-flex items-center cursor-pointer">
-              <div className="bg-gray-100 hover:bg-gray-200 text-sm text-gray-800 border border-gray-300 px-4 py-1.5 rounded shadow-sm">
-                Import JSON File
-              </div>
-              <input type="file" accept=".json" className="hidden" onChange={handleFileUpload} />
-            </label>
+        <div className="flex justify-between mb-2 flex-wrap gap-2">
+          <div className='flex space-x-2'>
+            <Button variant="default" className='bg-green-700' onClick={() => handleUseDefaultQuestion()}>
+              Use Default Questions
+            </Button>
+            <div className="h-full">
+              <label className="inline-flex items-center cursor-pointer">
+                <div className="bg-gray-100 hover:bg-gray-200 text-sm text-gray-800 border border-gray-300 px-4 py-1.5 rounded shadow-sm">
+                  Import JSON File
+                </div>
+                <input type="file" accept=".json" className="hidden" onChange={handleFileUpload} />
+              </label>
+            </div>
+          </div>
+          <div className='flex space-x-2'>
+            <Button variant="outline" onClick={() => handleCopySample(true)}>
+              Copy Sample Query for LLM generation
+            </Button>
+            <Button variant="outline" onClick={() => handleCopySample(false)}>
+              Copy Sample JSON
+            </Button>
           </div>
         </div>
 

@@ -1,0 +1,4694 @@
+[
+  {
+    "question": "What is an organization in Sitecore XM Cloud?",
+    "options": {
+      "A": "A logical grouping of XM Cloud environments",
+      "B": "A business unit that manages team members and Sitecore products",
+      "C": "A collection of components and renderings",
+      "D": "A GraphQL API-based service endpoint"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 1"
+    ],
+    "id": "be30a1b3-d7ca-4533-a6d6-a440b1a396cc"
+  },
+  {
+    "question": "What tool is used to create and manage XM Cloud projects?",
+    "options": {
+      "A": "Experience Edge",
+      "B": "Content Editor",
+      "C": "Deploy app",
+      "D": "Cloud Portal"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 1"
+    ],
+    "id": "69cd310c-14f0-402c-b162-8c6d599bcc85"
+  },
+  {
+    "question": "Which of the following is NOT included in an XM Cloud environment?",
+    "options": {
+      "A": "Content Management (CM) instance",
+      "B": "Rendering hosts",
+      "C": "Machine Learning models",
+      "D": "Environment variables"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 1"
+    ],
+    "id": "057ddae7-084c-4d33-9fc5-02cf07c3c019"
+  },
+  {
+    "question": "What is the main purpose of the Content Management (CM) instance?",
+    "options": {
+      "A": "To store and serve user analytics",
+      "B": "To create, store, and manage site content",
+      "C": "To manage environment variables",
+      "D": "To monitor the Sitecore Cloud Portal"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 1"
+    ],
+    "id": "15fa314e-da93-4a71-b2d4-746ad1edb0c9"
+  },
+  {
+    "question": "What does a project in XM Cloud contain?",
+    "options": {
+      "A": "Multiple organizations",
+      "B": "A logical grouping of environments",
+      "C": "Only production environments",
+      "D": "A set of environment variables"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 1"
+    ],
+    "id": "39e19872-1c9f-4bb8-a2c1-e1f24306d15c"
+  },
+  {
+    "question": "What is the function of Experience Edge in XM Cloud?",
+    "options": {
+      "A": "It manages environment deployments",
+      "B": "It handles user authentication",
+      "C": "It retrieves content using GraphQL and distributes it via a CDN",
+      "D": "It controls access to the Cloud Portal"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 1"
+    ],
+    "id": "76f20f0a-3987-455d-8ced-dc30862d065f"
+  },
+  {
+    "question": "What are renderings used for in XM Cloud?",
+    "options": {
+      "A": "Managing user permissions",
+      "B": "Storing and managing environment variables",
+      "C": "Defining individual components in the headless application",
+      "D": "Configuring the Cloud Portal"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 1"
+    ],
+    "id": "a18a73fb-8821-4601-b8e8-9fb4fb995fc9"
+  },
+  {
+    "question": "What is a rendering variant?",
+    "options": {
+      "A": "A predefined environment configuration",
+      "B": "A variation of a rendering to display data differently",
+      "C": "An instance of the Content Management system",
+      "D": "A Sitecore Cloud Portal feature"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 1"
+    ],
+    "id": "7f4619b7-08d8-4218-8f5e-5cb48ae4bacc"
+  },
+  {
+    "question": "What is a data source in XM Cloud?",
+    "options": {
+      "A": "The location of environment variables",
+      "B": "The main interface for project management",
+      "C": "Content managed outside a specific component and called at runtime",
+      "D": "A storage location for rendering definitions"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 1"
+    ],
+    "id": "60a288c6-d3f3-4ae7-b47c-7cd9e0c25d95"
+  },
+  {
+    "question": "What is the purpose of the Sitecore Cloud Portal?",
+    "options": {
+      "A": "Managing external APIs",
+      "B": "Providing analytics and reporting",
+      "C": "Centralizing access to Sitecore DXP products and managing users",
+      "D": "Handling rendering configurations"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 1"
+    ],
+    "id": "f9c0b933-5d1f-48eb-adec-6d2153a531c5"
+  },
+  {
+    "question": "What is the XM Cloud starter kit?",
+    "options": {
+      "A": "A cloud-based analytics tool",
+      "B": "A code base to kickstart XM Cloud implementations",
+      "C": "A data source for external APIs",
+      "D": "A rendering configuration tool"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 1"
+    ],
+    "id": "b27d40fd-a029-451d-bdcc-b1383aefd6e3"
+  },
+  {
+    "question": "What are environment variables used for in XM Cloud?",
+    "options": {
+      "A": "Managing user permissions",
+      "B": "Storing key-value pairs for environment configuration",
+      "C": "Controlling Cloud Portal access",
+      "D": "Handling content translation"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 1"
+    ],
+    "id": "5d4688c8-bbab-48a2-ab2f-4a92c0b70115"
+  },
+  {
+    "question": "What are system environment variables?",
+    "options": {
+      "A": "User-defined key-value pairs",
+      "B": "Custom fields for renderings",
+      "C": "Core settings that control the XM Cloud environment",
+      "D": "Project-level identifiers"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 1"
+    ],
+    "id": "6c247e18-4488-413c-85bc-a256c7bfc37f"
+  },
+  {
+    "question": "Which of the following is a user-controlled environment variable?",
+    "options": {
+      "A": "System-level identifiers",
+      "B": "Core configuration files",
+      "C": "Predefined variables that users can modify",
+      "D": "GraphQL endpoints"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 1"
+    ],
+    "id": "344eed60-934a-49bc-baa3-6af20c1c1ded"
+  },
+  {
+    "question": "What is the role of the rendering host?",
+    "options": {
+      "A": "To store user analytics",
+      "B": "To render dynamic pages and interact with the CM instance",
+      "C": "To manage access to Sitecore DXP products",
+      "D": "To handle API requests"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 1"
+    ],
+    "id": "0bc51a65-86b1-413d-b942-b2f0bfd299f2"
+  },
+  {
+    "question": "What is a site collection?",
+    "options": {
+      "A": "A group of renderings",
+      "B": "A logical grouping of environments",
+      "C": "A parent item that groups related sites for content sharing",
+      "D": "A Cloud Portal access control feature"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 1"
+    ],
+    "id": "9d718637-5a32-4a07-8aa8-c66e2a5befff"
+  },
+  {
+    "question": "What is a standard template in XM Cloud?",
+    "options": {
+      "A": "A core rendering definition",
+      "B": "The default base template from which others inherit",
+      "C": "A project-level environment variable",
+      "D": "An external data source"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 1"
+    ],
+    "id": "b2367ebb-59e2-416d-9518-667c05cd6870"
+  },
+  {
+    "question": "What does the Deploy app do after creating a project?",
+    "options": {
+      "A": "Monitors user interactions",
+      "B": "Generates environment variables",
+      "C": "Executes the provision, build, and deploy processes",
+      "D": "Manages Cloud Portal permissions"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 1"
+    ],
+    "id": "aa90d977-a17a-4c25-af9d-0c5fa8f3c40a"
+  },
+  {
+    "question": "What type of data is stored in a field?",
+    "options": {
+      "A": "User permissions",
+      "B": "Environment configurations",
+      "C": "Data about an item, such as text, numbers, or links",
+      "D": "Sitecore templates"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 1"
+    ],
+    "id": "3c068c5f-4fdb-442e-b6a7-239ae85b5155"
+  },
+  {
+    "question": "What is a rendering definition?",
+    "options": {
+      "A": "A parent item for grouping sites",
+      "B": "A reference to a rendering parameter template",
+      "C": "An API endpoint for GraphQL",
+      "D": "A user access control system"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 1"
+    ],
+    "id": "fd7f70c0-b28e-4b4c-bf07-91ecedfa2381"
+  },
+  {
+    "question": "Which of the following describes an internal data source?",
+    "options": {
+      "A": "Data stored in external databases",
+      "B": "Data created and managed within XM Cloud",
+      "C": "Data shared across multiple organizations",
+      "D": "Data retrieved from Experience Edge"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 1"
+    ],
+    "id": "20e23e90-ce17-4339-87f7-c4b4f03d793e"
+  },
+  {
+    "question": "What does a dynamic component do?",
+    "options": {
+      "A": "Statically display content",
+      "B": "Handle external API calls",
+      "C": "Adapt its presentation or behavior based on user interactions",
+      "D": "Manage system-level variables"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 1"
+    ],
+    "id": "ab565d38-86e8-4f69-adf5-f85e235b78e4"
+  },
+  {
+    "question": "What is the purpose of the Sitecore XM Cloud Deploy app?",
+    "options": {
+      "A": "To create and manage XM Cloud projects and environments",
+      "B": "To provide a cloud-based CDN for content delivery",
+      "C": "To manage Sitecore licensing and user authentication",
+      "D": "To serve as a front-end framework for building Sitecore components"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 2"
+    ],
+    "id": "bf47d6f1-9d45-4064-9588-ed4984bfeae6"
+  },
+  {
+    "question": "Which of the following best describes an XM Cloud project?",
+    "options": {
+      "A": "A logical grouping of XM Cloud environments",
+      "B": "A single instance of Sitecore XM Cloud",
+      "C": "A local development setup for Sitecore applications",
+      "D": "A standalone headless CMS"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 2"
+    ],
+    "id": "29d14acc-d9e4-4f31-ad92-3c27e65ef2cc"
+  },
+  {
+    "question": "What is an XM Cloud environment?",
+    "options": {
+      "A": "A collection of reusable Sitecore components",
+      "B": "An isolated instance within an XM Cloud project",
+      "C": "A Sitecore package used to deploy projects",
+      "D": "A headless rendering host for Sitecore JSS applications"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 2"
+    ],
+    "id": "9e4af4a9-ee82-4b65-a26b-d37a5aba5ef9"
+  },
+  {
+    "question": "What is the primary purpose of the Starter Foundation Template?",
+    "options": {
+      "A": "To provide a pre-configured codebase for XM Cloud development",
+      "B": "To host Sitecore projects in a local environment",
+      "C": "To replace Sitecore Experience Edge",
+      "D": "To manage Sitecore authentication services"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 2"
+    ],
+    "id": "b5dbfeb6-b709-4d69-8084-f56a849fcb0c"
+  },
+  {
+    "question": "Which software component is NOT required for running the XM Cloud Foundation Template locally?",
+    "options": {
+      "A": ".NET Core 6.0 SDK",
+      "B": "Node.js (LTS version)",
+      "C": "Windows PowerShell",
+      "D": "Kubernetes"
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 2"
+    ],
+    "id": "1a3f30e5-8e2d-4470-bc78-cbad361ec1d5"
+  },
+  {
+    "question": "What is the role of Experience Edge in XM Cloud?",
+    "options": {
+      "A": "It provides a global CDN for content delivery",
+      "B": "It is a Sitecore JSS rendering engine",
+      "C": "It serves as the local development environment for XM Cloud",
+      "D": "It replaces the need for a Content Management instance"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 2"
+    ],
+    "id": "0abfed5c-f256-4f45-995e-c2de1ecb53ab"
+  },
+  {
+    "question": "What is the purpose of the Sitecore CLI in XM Cloud development?",
+    "options": {
+      "A": "To interact with Sitecore instances using terminal commands",
+      "B": "To replace the need for Sitecore Content Editor",
+      "C": "To deploy front-end applications directly to Experience Edge",
+      "D": "To provide a visual interface for managing Sitecore users"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 2"
+    ],
+    "id": "98063d6a-a057-464d-9196-8d892d8820cb"
+  },
+  {
+    "question": "Which statement about the local development setup for XM Cloud is true?",
+    "options": {
+      "A": "It requires Docker with Windows Containers enabled",
+      "B": "It does not require environment variables",
+      "C": "It cannot connect to the remote XM Cloud preview",
+      "D": "It only supports JavaScript-based applications"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 2"
+    ],
+    "id": "ce4426cd-ef29-42a0-8ef7-a5a5be1935f0"
+  },
+  {
+    "question": "What is the primary role of the authoring environment in XM Cloud?",
+    "options": {
+      "A": "To provide a backend interface for content creation and management",
+      "B": "To render the front-end website components",
+      "C": "To store static assets for the website",
+      "D": "To host Sitecore’s Experience Edge API"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 2"
+    ],
+    "id": "20f7fee3-039a-4c04-b933-330228cc9c47"
+  },
+  {
+    "question": "Which command is used to initialize the local XM Cloud development environment?",
+    "options": {
+      "A": "./init.ps1 -InitEnv",
+      "B": "npm run start:connected",
+      "C": "docker-compose up",
+      "D": "sitecore-cli deploy"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 2"
+    ],
+    "id": "053d48e0-aac2-49d3-a12e-3fc33c388557"
+  },
+  {
+    "question": "What happens when a new project is created in the XM Cloud Deploy app?",
+    "options": {
+      "A": "It automatically provisions an environment and runs an initial deployment",
+      "B": "It installs Sitecore locally on the developer’s machine",
+      "C": "It generates a static site using Next.js",
+      "D": "It replaces the need for source control repositories"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 2"
+    ],
+    "id": "73d8d6f0-738c-44f2-9f41-f42198dfb1df"
+  },
+  {
+    "question": "How does a front-end developer work with XM Cloud using a 'FED-first' approach?",
+    "options": {
+      "A": "By connecting a local Next.js project to XM Cloud for real-time content updates",
+      "B": "By developing components exclusively using Sitecore Content Editor",
+      "C": "By creating content models before writing any code",
+      "D": "By using Docker to containerize the entire Sitecore environment"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 2"
+    ],
+    "id": "d2c9ae06-d6e9-4ef1-ba8c-47132ca7ec6f"
+  },
+  {
+    "question": "Which command is used to start the local Next.js site connected to XM Cloud?",
+    "options": {
+      "A": "npm run start:connected",
+      "B": "sitecore-cli start",
+      "C": "docker run sitecore/xmcloud",
+      "D": "yarn build && yarn serve"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 2"
+    ],
+    "id": "d7735db6-76d6-4288-939f-2fa3e6ca754c"
+  },
+  {
+    "question": "What is the purpose of the 'Available Renderings' setting in XM Cloud?",
+    "options": {
+      "A": "To define which components can be used within a site’s pages",
+      "B": "To enable component caching for improved performance",
+      "C": "To manage user roles and permissions",
+      "D": "To store JSON data for headless applications"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 2"
+    ],
+    "id": "8069b91f-0318-4a59-a6a0-3a2f901c047e"
+  },
+  {
+    "question": "What is required to connect a local XM Cloud project to a remote XM Cloud environment?",
+    "options": {
+      "A": "Copying the environment variables from the Deploy app to the .env.local file",
+      "B": "Running the Sitecore Experience Editor inside a Docker container",
+      "C": "Cloning the Experience Edge repository",
+      "D": "Installing Kubernetes and Helm charts"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 2"
+    ],
+    "id": "4a89dc09-c192-4f6b-b80f-c1361e2a9468"
+  },
+  {
+    "question": "What is the first step to creating a site in XM Cloud?",
+    "options": {
+      "A": "Installing Node.js",
+      "B": "Opening the Deploy app and navigating to XM Cloud",
+      "C": "Cloning the environment repository",
+      "D": "Creating a new component"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 2"
+    ],
+    "id": "d148b509-1455-4a5c-bf81-7bded34dfe8b"
+  },
+  {
+    "question": "What is the purpose of a collection when creating a site in XM Cloud?",
+    "options": {
+      "A": "It defines the available components in a site",
+      "B": "It groups sites according to a theme",
+      "C": "It sets up the database structure for the site",
+      "D": "It determines the site's default language"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 2"
+    ],
+    "id": "a2d9c4a5-b7b7-4398-a7b4-65795137d0a9"
+  },
+  {
+    "question": "What happens automatically when you create a new collection in XM Cloud?",
+    "options": {
+      "A": "A default page is generated",
+      "B": "A headless module with the same name is created",
+      "C": "A database instance is assigned",
+      "D": "The site is published immediately"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 2"
+    ],
+    "id": "39d7418e-675e-49bd-b00a-e22ee201c22c"
+  },
+  {
+    "question": "Which component is used to add content to a newly created page in XM Cloud?",
+    "options": {
+      "A": "Page Content",
+      "B": "Site Layout",
+      "C": "Component Wrapper",
+      "D": "Content Block"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 2"
+    ],
+    "id": "e1006044-ff23-49d3-a7f5-62edcb625613"
+  },
+  {
+    "question": "Which command is used to clone an environment repository in XM Cloud?",
+    "options": {
+      "A": "npm install",
+      "B": "git clone",
+      "C": "npm run start",
+      "D": "node setup.js"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 2"
+    ],
+    "id": "65b69465-4d1b-422f-a01e-ea00cc57f352"
+  },
+  {
+    "question": "Where do you set the environment variables for a local development setup in XM Cloud?",
+    "options": {
+      "A": "In the .env.local file",
+      "B": "In the package.json file",
+      "C": "In the Deploy app settings",
+      "D": "In the Next.js configuration"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 2"
+    ],
+    "id": "860b83dd-98ff-4991-8ddd-8eda4f1de7b4"
+  },
+  {
+    "question": "What command is used to install the required packages in the local development setup?",
+    "options": {
+      "A": "npm run start",
+      "B": "npm update",
+      "C": "npm install",
+      "D": "node setup.js"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 2"
+    ],
+    "id": "e3384b6a-0988-4691-a3e9-258ac45ad299"
+  },
+  {
+    "question": "Which URL should you visit to preview your locally running XM Cloud project?",
+    "options": {
+      "A": "http://localhost:8000",
+      "B": "http://127.0.0.1:5000",
+      "C": "http://localhost:3000",
+      "D": "http://sitecore.local"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 2"
+    ],
+    "id": "24eeab5b-31f2-446a-afc1-65211ef322d4"
+  },
+  {
+    "question": "What approach does XM Cloud use for setting up local development?",
+    "options": {
+      "A": "Front-End Development (FED) first",
+      "B": "Back-End Development first",
+      "C": "Database-first approach",
+      "D": "Docker-based full-stack approach only"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 2"
+    ],
+    "id": "293088a6-93d8-495e-9846-028409d161bb"
+  },
+  {
+    "question": "What is the recommended Node.js version for XM Cloud development?",
+    "options": {
+      "A": "Any version of Node.js",
+      "B": "The latest LTS version",
+      "C": "Node.js version 10 or earlier",
+      "D": "Version 8 with Docker support"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 2"
+    ],
+    "id": "5d7046b8-af62-4446-a79f-12c0389067ee"
+  },
+  {
+    "question": "What is the purpose of the `rendering` property in an XM Cloud component?",
+    "options": {
+      "A": "It defines the component’s appearance and data",
+      "B": "It specifies the site's navigation structure",
+      "C": "It stores database queries for content retrieval",
+      "D": "It is used for setting up authentication"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 2"
+    ],
+    "id": "75abff76-cae6-461b-b758-5fae8b58222a"
+  },
+  {
+    "question": "Which of the following parameters is used to apply CSS classes to an XM Cloud component?",
+    "options": {
+      "A": "Styles",
+      "B": "GridParameters",
+      "C": "RenderingIdentifier",
+      "D": "ComponentID"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 2"
+    ],
+    "id": "ef31d350-dc88-4ff7-85ac-8f2ae0a057e6"
+  },
+  {
+    "question": "How do you create a new component in XM Cloud?",
+    "options": {
+      "A": "Modify the `site.config.js` file",
+      "B": "Create a new `.tsx` file in the components folder",
+      "C": "Use the XM Cloud interface to generate the component",
+      "D": "Run the `npm create-component` command"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 2"
+    ],
+    "id": "f292b6c4-7fd9-4e6d-88e5-29e754e19bf4"
+  },
+  {
+    "question": "What is the purpose of the `RenderingIdentifier` parameter in an XM Cloud component?",
+    "options": {
+      "A": "To apply custom CSS styles",
+      "B": "To link the component with analytics tracking",
+      "C": "To define the content hierarchy",
+      "D": "To set the default language"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 2"
+    ],
+    "id": "936006f9-553f-4538-ab3f-bbb2a05e997e"
+  },
+  {
+    "question": "What happens when you push a new component to your XM Cloud repository?",
+    "options": {
+      "A": "It automatically deploys to XM Cloud",
+      "B": "It needs manual deployment",
+      "C": "It overwrites the previous component",
+      "D": "It creates a staging branch"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 2"
+    ],
+    "id": "4ebc1d3f-124a-446f-836c-1cfe5eebbf06"
+  },
+  {
+    "question": "What is the purpose of rendering definitions in XM Cloud?",
+    "options": {
+      "A": "To define where the component's .tsx file is located",
+      "B": "To specify the data required for rendering the component",
+      "C": "To automatically generate required items for a component",
+      "D": "All of the above"
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 2"
+    ],
+    "id": "31384f18-0c2e-4a84-ba05-66e24a78594a"
+  },
+  {
+    "question": "What should you do to ensure a cloned rendering is visible in Pages?",
+    "options": {
+      "A": "Set the Editable checkbox in the Customize Page section",
+      "B": "Change its file extension to .jsx",
+      "C": "Modify the component’s CSS",
+      "D": "Manually deploy it to the environment"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 2"
+    ],
+    "id": "ac8bbdc8-62f4-4f7e-91fa-65d82c9f8b1a"
+  },
+  {
+    "question": "Which step is required when adding a new component to a site page in XM Cloud?",
+    "options": {
+      "A": "Run 'npm run build' before deploying",
+      "B": "Drag the component from the Components tab onto the page",
+      "C": "Manually edit the component’s HTML structure",
+      "D": "Update the database with new component data"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 2"
+    ],
+    "id": "2b0e575c-1477-4878-9aed-3d9c1ad8c713"
+  },
+  {
+    "question": "What happens when you push a new component to your XM Cloud repository?",
+    "options": {
+      "A": "It automatically deploys to XM Cloud",
+      "B": "It needs manual deployment",
+      "C": "It overwrites the previous component",
+      "D": "It creates a staging branch"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 2"
+    ],
+    "id": "c9a9976e-3f61-4b89-812a-718453778ef3"
+  },
+  {
+    "question": "What must be done after creating a rendering clone?",
+    "options": {
+      "A": "Modify the rendering’s parameters to reduce dependencies",
+      "B": "Change the component’s name in the project directory",
+      "C": "Restart the development server",
+      "D": "Delete the original rendering"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 2"
+    ],
+    "id": "71f7f1f0-ec01-4184-8cda-9623297800d0"
+  },
+  {
+    "question": "How can you change the repository linked to an XM Cloud project?",
+    "options": {
+      "A": "Go to 'Projects' and select 'Edit project' under 'Options'",
+      "B": "Delete the project and create a new one with the desired repository",
+      "C": "Modify the repository URL in the deployment settings",
+      "D": "Clone the repository locally and push it to the new repository"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 2"
+    ],
+    "id": "3dd67495-f66e-45c4-a454-325ed8088bfb"
+  },
+  {
+    "question": "What is the maximum number of non-production environments allowed in an XM Cloud project by default?",
+    "options": {
+      "A": "One",
+      "B": "Two",
+      "C": "Three",
+      "D": "Four"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 2"
+    ],
+    "id": "0b576e79-67e6-421c-9c27-fcef2267a1c8"
+  },
+  {
+    "question": "Which step is necessary to restart an environment in XM Cloud?",
+    "options": {
+      "A": "Click 'Actions' and select 'Restart environment' in the project settings",
+      "B": "Delete the environment and create a new one",
+      "C": "Push an empty commit to the repository",
+      "D": "Rebuild the project from the CLI"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 2"
+    ],
+    "id": "252bd95f-d4d4-4b8d-8c19-ac99d3c37e6d"
+  },
+  {
+    "question": "What must be done to deploy a new build to an environment?",
+    "options": {
+      "A": "Click 'Actions' and select 'Build and deploy'",
+      "B": "Re-run 'npm install' in the local development environment",
+      "C": "Restart the entire XM Cloud project",
+      "D": "Delete previous deployments manually"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 2"
+    ],
+    "id": "ec303c42-5d44-4022-b88b-20b6d0d18e0c"
+  },
+  {
+    "question": "How do you make a new component available in XM Cloud Pages?",
+    "options": {
+      "A": "Add it to 'Available Renderings' in the Content Editor",
+      "B": "Modify the JavaScript code to include a global function",
+      "C": "Manually edit the component’s CSS",
+      "D": "Push the component to a separate repository"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 2"
+    ],
+    "id": "280bd7d8-96a0-4af9-8eef-6741feab60cf"
+  },
+  {
+    "question": "How do you create a new component in the Components library?",
+    "options": {
+      "A": "Click 'Add component' in the library",
+      "B": "Edit an existing component",
+      "C": "Manually upload a component file",
+      "D": "Drag and drop a component from another project"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 3"
+    ],
+    "id": "1e058396-6316-40ee-bad9-f82cd80f54d3"
+  },
+  {
+    "question": "What happens when you duplicate a component?",
+    "options": {
+      "A": "It creates a new component with no versions",
+      "B": "It copies the component along with all versions and responsive bundles",
+      "C": "It merges the component with an existing one",
+      "D": "It only copies the component’s metadata"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 3"
+    ],
+    "id": "346719b9-447b-46c9-a666-8194e5301db4"
+  },
+  {
+    "question": "Which of the following is required to delete a component permanently?",
+    "options": {
+      "A": "It must have at least one published version",
+      "B": "It must be in the archived state",
+      "C": "All its versions must be in draft state",
+      "D": "It must be duplicated first"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 3"
+    ],
+    "id": "84e53c23-a8ac-4b93-901a-8d0f8a466909"
+  },
+  {
+    "question": "How can you move a component to another collection?",
+    "options": {
+      "A": "Click 'Edit component' and select a different collection",
+      "B": "Drag and drop the component into another collection",
+      "C": "Delete the component and recreate it in the desired collection",
+      "D": "Export the component and import it into the new collection"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 3"
+    ],
+    "id": "e5544f02-2b0f-4dc6-9ddc-d17cf5683262"
+  },
+  {
+    "question": "What is a page design used for in Sitecore?",
+    "options": {
+      "A": "To create a preset layout structure for pages",
+      "B": "To manage user permissions",
+      "C": "To store unpublished content",
+      "D": "To delete components"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 3"
+    ],
+    "id": "9beb8b7d-bb6f-470a-a778-b0b3ac6969b3"
+  },
+  {
+    "question": "Which tool can be used to create a page design?",
+    "options": {
+      "A": "Content Editor",
+      "B": "Experience Editor",
+      "C": "Both A and B",
+      "D": "Neither A nor B"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 3"
+    ],
+    "id": "4f61f21f-3269-4c25-aef8-cddfb60c6099"
+  },
+  {
+    "question": "How do you update the signature of a partial design?",
+    "options": {
+      "A": "Change the 'Signature' field in the partial design properties",
+      "B": "Modify the placeholder name in the component properties",
+      "C": "Delete the partial design and recreate it",
+      "D": "Only A and B"
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 3"
+    ],
+    "id": "a4f0aba4-ff6c-4c37-836c-e8bd8596d88e"
+  },
+  {
+    "question": "What is the purpose of a base partial design?",
+    "options": {
+      "A": "To create reusable layouts with common elements",
+      "B": "To store unpublished page versions",
+      "C": "To manage user roles",
+      "D": "To enable file uploads"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 3"
+    ],
+    "id": "3e6f6a6f-f309-43d9-bc0f-d0d96e638466"
+  },
+  {
+    "question": "How do you assign a page design to a template?",
+    "options": {
+      "A": "In the Experience Accelerator tab, click 'Site Page Designs' and assign a design",
+      "B": "Manually edit the page HTML",
+      "C": "Modify the CSS file of the page",
+      "D": "Copy and paste elements from another page"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 3"
+    ],
+    "id": "bb2b33db-875d-4421-88ab-4fca520efa2c"
+  },
+  {
+    "question": "What is the best way to ensure headers and footers remain consistent across pages?",
+    "options": {
+      "A": "Use a page design that includes them",
+      "B": "Manually add them to each page",
+      "C": "Duplicate pages to keep the same structure",
+      "D": "Save them as an image and insert them into each page"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 3"
+    ],
+    "id": "e1da1d7d-b6c6-48cb-b7f1-240a5a72367d"
+  },
+  {
+    "question": "How do you create a new component in the Components library?",
+    "options": {
+      "A": "Click 'Add component' in the library",
+      "B": "Edit an existing component",
+      "C": "Manually upload a component file",
+      "D": "Drag and drop a component from another project"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 3"
+    ],
+    "id": "de088b40-90d8-4c56-b872-a897f6e45bcf"
+  },
+  {
+    "question": "What is the purpose of a partial design in the Experience Editor?",
+    "options": {
+      "A": "To update text and add renderings that apply to multiple pages",
+      "B": "To create a standalone page layout",
+      "C": "To store page metadata",
+      "D": "To edit content in a single page only"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 3"
+    ],
+    "id": "d01f5f50-d77c-40fe-8c7d-8d32f3eff152"
+  },
+  {
+    "question": "How do you change a partial design in the Experience Editor?",
+    "options": {
+      "A": "Edit the HTML code directly",
+      "B": "Click 'Partial Design' on the Experience Accelerator tab and make changes",
+      "C": "Create a new page design",
+      "D": "Modify the CSS styles in the theme"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 3"
+    ],
+    "id": "0f0b7d49-2c77-4318-92d8-79276007f61c"
+  },
+  {
+    "question": "Which method has the highest precedence when assigning a page design?",
+    "options": {
+      "A": "Page design selected on a page level",
+      "B": "Rules defined for the site",
+      "C": "Page Design to Template Mapping",
+      "D": "Page layout inheritance"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 3"
+    ],
+    "id": "7acb7008-eda8-48ae-80f9-3ee775bd07a9"
+  },
+  {
+    "question": "Where do you navigate to in order to create a rule to set a page design?",
+    "options": {
+      "A": "sitecore/Content/<site collection>/<site>/Presentation/Page Designs",
+      "B": "sitecore/Content/<site>/Page Rules",
+      "C": "sitecore/Layout/Page Design Rules",
+      "D": "sitecore/Content/<site>/Theme Editor"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 3"
+    ],
+    "id": "968db7f9-c48b-4a0c-b450-a2d32bd5aee2"
+  },
+  {
+    "question": "What condition can be used in a rule to assign a page design?",
+    "options": {
+      "A": "The title field is empty",
+      "B": "The page is visited more than 100 times",
+      "C": "The user has admin privileges",
+      "D": "The page contains an image"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 3"
+    ],
+    "id": "1aa9736e-0ada-4c28-a89e-b843b0bc0169"
+  },
+  {
+    "question": "How do you change the order of component categories in the toolbox?",
+    "options": {
+      "A": "Reorganize items under Available Renderings",
+      "B": "Drag and drop categories in the Experience Editor",
+      "C": "Rename the categories in the system settings",
+      "D": "Update the component order in the Theme Editor"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 3"
+    ],
+    "id": "63ef7bc8-7a69-41ff-8797-19dd399752f8"
+  },
+  {
+    "question": "What is the benefit of restructuring components in the Experience Editor?",
+    "options": {
+      "A": "To organize frequently used components for easier access",
+      "B": "To make components load faster",
+      "C": "To lock component layouts",
+      "D": "To prevent users from adding new components"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 3"
+    ],
+    "id": "ce519bff-ce1d-4cb9-a997-14c2e38c1b23"
+  },
+  {
+    "question": "How do you add a custom category and components in the Experience Editor?",
+    "options": {
+      "A": "Right-click 'Available Renderings', insert a new category, and add components",
+      "B": "Modify the Experience Editor source code",
+      "C": "Use a custom CSS class for the category",
+      "D": "Rename an existing category"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 3"
+    ],
+    "id": "9f4c96fe-d815-455e-9926-7f993dada882"
+  },
+  {
+    "question": "Which of the following is NOT a way to apply a page design?",
+    "options": {
+      "A": "Selecting a page design on a page level",
+      "B": "Defining rules for site-wide page design selection",
+      "C": "Mapping a page design to a content template",
+      "D": "Adding custom CSS to override the design"
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 3"
+    ],
+    "id": "82181b5e-87e8-41ee-b151-fcf97c5ce906"
+  },
+  {
+    "question": "Which of the following is the purpose of cloning an SXA rendering?",
+    "options": {
+      "A": "To delete an existing rendering",
+      "B": "To create an exact copy with a different name and styling",
+      "C": "To remove styling from an existing rendering",
+      "D": "To create a backup of the Sitecore system"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 3"
+    ],
+    "id": "90964a6e-cba1-4083-bff2-4410a64d7eb4"
+  },
+  {
+    "question": "Why is it recommended to create a separate toolbox section for derivative renderings?",
+    "options": {
+      "A": "To avoid conflicts with standard SXA toolbox updates",
+      "B": "To make the rendering load faster",
+      "C": "To improve the rendering's visual appearance",
+      "D": "To prevent unauthorized users from accessing the rendering"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 3"
+    ],
+    "id": "910f6f41-a6ef-40f8-99b3-cbe149e3b71d"
+  },
+  {
+    "question": "What is the function of the 'Rendering Parameters' tab when cloning a rendering?",
+    "options": {
+      "A": "It allows setting the rendering's CSS class",
+      "B": "It determines how the rendering parameters are inherited or copied",
+      "C": "It specifies where the rendering should be displayed",
+      "D": "It defines the module to which the rendering belongs"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 3"
+    ],
+    "id": "c4added5-cdc0-4108-b785-7b47dac23b14"
+  },
+  {
+    "question": "Which of the following options allows the most flexibility when modifying an SXA rendering's view?",
+    "options": {
+      "A": "Use original MVC view file",
+      "B": "Copy MVC view file (specify path below)",
+      "C": "Select existing MVC view file (specify path below)",
+      "D": "Disable the MVC view file"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 3"
+    ],
+    "id": "4e187eb5-caf0-4c0b-82f3-89cb23c43be3"
+  },
+  {
+    "question": "What is the main purpose of dynamic placeholders in Sitecore SXA?",
+    "options": {
+      "A": "To generate unique placeholder keys for components dynamically",
+      "B": "To remove placeholders from a rendering",
+      "C": "To prevent components from being nested within each other",
+      "D": "To limit the number of placeholders in a rendering"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 3"
+    ],
+    "id": "058e413c-a696-464a-91b5-b8b4bcf09df3"
+  },
+  {
+    "question": "Which property must be added to a component to enable dynamic placeholders?",
+    "options": {
+      "A": "DynamicPlaceholderID",
+      "B": "EnableDynamicPlaceholders",
+      "C": "IsRenderingsWithDynamicPlaceholders",
+      "D": "ComponentPlaceholderKey"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 3"
+    ],
+    "id": "8edfa96d-8a62-4341-8f10-456671fb9c42"
+  },
+  {
+    "question": "When defining a placeholder key for dynamic placeholders, what symbol is used to create unique identifiers?",
+    "options": {
+      "A": "#",
+      "B": "*",
+      "C": "{}",
+      "D": "$"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 3"
+    ],
+    "id": "466d0314-fe8b-4c41-a7d7-3b587d79566c"
+  },
+  {
+    "question": "What is the main benefit of registering an external React component in XM Cloud?",
+    "options": {
+      "A": "It allows components to be reused within XM Cloud Pages",
+      "B": "It enables non-developers to write custom JavaScript code",
+      "C": "It prevents the use of SXA components",
+      "D": "It restricts styling customization"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 3"
+    ],
+    "id": "7c2156e9-6051-4d77-8673-694030d34d6c"
+  },
+  {
+    "question": "Where should the external React component code be hosted before it can be used in XM Cloud?",
+    "options": {
+      "A": "On any Sitecore instance",
+      "B": "On an accessible rendering host URL",
+      "C": "In a local JSS folder",
+      "D": "Inside the Sitecore Experience Editor"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 3"
+    ],
+    "id": "947fd6e9-9b6c-433a-a151-d4ac687e7439"
+  },
+  {
+    "question": "What is a key advantage of using SXA components in Sitecore XM Cloud?",
+    "options": {
+      "A": "They provide built-in support for content variants",
+      "B": "They require manual HTML and JavaScript coding for every component",
+      "C": "They cannot be modified after deployment",
+      "D": "They only work in a headless setup"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 3"
+    ],
+    "id": "236f8eae-be23-417a-9c73-813257680e9e"
+  },
+  {
+    "question": "What is the purpose of Sitecore Content Serialization (SCS)?",
+    "options": {
+      "A": "To manage and deploy Sitecore configurations",
+      "B": "To serialize and version control Sitecore content items",
+      "C": "To create custom Sitecore templates",
+      "D": "To build Sitecore layouts"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 4"
+    ],
+    "id": "8a84b4af-2663-4bc0-952a-768c72a8e4d4"
+  },
+  {
+    "question": "Which command is used to validate serialized content items?",
+    "options": {
+      "A": "sitecore ser check",
+      "B": "sitecore ser inspect",
+      "C": "sitecore ser validate",
+      "D": "sitecore ser verify"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 4"
+    ],
+    "id": "92b8bb38-b930-48c9-a17b-9dfd9bdb9a90"
+  },
+  {
+    "question": "What does the `allowedPushOperations` property define?",
+    "options": {
+      "A": "How content items are pushed to Sitecore",
+      "B": "The maximum path length for serialization",
+      "C": "The security level for serialization commands",
+      "D": "The order of serialization"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 4"
+    ],
+    "id": "9f21618d-2b33-4407-b6fa-2abc7b8aac3e"
+  },
+  {
+    "question": "Which `allowedPushOperations` value enables creating, updating, and deleting items?",
+    "options": {
+      "A": "CreateOnly",
+      "B": "CreateAndUpdate",
+      "C": "CreateUpdateAndDelete",
+      "D": "DeleteOnly"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 4"
+    ],
+    "id": "b0fae396-49a3-4238-b31e-fe4b8c378053"
+  },
+  {
+    "question": "What does the `scope` property configure?",
+    "options": {
+      "A": "The database used for serialization",
+      "B": "The content items affected by serialization",
+      "C": "The serialization file format",
+      "D": "The file path of serialized items"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 4"
+    ],
+    "id": "fb5e3969-0b17-4664-822c-1f6ed4cae980"
+  },
+  {
+    "question": "Which scope value only serializes the specified item?",
+    "options": {
+      "A": "ItemAndChildren",
+      "B": "ItemAndDescendants",
+      "C": "SingleItem",
+      "D": "DescendantsOnly"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 4"
+    ],
+    "id": "9f040d4c-ca7f-4cab-8aeb-cbc786b5a10b"
+  },
+  {
+    "question": "Which scope option includes the item and all its descendants?",
+    "options": {
+      "A": "ItemAndChildren",
+      "B": "SingleItem",
+      "C": "ItemAndDescendants",
+      "D": "Ignored"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 4"
+    ],
+    "id": "240664e1-2e4c-4efb-bb6a-29f90f0c754c"
+  },
+  {
+    "question": "Which command creates an SCS package?",
+    "options": {
+      "A": "dotnet sitecore ser pkg build",
+      "B": "dotnet sitecore ser pkg generate",
+      "C": "dotnet sitecore ser pkg create",
+      "D": "dotnet sitecore ser pkg init"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 4"
+    ],
+    "id": "60fab9b7-c79f-4d03-8ac3-62df3d7f8d72"
+  },
+  {
+    "question": "What is the default database for Sitecore Content Serialization?",
+    "options": {
+      "A": "core",
+      "B": "web",
+      "C": "master",
+      "D": "archive"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 4"
+    ],
+    "id": "37e922dd-c670-4cb4-a026-a36d068ee084"
+  },
+  {
+    "question": "How can you manually fix validation errors in serialized content?",
+    "options": {
+      "A": "By running `sitecore ser validate --fix`",
+      "B": "By deleting and reserializing content",
+      "C": "By restarting the Sitecore instance",
+      "D": "By editing the JSON configuration manually"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 4"
+    ],
+    "id": "6e813d09-de03-4397-9e15-523880932620"
+  },
+  {
+    "question": "Which component ensures shorter file paths in Sitecore Content Serialization?",
+    "options": {
+      "A": "Path hashing",
+      "B": "Content trimming",
+      "C": "File compression",
+      "D": "Path encoding"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 4"
+    ],
+    "id": "e418fef7-4e6b-4945-af09-f73cb7c8220f"
+  },
+  {
+    "question": "Which option can prevent changes from being pulled before running the watch command?",
+    "options": {
+      "A": "--no-sync",
+      "B": "--skip-pull",
+      "C": "--no-fetch",
+      "D": "--ignore-push"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 4"
+    ],
+    "id": "7b7a30be-8788-4645-80e0-d701ed080b2c"
+  },
+  {
+    "question": "What command is used to install an SCS package?",
+    "options": {
+      "A": "dotnet sitecore ser pkg install",
+      "B": "dotnet sitecore ser pkg deploy",
+      "C": "dotnet sitecore ser pkg add",
+      "D": "dotnet sitecore ser pkg publish"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 4"
+    ],
+    "id": "d760bc83-ec79-4218-a435-e078a2e53ccd"
+  },
+  {
+    "question": "Which command continuously monitors changes to serialized items?",
+    "options": {
+      "A": "dotnet sitecore ser watch",
+      "B": "dotnet sitecore ser monitor",
+      "C": "dotnet sitecore ser track",
+      "D": "dotnet sitecore ser observe"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 4"
+    ],
+    "id": "aa89ba46-00b5-453e-864e-841123648702"
+  },
+  {
+    "question": "What is the default value for `maxRelativePathLength`?",
+    "options": {
+      "A": "100",
+      "B": "130",
+      "C": "150",
+      "D": "240"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 4"
+    ],
+    "id": "9f0ff155-06d0-4da1-804c-d8ff2462b0ad"
+  },
+  {
+    "question": "Which of these is NOT a valid Sitecore Content Serialization scope?",
+    "options": {
+      "A": "SingleItem",
+      "B": "ItemAndChildren",
+      "C": "DescendantsOnly",
+      "D": "AllItems"
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 4"
+    ],
+    "id": "d99e37ef-55c9-4331-a4c0-662ab6ba318a"
+  },
+  {
+    "question": "What is required in an include property for serialization?",
+    "options": {
+      "A": "`database`",
+      "B": "`path`",
+      "C": "`scope`",
+      "D": "`maxRelativePathLength`"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 4"
+    ],
+    "id": "b961d230-d72d-4df0-9dd8-e9aa0f7c3c1b"
+  },
+  {
+    "question": "Which file must be modified to set the maximum path length for serialization?",
+    "options": {
+      "A": "sitecore.config",
+      "B": "serialization.json",
+      "C": "sitecore.json",
+      "D": "package.json"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 4"
+    ],
+    "id": "7fd068de-4aa3-44c2-b384-b50227a19bb9"
+  },
+  {
+    "question": "Which subcommand provides verbose logging for troubleshooting?",
+    "options": {
+      "A": "--debug",
+      "B": "--trace",
+      "C": "--verbose",
+      "D": "--log"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 4"
+    ],
+    "id": "7c0259e2-5fb1-43e2-ab31-d880eb9ff22c"
+  },
+  {
+    "question": "What does the `--allow-file-changes` option do in the watch command?",
+    "options": {
+      "A": "Prevents accidental overwrites",
+      "B": "Allows file changes even if underlying state is modified",
+      "C": "Disables auto-pull behavior",
+      "D": "Clears previously serialized items"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 4"
+    ],
+    "id": "bcc5cae0-134f-46a7-978b-559f025ec6d0"
+  },
+  {
+    "question": "How does Sitecore Content Serialization help in CI/CD?",
+    "options": {
+      "A": "By allowing automatic content serialization and deserialization",
+      "B": "By eliminating the need for backups",
+      "C": "By preventing content changes in production",
+      "D": "By restricting access to Sitecore items"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 4"
+    ],
+    "id": "d564538c-247f-469b-a92e-3b8202725aa1"
+  },
+  {
+    "question": "Which command is required before running serialization commands?",
+    "options": {
+      "A": "sitecore ser init",
+      "B": "sitecore ser enable",
+      "C": "sitecore ser start",
+      "D": "sitecore ser config"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 4"
+    ],
+    "id": "87cb51e5-fd83-4652-9cfb-587768db193b"
+  },
+  {
+    "question": "What type of API does Experience Edge use to retrieve content?",
+    "options": {
+      "A": "REST API",
+      "B": "GraphQL API",
+      "C": "SOAP API",
+      "D": "JSON-RPC API"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 5"
+    ],
+    "id": "b0d0e2e0-ffa8-45a7-939b-9a6b5021f8d0"
+  },
+  {
+    "question": "Which endpoint should be used to access approved and published content in Experience Edge?",
+    "options": {
+      "A": "Token API",
+      "B": "Admin API",
+      "C": "Delivery API",
+      "D": "Experience API"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 5"
+    ],
+    "id": "a23c2aad-8bad-40c5-9327-a163128a7151"
+  },
+  {
+    "question": "Which search criterion would you use to find content that includes the word 'apple' anywhere in the field value?",
+    "options": {
+      "A": "Exact",
+      "B": "StartsWith",
+      "C": "Contains",
+      "D": "EndsWith"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 5"
+    ],
+    "id": "73bb7198-ddec-4cdc-ae23-a8d840662bee"
+  },
+  {
+    "question": "Which mutation is used to create a new item in Sitecore using GraphQL?",
+    "options": {
+      "A": "newItem()",
+      "B": "createItem()",
+      "C": "insertItem()",
+      "D": "generateItem()"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 5"
+    ],
+    "id": "45471a44-7406-4e21-a74c-8ec56fe8af47"
+  },
+  {
+    "question": "What does the `permanently` parameter do in the `deleteItem` mutation?",
+    "options": {
+      "A": "Makes the item visible permanently",
+      "B": "Archives the item instead of deleting it",
+      "C": "Performs a soft delete",
+      "D": "Ensures the item is completely removed from Sitecore"
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 5"
+    ],
+    "id": "25410009-9190-402e-ac4c-4873bbd0f220"
+  },
+  {
+    "question": "Which API allows you to manage your Sitecore content using GraphQL, including creating templates and custom UIs?",
+    "options": {
+      "A": "Layout API",
+      "B": "Publishing API",
+      "C": "Authoring and Management API",
+      "D": "Item Delivery API"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 5"
+    ],
+    "id": "b5e1e2fc-1185-4524-8dca-9b0bd43e26d3"
+  },
+  {
+    "question": "What must be done before using the GraphQL IDE for the Authoring and Management API?",
+    "options": {
+      "A": "Set the GraphQL role to Admin",
+      "B": "Disable GraphQL security",
+      "C": "Enable and authorize the IDE access",
+      "D": "Restart the Sitecore instance"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 5"
+    ],
+    "id": "2b90555a-38ee-4ad7-9ca1-7852dbe973b7"
+  },
+  {
+    "question": "Which feature in Experience Edge can notify you when a publishing job finishes?",
+    "options": {
+      "A": "GraphQL IDE",
+      "B": "Token API",
+      "C": "CLI plugin",
+      "D": "Webhooks"
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 5"
+    ],
+    "id": "762b8923-2b6c-446b-b551-1df477fc425c"
+  },
+  {
+    "question": "Which search criterion uses similarity parameters to match typos or variations?",
+    "options": {
+      "A": "Proximity",
+      "B": "Fuzzy",
+      "C": "Wildcard",
+      "D": "Regex"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 5"
+    ],
+    "id": "8e03d71d-593d-47a8-b4df-e367eaceec9d"
+  },
+  {
+    "question": "Which SDK can be used with Experience Edge to render layout service data in a front-end application?",
+    "options": {
+      "A": "React SDK",
+      "B": "Sitecore MVC SDK",
+      "C": "Sitecore JavaScript SDK (JSS)",
+      "D": "Jamstack SDK"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 5"
+    ],
+    "id": "0240eade-d434-4727-bc6a-f2675a140b3b"
+  },
+  {
+    "question": "What environment variable must be set to enable the GraphQL IDE in XM Cloud?",
+    "options": {
+      "A": "Sitecore_Enable_GraphQL",
+      "B": "GraphQL_IDE_Enable",
+      "C": "Sitecore_GraphQL_ExposePlayground",
+      "D": "Enable_GraphQL_IDE"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 5"
+    ],
+    "id": "69fd8d2d-7e80-48aa-aa50-9d3c92100929"
+  },
+  {
+    "question": "Which role must a user have to access the GraphQL IDE?",
+    "options": {
+      "A": "sitecore\\Sitecore Developers",
+      "B": "sitecore\\Sitecore Client Users",
+      "C": "sitecore\\Sitecore Administrators",
+      "D": "sitecore\\GraphQL Users"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 5"
+    ],
+    "id": "3cba7137-3754-493f-8205-bed27e6bca80"
+  },
+  {
+    "question": "How do you authorize the GraphQL IDE to make requests?",
+    "options": {
+      "A": "Add token in GraphQL variables",
+      "B": "Add API key in endpoint URL",
+      "C": "Set the Authorization header with Bearer token",
+      "D": "Enable Basic Auth in browser settings"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 5"
+    ],
+    "id": "02671a2a-c17a-4431-808d-4b1566a1cc77"
+  },
+  {
+    "question": "Where can you obtain the access token after logging in via `dotnet sitecore cloud login`?",
+    "options": {
+      "A": "From the browser's localStorage",
+      "B": "In the .sitecore/access.token file",
+      "C": "In the ./sitecore/user.json file",
+      "D": "Printed in the console output"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 5"
+    ],
+    "id": "20e55d44-4f76-44d1-b76b-2deb9d637ac7"
+  },
+  {
+    "question": "Which API provides access to approved and published content?",
+    "options": {
+      "A": "Management API",
+      "B": "Authoring API",
+      "C": "Delivery API",
+      "D": "Layout API"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 5"
+    ],
+    "id": "a8efa5af-d3d4-4731-ac93-eb5d5ec72aa8"
+  },
+  {
+    "question": "What is the base URL for the Delivery API?",
+    "options": {
+      "A": "https://sitecorecloud.io/api/graphql",
+      "B": "https://xmcloud.sitecore.com/graphql",
+      "C": "https://edge.sitecorecloud.io/api/graphql",
+      "D": "https://api.sitecorecloud.io/graphql"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 5"
+    ],
+    "id": "0545d096-454c-4809-8f4f-be870134c070"
+  },
+  {
+    "question": "What command is used to log into XM Cloud to obtain the initial access token?",
+    "options": {
+      "A": "sitecore cloud connect",
+      "B": "dotnet sitecore cloud login",
+      "C": "xmcloud login",
+      "D": "sitecore login"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 5"
+    ],
+    "id": "343ba71b-c08a-4c86-b96c-717407168685"
+  },
+  {
+    "question": "What HTTP method is used to retrieve a token from an automation client?",
+    "options": {
+      "A": "GET",
+      "B": "PUT",
+      "C": "PATCH",
+      "D": "POST"
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 5"
+    ],
+    "id": "4074a240-1b15-45b4-a130-bc5fc9af9397"
+  },
+  {
+    "question": "Which of the following is recommended regarding enabling the GraphQL IDE?",
+    "options": {
+      "A": "Enable it only in staging environments",
+      "B": "Enable it only in production environments",
+      "C": "Enable it only in local environments",
+      "D": "Enable it only in nonproduction environments"
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 5"
+    ],
+    "id": "95aa653b-c128-42e9-b976-fc007f3de7a0"
+  },
+  {
+    "question": "What endpoint should be used in the IDE for Authoring and Management API?",
+    "options": {
+      "A": "/sitecore/api/authoring/graphql",
+      "B": "/sitecore/api/graphql/management",
+      "C": "/sitecore/api/authoring/graphql/v1/",
+      "D": "/sitecore/management/graphql/v1"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 5"
+    ],
+    "id": "6ef50cb3-dd37-4911-9ead-fc79b1285c4c"
+  },
+  {
+    "question": "What header must be included in all requests to the Delivery API?",
+    "options": {
+      "A": "Authorization",
+      "B": "Content-Type",
+      "C": "sc_apikey",
+      "D": "x-api-key"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 5"
+    ],
+    "id": "90b8112b-6d63-410f-82ed-d02983035b23"
+  },
+  {
+    "question": "Which scopes are required when creating an API key for the Delivery API?",
+    "options": {
+      "A": "audience-management and content-read",
+      "B": "audience-delivery and content-#everything#",
+      "C": "delivery-read and content-all",
+      "D": "delivery-access and content-global"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 5"
+    ],
+    "id": "d67c73ce-10fb-4962-96df-5137dfa4e239"
+  },
+  {
+    "question": "What is the base URL for the Token API?",
+    "options": {
+      "A": "https://api.sitecorecloud.io/token",
+      "B": "https://edge.sitecorecloud.io/api/token/v1",
+      "C": "https://edge.sitecorecloud.io/api/apikey/v1",
+      "D": "https://cloud.sitecore.net/api/auth/v1"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 5"
+    ],
+    "id": "bcc57f72-bec4-4d27-81b2-acbe6a3f4500"
+  },
+  {
+    "question": "What type of token is used in the `Authorization` header to access the Token API?",
+    "options": {
+      "A": "Personal access token",
+      "B": "Bearer token (JWT)",
+      "C": "API key",
+      "D": "Session token"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 5"
+    ],
+    "id": "d0a42b8f-057d-4ee3-a4d2-8cceb9104689"
+  },
+  {
+    "question": "Which endpoint is used to generate a new API key in the Token API?",
+    "options": {
+      "A": "/generate",
+      "B": "/createkey",
+      "C": "/new",
+      "D": "/"
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 5"
+    ],
+    "id": "d4272158-5e4a-421d-ac14-c0f3d5959ab4"
+  },
+  {
+    "question": "Which header is required to get an API key by its token?",
+    "options": {
+      "A": "Authorization",
+      "B": "x-api-token",
+      "C": "sc_apikey",
+      "D": "api-key-token"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 5"
+    ],
+    "id": "3c05f462-8fe5-49dd-95e5-97949afacf7a"
+  },
+  {
+    "question": "What does the `ListAll` endpoint return?",
+    "options": {
+      "A": "Only revoked API keys",
+      "B": "All created JWT tokens",
+      "C": "A list of API keys with pagination metadata",
+      "D": "The last 10 API key usages"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 5"
+    ],
+    "id": "f63754b5-8c05-45ad-b3d7-7feda154e405"
+  },
+  {
+    "question": "What is the HTTP verb for revoking an API key using its hash?",
+    "options": {
+      "A": "DELETE",
+      "B": "PUT",
+      "C": "POST",
+      "D": "PATCH"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 5"
+    ],
+    "id": "9900b1d6-509a-401e-9d1b-be05eb3496bd"
+  },
+  {
+    "question": "Which endpoint do you use to rename an API key by token?",
+    "options": {
+      "A": "/renamebyhash/{token}",
+      "B": "/renametoken",
+      "C": "/renamebytoken",
+      "D": "/updatekeyname"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 5"
+    ],
+    "id": "cc71ebdf-04fb-4305-8cf0-26eb12643385"
+  },
+  {
+    "question": "What is returned when a new API key is successfully created?",
+    "options": {
+      "A": "JSON with scopes and label",
+      "B": "JWT access token",
+      "C": "Base64 string token",
+      "D": "Hashed token identifier"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 5"
+    ],
+    "id": "e5f4aa10-15e4-413d-9174-ec7a01bf190e"
+  },
+  {
+    "question": "What is the base URL for the Admin API?",
+    "options": {
+      "A": "https://admin.sitecorecloud.io/api/admin/v1",
+      "B": "https://edge.sitecorecloud.io/api/admin/v1",
+      "C": "https://api.sitecorecloud.io/admin/v1",
+      "D": "https://www.sitecorecloud.io/api/admin/v1"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 5"
+    ],
+    "id": "d24a763d-f2fa-40a5-bff2-b80b2c067732"
+  },
+  {
+    "question": "Which HTTP verb is used to clear the cache for a tenant in the Admin API?",
+    "options": {
+      "A": "POST",
+      "B": "PUT",
+      "C": "GET",
+      "D": "DELETE"
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 5"
+    ],
+    "id": "97a43484-7445-41a3-8f4b-0dd02235bc88"
+  },
+  {
+    "question": "What is required in the Authorization header for Admin API requests?",
+    "options": {
+      "A": "API Key",
+      "B": "Bearer Token",
+      "C": "JWT Token",
+      "D": "Both b and c"
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 5"
+    ],
+    "id": "f41566fb-f03d-4bcb-83c0-28af881c948d"
+  },
+  {
+    "question": "Which endpoint is used to remove tenant data from the storage in the Admin API?",
+    "options": {
+      "A": "/webhooks",
+      "B": "/settings",
+      "C": "/content",
+      "D": "/cache"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 5"
+    ],
+    "id": "d0adf13d-4c39-4477-8706-31eeee206097"
+  },
+  {
+    "question": "What format should the body be in when using the PATCH operation on the /settings endpoint?",
+    "options": {
+      "A": "application/json",
+      "B": "application/xml",
+      "C": "application/json-patch+json",
+      "D": "application/x-www-form-urlencoded"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 5"
+    ],
+    "id": "6e7df902-bbba-4b1a-89a8-51c4f7cfbe86"
+  },
+  {
+    "question": "Which status code indicates a successful webhook creation using the Admin API?",
+    "options": {
+      "A": "200 OK",
+      "B": "201 Created",
+      "C": "202 Accepted",
+      "D": "204 No Content"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 5"
+    ],
+    "id": "b4197ef7-5021-4e47-bdb0-95478d412eea"
+  },
+  {
+    "question": "What does the contentCacheTtl parameter represent in the Admin API response?",
+    "options": {
+      "A": "The total number of content items in cache",
+      "B": "The time-to-live (TTL) for content cache",
+      "C": "The total number of API requests made",
+      "D": "The time-to-live for media items only"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 5"
+    ],
+    "id": "188e6290-5a99-402f-b731-e5618d2bab8b"
+  },
+  {
+    "question": "Which method should be used to retrieve all webhooks for a tenant?",
+    "options": {
+      "A": "GET /settings",
+      "B": "POST /webhooks",
+      "C": "GET /webhooks",
+      "D": "DELETE /webhooks/{id}"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 5"
+    ],
+    "id": "95a17c44-f5e3-4e4a-aba4-cf9ae5937abc"
+  },
+  {
+    "question": "How do you specify the TTL (Time-to-Live) for cache in the Admin API settings?",
+    "options": {
+      "A": "As a single value in seconds",
+      "B": "Using the format {days}.{hours}:{minutes}:{seconds}",
+      "C": "As a string without any specific format",
+      "D": "Using only hours and minutes"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 5"
+    ],
+    "id": "f7b7b993-f7f0-43b9-ba8c-e17bf4dcb8a5"
+  },
+  {
+    "question": "What does the response format look like when successfully updating settings using the PUT /settings endpoint?",
+    "options": {
+      "A": "JSON object with updated settings",
+      "B": "Text message confirming the update",
+      "C": "204 No Content",
+      "D": "JSON object with status code only"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 5"
+    ],
+    "id": "6522ba94-1fe2-4ba3-affe-50631e4e117d"
+  },
+  {
+    "question": "What is the purpose of using page templates in Sitecore XM Cloud?",
+    "options": {
+      "A": "To ensure all pages share the same header, footer, and key sections",
+      "B": "To allow developers to write custom HTML for each page",
+      "C": "To add extra security to the website",
+      "D": "To create A/B tests for all pages"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 6"
+    ],
+    "id": "bbc6d419-9e26-4975-9980-cc04b8f13b03"
+  },
+  {
+    "question": "What does the 'Personalize' tab in the page builder allow you to do?",
+    "options": {
+      "A": "Create different content for different audiences",
+      "B": "Track site analytics",
+      "C": "Edit site settings",
+      "D": "Add templates to the site"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 6"
+    ],
+    "id": "f3d3412b-b949-4edc-9758-52fee6b8328c"
+  },
+  {
+    "question": "How can you test the performance of different page variants in Sitecore?",
+    "options": {
+      "A": "By conducting A/B/n tests",
+      "B": "By manually checking each variant",
+      "C": "By publishing multiple versions",
+      "D": "By comparing page designs"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 6"
+    ],
+    "id": "2b728503-8883-4e02-8c8a-c6bb4cdd63f6"
+  },
+  {
+    "question": "Which of the following is true about partial designs in Sitecore?",
+    "options": {
+      "A": "They consist of reusable layouts like headers, footers, and main sections",
+      "B": "They are used to create individual page designs",
+      "C": "They can only be applied to the footer section of a page",
+      "D": "They are used to add content to the pages"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 6"
+    ],
+    "id": "ccff89b2-6201-47ed-ab14-a4aa16fe330c"
+  },
+  {
+    "question": "What is the first step in creating a new page design in Sitecore?",
+    "options": {
+      "A": "Assign a page design to a data template",
+      "B": "Create a new page",
+      "C": "Add partial designs to the page canvas",
+      "D": "Publish the page design"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 6"
+    ],
+    "id": "d3b94b58-2785-4749-b816-5404e1243d80"
+  },
+  {
+    "question": "In which section of the Sitecore page builder can you view and manage page content?",
+    "options": {
+      "A": "Editor",
+      "B": "Templates",
+      "C": "Analyze",
+      "D": "Personalize"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 6"
+    ],
+    "id": "d24ac8ca-d042-4be0-bc5c-f4f4cef90934"
+  },
+  {
+    "question": "What happens when you publish a partial design in Sitecore?",
+    "options": {
+      "A": "The partial design becomes available for use in pages",
+      "B": "The design is deleted from the system",
+      "C": "The design is only applied to a single page",
+      "D": "It automatically updates all page content"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 6"
+    ],
+    "id": "eb1443b1-6d96-43c1-981a-692cfb16f368"
+  },
+  {
+    "question": "What can you do in the 'Analyze' tab of the page builder?",
+    "options": {
+      "A": "Check site performance and insights",
+      "B": "Modify the page layout",
+      "C": "Add language versions",
+      "D": "Create new page templates"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 6"
+    ],
+    "id": "6ccd4156-715f-4ea5-b63e-f2e964545ba9"
+  },
+  {
+    "question": "What is the recommended way to ensure pages share the same header and footer?",
+    "options": {
+      "A": "Use partial designs",
+      "B": "Manually insert code into each page",
+      "C": "Set a global header in the content editor",
+      "D": "Apply the same page template for each page"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 6"
+    ],
+    "id": "2b0f88d9-06e3-45d1-9f78-0ba20ab99e1b"
+  },
+  {
+    "question": "What is the role of the 'Components' tab in the page builder?",
+    "options": {
+      "A": "It displays the components available for the site",
+      "B": "It allows you to add new pages",
+      "C": "It shows analytics for the site",
+      "D": "It manages site users"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 6"
+    ],
+    "id": "8ecafb08-5ff5-4b49-a4c0-6ec8be8014e6"
+  },
+  {
+    "question": "What is the first step to assign a page design to a template?",
+    "options": {
+      "A": "Click on the Page Design tab",
+      "B": "Duplicate an existing template",
+      "C": "Create a new page template",
+      "D": "Save the page design"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 6"
+    ],
+    "id": "fbfcfef3-7a73-4baa-a1ad-b2ca691ff62a"
+  },
+  {
+    "question": "What is the purpose of the 'Datasource Location' field in SXA?",
+    "options": {
+      "A": "It defines where to store the data source items",
+      "B": "It specifies where the user can search for the data source",
+      "C": "It sets the template for the data source",
+      "D": "It provides access to rendering data"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 6"
+    ],
+    "id": "37314195-c5f4-4b2b-bbaf-cdf9d5f22a46"
+  },
+  {
+    "question": "What does the 'Can select Page as a data source' option enable?",
+    "options": {
+      "A": "It allows selecting the current page as a data source for renderings",
+      "B": "It automatically generates a data source",
+      "C": "It stores data from multiple pages",
+      "D": "It locks the data source for specific users"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 6"
+    ],
+    "id": "42576d33-43d9-4557-bbdc-475d29ad4e71"
+  },
+  {
+    "question": "What happens when you duplicate an existing template in the page builder?",
+    "options": {
+      "A": "You create a new page design",
+      "B": "The original template is overwritten",
+      "C": "The duplicated template gets the same page design",
+      "D": "A new page is created based on the template"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 6"
+    ],
+    "id": "69d0440c-2566-4053-81cf-f64cee65bce4"
+  },
+  {
+    "question": "What is a reusable data source in SXA?",
+    "options": {
+      "A": "A data source that cannot be reused across multiple pages",
+      "B": "A data source that can be shared across different components",
+      "C": "A static data source used for one page only",
+      "D": "A data source automatically created when a component is added"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 6"
+    ],
+    "id": "04e3ae56-67b8-4803-87a8-c7f0b7b44345"
+  },
+  {
+    "question": "What is the 'Datasource Template' field used for in SXA?",
+    "options": {
+      "A": "It defines the template for the data source item",
+      "B": "It specifies which component uses the data source",
+      "C": "It stores the content for the page",
+      "D": "It defines how to display data on the page"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 6"
+    ],
+    "id": "e7726f8f-8d83-4016-956b-ed3f17f0ca71"
+  },
+  {
+    "question": "What is the role of the 'Data source' field in SXA?",
+    "options": {
+      "A": "It stores the content for the page",
+      "B": "It links the component to the actual data source item",
+      "C": "It specifies where to find the data source",
+      "D": "It determines the permissions for data sources"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 6"
+    ],
+    "id": "c0d9751e-c3ed-41cb-b9b6-5ab6cc5b400d"
+  },
+  {
+    "question": "What happens when you rename a local data source item in SXA?",
+    "options": {
+      "A": "The link between the component and data source is broken",
+      "B": "The system automatically updates all references to the data source",
+      "C": "The component stops displaying the content",
+      "D": "The data source item is automatically deleted"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 6"
+    ],
+    "id": "25b7a9a3-2efe-4fce-b1fd-7f8cc98e5099"
+  },
+  {
+    "question": "What is the benefit of using the 'Auto-generated data source' feature?",
+    "options": {
+      "A": "It automatically creates and stores data when the rendering is added",
+      "B": "It allows users to manually create data sources",
+      "C": "It ensures the data source is shared across all components",
+      "D": "It links data sources across multiple pages"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 6"
+    ],
+    "id": "975b9acf-1cab-495e-a929-930f297c8731"
+  },
+  {
+    "question": "What should you do if you rename a local data source item?",
+    "options": {
+      "A": "Reselect the item in the data source selection dialog",
+      "B": "Delete the item and create a new one",
+      "C": "Change all references to absolute paths",
+      "D": "Let the system update the references automatically"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 6"
+    ],
+    "id": "535b6a1f-73cd-4a8c-af70-11f6daac6ee2"
+  },
+  {
+    "question": "What should you do if you rename a local data source item?",
+    "options": {
+      "A": "Reselect the item in the data source selection dialog",
+      "B": "Delete the item and create a new one",
+      "C": "Change all references to absolute paths",
+      "D": "Let the system update the references automatically"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 6"
+    ],
+    "id": "dad1b2a4-1a04-4351-8f5b-9404afe2fa40"
+  },
+  {
+    "question": "What is the main purpose of setting the 'Source' field in Sitecore?",
+    "options": {
+      "A": "To define the default language",
+      "B": "To limit the data source selection area",
+      "C": "To set the fallback item",
+      "D": "To enable personalization"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 6"
+    ],
+    "id": "f25ef247-9881-4863-9b74-59ada675e7d0"
+  },
+  {
+    "question": "What does the Source field report script help identify?",
+    "options": {
+      "A": "Missing templates",
+      "B": "Fields without a Source field set",
+      "C": "Broken media links",
+      "D": "Misconfigured layouts"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 6"
+    ],
+    "id": "1cacf175-8ba4-4f38-850d-10d8db3fbb4d"
+  },
+  {
+    "question": "Where can you configure simulated device widths for previewing in Pages?",
+    "options": {
+      "A": "/sitecore/system/Modules/Devices",
+      "B": "/sitecore/system/Settings/Foundation/Experience Accelerator/Horizon/Devices",
+      "C": "/sitecore/system/Marketing/Devices",
+      "D": "/sitecore/Content/Device Settings"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 6"
+    ],
+    "id": "b05de548-c065-48d2-83c9-67d197fc10f9"
+  },
+  {
+    "question": "What visibility setting makes a device type unavailable in Pages?",
+    "options": {
+      "A": "Optional",
+      "B": "Hidden",
+      "C": "Fixed",
+      "D": "Disabled"
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 6"
+    ],
+    "id": "4643b568-c687-4f73-89ff-30126ebacf68"
+  },
+  {
+    "question": "What happens if you try to delete a component with a published version?",
+    "options": {
+      "A": "It gets permanently deleted",
+      "B": "It gets archived instead of deleted",
+      "C": "It is locked by the system",
+      "D": "It is moved to trash"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 6"
+    ],
+    "id": "e40d21e7-8097-43ae-98f7-0f2267488968"
+  },
+  {
+    "question": "Where do you click to create a new component collection in XM Cloud Components?",
+    "options": {
+      "A": "In the Content Editor",
+      "B": "In the Pages app",
+      "C": "In the Components library",
+      "D": "In the Media Library"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 6"
+    ],
+    "id": "2e16f682-0d44-419d-94fb-ab63c399df69"
+  },
+  {
+    "question": "What feature allows a component to have multiple visual representations?",
+    "options": {
+      "A": "Device simulation",
+      "B": "Data bindings",
+      "C": "Component versions",
+      "D": "Component themes"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 6"
+    ],
+    "id": "db731ece-9613-4cf6-82f9-d598d3efc0ce"
+  },
+  {
+    "question": "What is a responsive bundle in XM Cloud Components?",
+    "options": {
+      "A": "A precompiled theme file",
+      "B": "A device configuration setting",
+      "C": "A component that changes layout based on screen width",
+      "D": "A plugin to add CSS"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 6"
+    ],
+    "id": "b5a1be77-056f-4b48-89f8-3ae943cc4267"
+  },
+  {
+    "question": "How do you restore a previously published and deleted component version?",
+    "options": {
+      "A": "Run a restore script from the Content Editor",
+      "B": "Open recycle bin and click restore",
+      "C": "Scroll to 'Show archived versions' and click Unarchive",
+      "D": "Duplicate the original component"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 6"
+    ],
+    "id": "ffeb8318-2223-4a54-a01a-f23326e6d12a"
+  },
+  {
+    "question": "How do you create a version of a component for a specific breakpoint in Sitecore XM Cloud?",
+    "options": {
+      "A": "Click 'Add Version' and assign a component ID",
+      "B": "Click 'Duplicate version', then set the desired breakpoints in 'Breakpoint settings'",
+      "C": "Change the grid layout in the Style Library",
+      "D": "Clone the page and select a new layout"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 6"
+    ],
+    "id": "df3e7bf4-be64-47af-9ff4-c435deae8cda"
+  },
+  {
+    "question": "What happens if you do not select any breakpoints for a component version?",
+    "options": {
+      "A": "The version will not be visible on any screen",
+      "B": "The version will only be shown on mobile",
+      "C": "The version will apply to all screen sizes",
+      "D": "The version will apply only to desktop sizes"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 6"
+    ],
+    "id": "5fc56af0-ac5d-4464-8099-10a786aeec34"
+  },
+  {
+    "question": "Which default screen width qualifies as 'Extra Large' according to Sitecore's Style Library?",
+    "options": {
+      "A": "Less than 576px",
+      "B": "768px to 991px",
+      "C": "992px to 1199px",
+      "D": "1200px to 1400px"
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 6"
+    ],
+    "id": "cbd8a06a-961d-490b-bac0-5649709d3d53"
+  },
+  {
+    "question": "Where should you upload your custom grid's CSS file?",
+    "options": {
+      "A": "sitecore/Media Library/System",
+      "B": "sitecore/Media Library/Feature/Experience Accelerator",
+      "C": "sitecore/System/Settings/Grid Styles",
+      "D": "sitecore/Templates/GridThemes"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 6"
+    ],
+    "id": "dc06ac4b-40db-4d6d-928b-cf62825d21ad"
+  },
+  {
+    "question": "What is the purpose of the Grid Definition item in SXA?",
+    "options": {
+      "A": "Defines the layout of pages at runtime",
+      "B": "Includes all grid system-specific items like devices and classes",
+      "C": "Contains the global theme settings for the site",
+      "D": "Links component styles to HTML templates"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 6"
+    ],
+    "id": "d9e3bebc-9b43-4d50-a081-fccccc19422d"
+  },
+  {
+    "question": "Which field in the Grid Definition item determines how placeholders behave when fixed?",
+    "options": {
+      "A": "Flex",
+      "B": "Row Class",
+      "C": "Fixed",
+      "D": "Wrapping Tag"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 6"
+    ],
+    "id": "0d573eca-3148-409c-870a-397c0b7ec1aa"
+  },
+  {
+    "question": "Why is changing the grid system after creating a site not recommended?",
+    "options": {
+      "A": "It requires reinstallation of Sitecore modules",
+      "B": "It breaks component versioning",
+      "C": "It breaks layout due to existing references to the old grid",
+      "D": "It resets all content to default"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 6"
+    ],
+    "id": "feedd9f6-afb8-4fb6-876a-8226284a47b6"
+  },
+  {
+    "question": "Which field in the Grid Definition item specifies the .cshtml file used for page layout?",
+    "options": {
+      "A": "Grid body view path",
+      "B": "Grid field parser type",
+      "C": "Rendering parameters field type",
+      "D": "Default component layout"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 6"
+    ],
+    "id": "25c39103-6601-4990-b024-7a6686cc70b7"
+  },
+  {
+    "question": "Which rendering parameter field type is used by default in SXA grids?",
+    "options": {
+      "A": "Sitecore.XA.Foundation.Grid.Parser.BasicParser",
+      "B": "GridRenderingParametersDefaultField, Sitecore.XA",
+      "C": "Sitecore.XA.Foundation.Grid.Fields.FieldRenderers.GridRenderingParametersFieldRenderer, Sitecore.XA.Foundation.Grid",
+      "D": "Sitecore.XA.Foundation.Fields.BasicFieldRenderer"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 6"
+    ],
+    "id": "d2dd4e7e-81d8-42b9-9c17-eee8d8ff2e17"
+  },
+  {
+    "question": "What is the purpose of the 'Grid Setup' item in SXA?",
+    "options": {
+      "A": "To determine component spacing rules",
+      "B": "To add the grid to the site creation wizard and manage dependencies",
+      "C": "To define the breakpoints for different devices",
+      "D": "To assign custom styles to each page"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 6"
+    ],
+    "id": "947b6f6e-3920-4f14-8582-f1eba5611cd8"
+  },
+  {
+    "question": "Who can invite team members and manage app access in Sitecore Cloud Portal?",
+    "options": {
+      "A": "Content Author",
+      "B": "Sitecore Developer",
+      "C": "Organization Admin or Organization Owner",
+      "D": "XM Cloud User"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 7"
+    ],
+    "id": "1d0b9672-13ac-4feb-b167-51144422086a"
+  },
+  {
+    "question": "What additional tasks can Organization Admins or Owners perform in Sitecore Cloud Portal?",
+    "options": {
+      "A": "Create workflows",
+      "B": "Assign language fallback",
+      "C": "Enable SSO, MFA, and create support cases",
+      "D": "Approve content"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 7"
+    ],
+    "id": "e71a9aaf-7ad2-4689-8f29-60da1761f70d"
+  },
+  {
+    "question": "What are the three levels of access control in XM Cloud?",
+    "options": {
+      "A": "Project, Environment, Role",
+      "B": "User, Role, Domain",
+      "C": "Team, App, Permission",
+      "D": "Member, Role, Access Right"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 7"
+    ],
+    "id": "74f9dcc0-a13c-46a7-8ace-34a242354ce5"
+  },
+  {
+    "question": "What is the function of a role in XM Cloud access management?",
+    "options": {
+      "A": "Assigning one-time passwords",
+      "B": "Mapping domains to users",
+      "C": "Grouping users and assigning permissions collectively",
+      "D": "Generating login tokens"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 7"
+    ],
+    "id": "46a6b18c-a45e-4b7d-930b-aaa12e4a14fd"
+  },
+  {
+    "question": "How is a user added to an XM Cloud app?",
+    "options": {
+      "A": "By creating a local account manually",
+      "B": "By sending an invitation from XM Cloud Tools",
+      "C": "By inviting them to the Sitecore Cloud Portal and giving them app access",
+      "D": "By configuring domain settings"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 7"
+    ],
+    "id": "02f5fd56-cae7-4df7-8f9e-258af48a4f02"
+  },
+  {
+    "question": "When does a user account get created in an XM Cloud app?",
+    "options": {
+      "A": "After assigning a role in the domain",
+      "B": "When the user logs in to the app for the first time",
+      "C": "When a user is added to the workflow",
+      "D": "After publishing content"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 7"
+    ],
+    "id": "8f17c4f6-da40-4cce-90e7-2319e250dfb4"
+  },
+  {
+    "question": "How can you assign roles and access rights to a user in XM Cloud?",
+    "options": {
+      "A": "Via the user profile page",
+      "B": "Through Sitecore CLI only",
+      "C": "Using Access Management or claims mapping",
+      "D": "From the domain admin panel"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 7"
+    ],
+    "id": "ec30c49d-c538-420b-9c67-5454805becab"
+  },
+  {
+    "question": "Which XM Cloud app role always has the highest level of permissions?",
+    "options": {
+      "A": "Content Author",
+      "B": "Organization Member",
+      "C": "Admin",
+      "D": "User"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 7"
+    ],
+    "id": "69f6202a-9303-42b4-ae0d-2ce136cf0535"
+  },
+  {
+    "question": "What is true about users with 'Organization Admin' role in Sitecore Cloud Portal?",
+    "options": {
+      "A": "They can be deleted from the app directly",
+      "B": "They automatically receive the highest role in all XM Cloud apps",
+      "C": "They must be manually assigned to each role",
+      "D": "They can only manage one app at a time"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 7"
+    ],
+    "id": "4f2ce683-5268-4af9-8989-c25ad18d0bf1"
+  },
+  {
+    "question": "How can you remove or change the role of an Admin user in XM Cloud?",
+    "options": {
+      "A": "Through the Access Management page in XM Cloud",
+      "B": "Using the CLI tool",
+      "C": "By changing settings in the domain",
+      "D": "From the Sitecore Cloud Portal"
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 7"
+    ],
+    "id": "e8c922e8-eb00-48cd-8033-2440aba08c78"
+  },
+  {
+    "question": "What is the purpose of claims mapping in Sitecore XM Cloud?",
+    "options": {
+      "A": "To create new Sitecore roles",
+      "B": "To assign XM Cloud roles based on identity provider claims",
+      "C": "To store user data in Sitecore database",
+      "D": "To manage analytics data"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 7"
+    ],
+    "id": "76ccd9af-2e9b-4d07-9408-df81b5afff75"
+  },
+  {
+    "question": "Where do you configure the mapping of IdP claims to Sitecore ID token claims?",
+    "options": {
+      "A": "In the Sitecore Role Manager",
+      "B": "In the config file on XM Cloud environment",
+      "C": "On the Sitecore Cloud Portal SSO page",
+      "D": "In the user profile settings"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 7"
+    ],
+    "id": "06d6d495-0617-4ca3-8ee9-1b09c0ca5945"
+  },
+  {
+    "question": "What type of regular expressions can be used in claim value matching?",
+    "options": {
+      "A": "PCRE",
+      "B": "Java syntax",
+      "C": "ECMAScript syntax",
+      "D": "Python syntax"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 7"
+    ],
+    "id": "9e2f0d4e-ea89-4e85-8564-270b68d3aaa4"
+  },
+  {
+    "question": "Where should you place the CustomClaims.config file in the XM Cloud environment?",
+    "options": {
+      "A": "root folder",
+      "B": "authoring/platform/App_Config/Include",
+      "C": "/data/claims",
+      "D": "wwwroot/config"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 7"
+    ],
+    "id": "7c9a9429-1edb-45fc-ae08-8b38c9a9c33c"
+  },
+  {
+    "question": "What role is assigned to all users in the example claims mapping?",
+    "options": {
+      "A": "Sitecore\\Developer",
+      "B": "Sitecore\\Campaign Manager",
+      "C": "Sitecore\\Default User",
+      "D": "Sitecore\\Analytics Reader"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 7"
+    ],
+    "id": "00a400d4-68ab-4db6-adab-d1d637a779c8"
+  },
+  {
+    "question": "What must the IdP return in order for XM Cloud to assign roles automatically?",
+    "options": {
+      "A": "HTML forms",
+      "B": "Username and password",
+      "C": "ID token or SAML response with proper claims",
+      "D": "API key and secret"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 7"
+    ],
+    "id": "de06bc79-1059-4ec3-9736-c9deb2c81b92"
+  },
+  {
+    "question": "What prefix is added to a target claim in the Sitecore token?",
+    "options": {
+      "A": "sitecore_",
+      "B": "idp_",
+      "C": "The SSO connection ID",
+      "D": "claim_"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 7"
+    ],
+    "id": "191e4849-b93d-473d-b24d-9bba2a770dc6"
+  },
+  {
+    "question": "How many claims mappings can you define per SSO connection?",
+    "options": {
+      "A": "10",
+      "B": "15",
+      "C": "20",
+      "D": "Unlimited"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 7"
+    ],
+    "id": "bf333fa7-8fee-4574-bffc-f3dd9f72ba07"
+  },
+  {
+    "question": "What happens if multiple claims are mapped with the same name in one token exchange?",
+    "options": {
+      "A": "Only the first one is used",
+      "B": "Sitecore merges them automatically",
+      "C": "Claims mapping fails and a warning is shown",
+      "D": "The user is logged out"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 7"
+    ],
+    "id": "9b55a824-3367-4825-9020-0274506d311b"
+  },
+  {
+    "question": "Which claim value is used in the example to assign the Campaign Manager role?",
+    "options": {
+      "A": "^default_user$",
+      "B": "^developer$",
+      "C": "^campaign_manager$",
+      "D": "^admin$"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 7"
+    ],
+    "id": "e19d465d-1ed9-4346-a9f6-3a7504300697"
+  },
+  {
+    "question": "What is the purpose of using roles in Sitecore XM Cloud?",
+    "options": {
+      "A": "To limit user login times",
+      "B": "To group users for security access management",
+      "C": "To assign users to workflows",
+      "D": "To store user passwords securely"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 7"
+    ],
+    "id": "69c1b99f-47a2-416f-a459-e82aa31a853b"
+  },
+  {
+    "question": "Where can you manage roles in Sitecore XM Cloud?",
+    "options": {
+      "A": "Content Editor",
+      "B": "Experience Editor",
+      "C": "Role Manager",
+      "D": "Domain Manager"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 7"
+    ],
+    "id": "7049587c-b718-4fb5-8443-bac3f6d53664"
+  },
+  {
+    "question": "What happens to a role’s access rights when the role is deleted?",
+    "options": {
+      "A": "They are transferred to all users",
+      "B": "They are removed from the content tree",
+      "C": "They remain stored on the individual items",
+      "D": "They are deleted permanently"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 7"
+    ],
+    "id": "132d683c-a221-44bd-8c77-08bd69c8c0c6"
+  },
+  {
+    "question": "Which role gives access to the Experience Editor’s Presentation tab?",
+    "options": {
+      "A": "Author",
+      "B": "Designer",
+      "C": "Developer",
+      "D": "Sitecore Client Authoring"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 7"
+    ],
+    "id": "b608b8da-5d92-408b-814a-db91ca40b707"
+  },
+  {
+    "question": "Which role includes both design and authoring capabilities?",
+    "options": {
+      "A": "Author",
+      "B": "Developer",
+      "C": "Sitecore Client Designing",
+      "D": "Sitecore Client Maintaining"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 7"
+    ],
+    "id": "bf867c06-5b00-4ffb-850b-2bc29e439850"
+  },
+  {
+    "question": "Which role has access to template editing features and reporting tools?",
+    "options": {
+      "A": "Sitecore Client Translating",
+      "B": "Sitecore Client Authoring",
+      "C": "Sitecore Client Maintaining",
+      "D": "Sitecore Client Publishing"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 7"
+    ],
+    "id": "1b27f790-326a-484a-8dc2-644e5322c7c6"
+  },
+  {
+    "question": "How are users added to a role in XM Cloud?",
+    "options": {
+      "A": "Through the User Manager only",
+      "B": "By editing the user’s profile",
+      "C": "In the Role Manager > Members section",
+      "D": "Through the Publishing Wizard"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 7"
+    ],
+    "id": "9217aadf-f4d0-432b-ab7d-47470d3c1890"
+  },
+  {
+    "question": "Which role is automatically assigned to all users?",
+    "options": {
+      "A": "Developer",
+      "B": "Author",
+      "C": "Everyone",
+      "D": "Sitecore Client Users"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 7"
+    ],
+    "id": "076b0eb3-aa26-4be2-8354-1eb28913430d"
+  },
+  {
+    "question": "What must be done to assign a new role to all domains?",
+    "options": {
+      "A": "Assign the role to the root item",
+      "B": "Keep the role in the default XM Cloud domain",
+      "C": "Set global permissions",
+      "D": "Use Role Sync"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 7"
+    ],
+    "id": "c8dae758-8d79-43f8-80c7-4669613cbc10"
+  },
+  {
+    "question": "Which role gives access to maintain users and domains?",
+    "options": {
+      "A": "Sitecore Client Securing",
+      "B": "Sitecore Client Account Managing",
+      "C": "Sitecore Local Administrators",
+      "D": "Sitecore Client Configuring"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 7"
+    ],
+    "id": "bd7f5585-31e5-4f97-8ccd-ca21f80cf5ed"
+  },
+  {
+    "question": "Which role provides minimal access, allowing only login to the Desktop?",
+    "options": {
+      "A": "Sitecore Client Users",
+      "B": "Sitecore Client Authoring",
+      "C": "Sitecore Limited Content Editor",
+      "D": "Developer"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 7"
+    ],
+    "id": "082c23e7-c5fd-4cea-a391-6aed889632d1"
+  },
+  {
+    "question": "To add access rights to a new role, you must:",
+    "options": {
+      "A": "Map claims",
+      "B": "Edit the config files",
+      "C": "Assign access rights manually",
+      "D": "Use User Manager"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 7"
+    ],
+    "id": "840af777-9398-441c-b639-1dc0aeb3cb7a"
+  },
+  {
+    "question": "Which role is not part of the role database but still used for access rights?",
+    "options": {
+      "A": "Developer",
+      "B": "Everyone",
+      "C": "Author",
+      "D": "Sitecore Client Authoring"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 7"
+    ],
+    "id": "dc0af480-4131-4ffb-bb9b-b86ddfb69355"
+  },
+  {
+    "question": "Which role allows a user to perform republishing?",
+    "options": {
+      "A": "Sitecore Client Authoring",
+      "B": "Sitecore Client Advanced Publishing",
+      "C": "Developer",
+      "D": "Author"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 7"
+    ],
+    "id": "a8422443-256e-4635-b735-37518011625f"
+  },
+  {
+    "question": "What is a characteristic of a user with multiple roles?",
+    "options": {
+      "A": "User can log in only once a day",
+      "B": "Access rights are averaged",
+      "C": "User gains all access rights from all roles",
+      "D": "User must choose a primary role"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 7"
+    ],
+    "id": "a9edf870-00f4-4392-9d9b-2c90ad0b7e85"
+  },
+  {
+    "question": "Which role limits Content Editor to Home, Review, and Publish tabs?",
+    "options": {
+      "A": "Sitecore Limited Page Editor",
+      "B": "Sitecore Client Authoring",
+      "C": "Sitecore Limited Content Editor",
+      "D": "Author"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 7"
+    ],
+    "id": "f05dd998-30a3-4162-b558-99affd9de9dd"
+  },
+  {
+    "question": "Which role allows access to configure item appearance and attributes?",
+    "options": {
+      "A": "Sitecore Client Configuring",
+      "B": "Sitecore Client Securing",
+      "C": "Sitecore Client Site Managing",
+      "D": "Sitecore Client Publishing"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 7"
+    ],
+    "id": "b269520f-cd08-450a-905d-eee0b1a06c03"
+  },
+  {
+    "question": "Which role gives access to the Sitecore translation features?",
+    "options": {
+      "A": "Sitecore Client Site Managing",
+      "B": "Sitecore Client Translating",
+      "C": "Sitecore Client Users",
+      "D": "Sitecore Client Authoring"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 7"
+    ],
+    "id": "0571908b-3c8e-44b0-b428-5d95d6c8e2f2"
+  },
+  {
+    "question": "When you delete a role, what happens to its members?",
+    "options": {
+      "A": "They are removed from Sitecore",
+      "B": "They are reassigned to another role",
+      "C": "They lose all permissions granted by that role",
+      "D": "Nothing changes"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 7"
+    ],
+    "id": "1e19be1a-6838-4ecd-8b67-204da61017fa"
+  },
+  {
+    "question": "Which of the following is **not** automatically included in the Developer role?",
+    "options": {
+      "A": "Sitecore Client Authoring",
+      "B": "Sitecore Client Designing",
+      "C": "Sitecore Client Maintaining",
+      "D": "Sitecore Client Users"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 7"
+    ],
+    "id": "bce322ac-636a-4429-9cdb-3bee7fc1c8c6"
+  },
+  {
+    "question": "What happens when a field value is NULL in a Sitecore item?",
+    "options": {
+      "A": "The field is ignored entirely",
+      "B": "The field uses the standard value from its data template",
+      "C": "The field displays an error",
+      "D": "The field automatically becomes blank"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 8"
+    ],
+    "id": "0fc46f21-76cf-4fe1-b353-00ddc419fe17"
+  },
+  {
+    "question": "Which of the following tokens replaces itself with the name of the item during creation?",
+    "options": {
+      "A": "$id",
+      "B": "$parentname",
+      "C": "$name",
+      "D": "$now"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 8"
+    ],
+    "id": "43e75154-047a-4c74-bbcd-0a511b1f919b"
+  },
+  {
+    "question": "Where are standard values stored in Sitecore?",
+    "options": {
+      "A": "As a hidden field in each item",
+      "B": "As a property in the Sitecore database",
+      "C": "As a child item under the data template",
+      "D": "In the web.config file"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 8"
+    ],
+    "id": "b8ebcd6f-ed88-4740-a89e-6523c30e10c9"
+  },
+  {
+    "question": "Which Sitecore tab contains the option to reset layout details to standard values?",
+    "options": {
+      "A": "Configure",
+      "B": "Presentation",
+      "C": "Content",
+      "D": "Developer"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 8"
+    ],
+    "id": "48cbcdee-8622-4c12-98c1-959e02281d9f"
+  },
+  {
+    "question": "What must be checked to convert a blank field into NULL so that standard values can apply?",
+    "options": {
+      "A": "Use Standard Value",
+      "B": "Reset to Default",
+      "C": "Reset Blank",
+      "D": "Enable Null"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 8"
+    ],
+    "id": "7b20fd40-78e9-4617-9202-cffa6fb40bc7"
+  },
+  {
+    "question": "Which method can be used in .NET to reset a field to its standard value?",
+    "options": {
+      "A": "item.Fields.ResetValue()",
+      "B": "item.ResetField()",
+      "C": "field.Reset()",
+      "D": "Sitecore.Field.ResetAll()"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 8"
+    ],
+    "id": "ab13d554-e55f-4ecc-9972-2ff5a79a8f7d"
+  },
+  {
+    "question": "What is the main benefit of defining insert options in standard values instead of individual items?",
+    "options": {
+      "A": "Better performance",
+      "B": "Easier localization",
+      "C": "Centralized management and consistency",
+      "D": "Improved layout rendering"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 8"
+    ],
+    "id": "9fe97a81-826e-48a5-881d-231a7311d673"
+  },
+  {
+    "question": "Which pipeline is used by Sitecore to construct the list of effective insert options?",
+    "options": {
+      "A": "renderLayout",
+      "B": "uiGetMasters",
+      "C": "insertItems",
+      "D": "itemCreator"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 8"
+    ],
+    "id": "219eaf1e-149b-447b-af5d-2a43c6d4383e"
+  },
+  {
+    "question": "What is the difference between assigned insert options and effective insert options?",
+    "options": {
+      "A": "Assigned options are temporary, effective options are permanent",
+      "B": "Effective options are resolved at runtime using assigned options and rules",
+      "C": "Assigned options apply to users, effective options apply to admins",
+      "D": "There is no difference"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 8"
+    ],
+    "id": "2b039a5c-47d3-4ef0-8fcc-b06dbb8c08f4"
+  },
+  {
+    "question": "What happens if multiple base templates define a standard value for the same field?",
+    "options": {
+      "A": "The values are merged together",
+      "B": "All values are ignored",
+      "C": "The value from the first template in the inheritance list is used",
+      "D": "Sitecore throws a conflict error"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 8"
+    ],
+    "id": "1e2e9ff0-5542-4db4-b6f2-549796c1be05"
+  },
+  {
+    "question": "What defines the structure of items in Sitecore?",
+    "options": {
+      "A": "Fields",
+      "B": "Sections",
+      "C": "Data templates",
+      "D": "Base templates"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 8"
+    ],
+    "id": "44d3112c-a9b8-4868-9f78-4ef218dc318e"
+  },
+  {
+    "question": "What happens when you change a data template in Sitecore?",
+    "options": {
+      "A": "The items based on the template are immediately republished",
+      "B": "The change applies to all items based on the template without changing their revision numbers",
+      "C": "The items based on the template are deleted",
+      "D": "The items based on the template are automatically updated in the database"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 8"
+    ],
+    "id": "0feb53cb-f8f7-4595-9d42-5c082391fda1"
+  },
+  {
+    "question": "What is the primary purpose of data template sections in Sitecore?",
+    "options": {
+      "A": "To organize fields for easier navigation in the content editor",
+      "B": "To define the layout of the Sitecore item",
+      "C": "To set field validation rules",
+      "D": "To add security settings for the data template"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 8"
+    ],
+    "id": "cdf242ba-fb6d-43c9-99bb-ba64cdc92056"
+  },
+  {
+    "question": "Which of the following is true about base templates in Sitecore?",
+    "options": {
+      "A": "They override fields in the data template",
+      "B": "Fields from base templates are merged into the data template",
+      "C": "Base templates are only used for layout definition",
+      "D": "Base templates cannot be used in data templates"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 8"
+    ],
+    "id": "ded5b00d-3858-4b95-8183-8a7c3c91a2bf"
+  },
+  {
+    "question": "What happens when you add a section to a data template in Sitecore?",
+    "options": {
+      "A": "The section is added to the data template and visible in the content editor",
+      "B": "The section is added but hidden from the content editor",
+      "C": "The section automatically becomes a base template",
+      "D": "The section is ignored if not associated with a field"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 8"
+    ],
+    "id": "376e695f-6afb-4d47-9ac3-bd055264e69c"
+  },
+  {
+    "question": "Which of the following actions can you perform in the Template Manager in Sitecore?",
+    "options": {
+      "A": "Edit base templates",
+      "B": "Add a new field to an existing data template",
+      "C": "Change the data template associated with an item",
+      "D": "Delete a content item"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 8"
+    ],
+    "id": "70b44a89-53ea-4920-bfc4-bd37f0a1d003"
+  },
+  {
+    "question": "In Sitecore, how are icons configured for a data template?",
+    "options": {
+      "A": "Icons are automatically assigned based on the template type",
+      "B": "Icons must be manually set using the Configure tab",
+      "C": "Icons are set for individual items, not templates",
+      "D": "Icons are inherited from the base template"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 8"
+    ],
+    "id": "f7f57731-3795-4ff6-a014-a9866867f69e"
+  },
+  {
+    "question": "Which statement is true about the inheritance of base templates in Sitecore?",
+    "options": {
+      "A": "Data templates can inherit from multiple base templates",
+      "B": "A base template cannot be inherited by another template",
+      "C": "Only the first base template is used for a data template",
+      "D": "Inheritance is not supported in data templates"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 8"
+    ],
+    "id": "94266e28-72a1-4e99-ac15-1ed1b6b18ade"
+  },
+  {
+    "question": "What happens if a data template field is defined in both the data template and a base template?",
+    "options": {
+      "A": "The field value from the data template is used",
+      "B": "The field value from the base template is used",
+      "C": "The field values from both templates are merged",
+      "D": "Sitecore throws an error"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 8"
+    ],
+    "id": "3e1ea4f2-874c-4eb5-ba50-fbea5be9790c"
+  },
+  {
+    "question": "How can you change the template associated with an item in Sitecore?",
+    "options": {
+      "A": "By editing the item's content",
+      "B": "By using the Configure tab and clicking 'Change Template'",
+      "C": "By modifying the base templates in the Template Manager",
+      "D": "By deleting the item and creating a new one with the desired template"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 8"
+    ],
+    "id": "5b688079-335e-4cba-a117-a203b12dc120"
+  },
+  {
+    "question": "What does a section in a data template in Sitecore help with?",
+    "options": {
+      "A": "Grouping related fields for better organization",
+      "B": "Defining access control for fields",
+      "C": "Setting default values for fields",
+      "D": "Creating validation rules for fields"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 8"
+    ],
+    "id": "df9c4500-2a4a-48c4-bea3-29a32046287c"
+  },
+  {
+    "question": "What happens when a base template defines a field but the data template does not?",
+    "options": {
+      "A": "The field is ignored by Sitecore",
+      "B": "The field value from the base template is inherited",
+      "C": "The field is added to the data template automatically",
+      "D": "Sitecore throws a conflict error"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 8"
+    ],
+    "id": "17242732-4927-4655-bf9f-bf324fd03a1a"
+  },
+  {
+    "question": "Which of the following options is not available in the Template Manager for a data template?",
+    "options": {
+      "A": "Add a field",
+      "B": "Edit a field's settings",
+      "C": "Change the template icon",
+      "D": "Republish all items associated with the template"
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 8"
+    ],
+    "id": "5d56d0ab-f800-41d3-8dca-cb89ca2ad33e"
+  },
+  {
+    "question": "How can you view hidden items in the Template Manager or Content Editor?",
+    "options": {
+      "A": "By selecting the 'Show Hidden Items' checkbox in the View tab",
+      "B": "By using a special admin account to unlock hidden items",
+      "C": "By searching for hidden items specifically",
+      "D": "By using the Developer Tools in the browser"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 8"
+    ],
+    "id": "ba5c88ee-f2e3-4963-a32c-fe8db00ce0dc"
+  },
+  {
+    "question": "What is the purpose of the 'Add Site Language' script in Sitecore?",
+    "options": {
+      "A": "To add a new language version to the entire site",
+      "B": "To translate existing content to a new language",
+      "C": "To add language-specific fields to items",
+      "D": "To enable localization of the site for multiple languages"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 8"
+    ],
+    "id": "672edd09-c558-4cf9-a17a-8d5e8838f3e7"
+  },
+  {
+    "question": "Where do you add languages to a Sitecore environment?",
+    "options": {
+      "A": "sitecore/System/Languages",
+      "B": "sitecore/System/Sites",
+      "C": "sitecore/Content/Localization",
+      "D": "sitecore/Content/Settings"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 8"
+    ],
+    "id": "c1fc5ff7-1280-4a3e-8cb6-50e45ef35d7b"
+  },
+  {
+    "question": "What happens when you add a language version to an SXA site in Sitecore?",
+    "options": {
+      "A": "All site items and field values are copied from the source language to the target language",
+      "B": "Only standard values for templates are copied to the new language",
+      "C": "Only layout details are replicated",
+      "D": "The site content is automatically translated into the new language"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 8"
+    ],
+    "id": "489f9810-1e00-425e-b5a4-c9816a9ee0ea"
+  },
+  {
+    "question": "What should you do before adding a new language version in Sitecore?",
+    "options": {
+      "A": "Ensure that the target languages have been added to the environment",
+      "B": "Change the site structure to accommodate multiple languages",
+      "C": "Define new field values for each language",
+      "D": "Translate all content manually"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 8"
+    ],
+    "id": "2dfbc2ac-1bef-4a51-a434-94861414d175"
+  },
+  {
+    "question": "How can you add a language version to a Sitecore SXA site?",
+    "options": {
+      "A": "Right-click the site item and select 'Add Site Language' from the Scripts menu",
+      "B": "Manually edit the content of the site item",
+      "C": "Use the Sitecore PowerShell console to add a language",
+      "D": "Create a new item for the language in the 'Content' section"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 8"
+    ],
+    "id": "148102c1-094d-4235-821b-c54e9c6d39ac"
+  },
+  {
+    "question": "Where can you find the option to view your site in a different language in Sitecore?",
+    "options": {
+      "A": "In the Versions tab, under the Language group",
+      "B": "In the Site Settings menu",
+      "C": "In the Content Editor's Language section",
+      "D": "In the Sitecore Control Panel"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 8"
+    ],
+    "id": "1c7cc443-0721-4e5d-bec1-72722fd88bc9"
+  },
+  {
+    "question": "What is the Experience Edge schema in Sitecore designed for?",
+    "options": {
+      "A": "It is a read-only GraphQL schema for headless Sitecore development",
+      "B": "It is used to manage the content delivery system in Sitecore",
+      "C": "It stores all site data and templates for faster access",
+      "D": "It allows for real-time updates of the Sitecore experience"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 8"
+    ],
+    "id": "7b88ddde-2943-45c0-83be-2c06025c5ca5"
+  },
+  {
+    "question": "Which query in the Experience Edge schema allows querying an item by its path or ID?",
+    "options": {
+      "A": "item",
+      "B": "layout",
+      "C": "search",
+      "D": "site"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 8"
+    ],
+    "id": "54a8d853-7978-4ba9-b943-aa36ea5da26f"
+  },
+  {
+    "question": "What does the 'search' query in the Experience Edge schema allow you to do?",
+    "options": {
+      "A": "Search for items by field value or common properties",
+      "B": "Retrieve layout data for a specific item",
+      "C": "Query the entire Sitecore content tree",
+      "D": "Look up site-specific metadata"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 8"
+    ],
+    "id": "51fa39a1-0070-4041-9fa9-f39d7d76647f"
+  },
+  {
+    "question": "What should you do if your Experience Edge query is too complex?",
+    "options": {
+      "A": "Break the query into multiple smaller queries",
+      "B": "Increase the query complexity limit",
+      "C": "Use more fields in your query",
+      "D": "Simplify the template structure"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 8"
+    ],
+    "id": "1999e7d1-46cc-4522-8d14-b0003979a80b"
+  },
+  {
+    "question": "In the Experience Edge schema, what does the '_parent' field represent?",
+    "options": {
+      "A": "The ID of the item's immediate parent",
+      "B": "The parent site of the item",
+      "C": "The field that stores metadata about the parent item",
+      "D": "A reference to the parent template"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 8"
+    ],
+    "id": "6a96f450-be27-4bce-b532-c0184b6d3fcd"
+  },
+  {
+    "question": "What is a special field available for content search in the Experience Edge schema?",
+    "options": {
+      "A": "_path",
+      "B": "_created",
+      "C": "_author",
+      "D": "_template"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 8"
+    ],
+    "id": "cf10281b-227c-4dad-84a7-1de5720ae14c"
+  },
+  {
+    "question": "In Sitecore Experience Edge, what does the '_hasLayout' field indicate?",
+    "options": {
+      "A": "Whether the item has presentation details/layout data",
+      "B": "The layout of the item based on its template",
+      "C": "The default layout applied to all items",
+      "D": "Whether the layout has been customized"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 8"
+    ],
+    "id": "ed92e308-793c-45ae-8ce5-89eed8a2a011"
+  },
+  {
+    "question": "How can you manipulate an image using Sitecore Experience Edge?",
+    "options": {
+      "A": "By applying query parameters such as width (w) and height (h)",
+      "B": "By uploading a new version of the image",
+      "C": "By using the 'Edit Media' option in the Media Library",
+      "D": "By setting image permissions"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 8"
+    ],
+    "id": "3b179579-c29c-4623-9aec-96e7299623d6"
+  },
+  {
+    "question": "Which image file formats are supported for manipulation in Sitecore Experience Edge?",
+    "options": {
+      "A": "avif, webp, jpeg",
+      "B": "png, jpg, svg",
+      "C": "jpeg, bmp, tiff",
+      "D": "gif, webp, png"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 8"
+    ],
+    "id": "5299129c-e3d5-47f5-b40d-5037fba7fe69"
+  },
+  {
+    "question": "What is the 'first' argument used for in paginated queries in the Experience Edge schema?",
+    "options": {
+      "A": "To define the number of results to return",
+      "B": "To specify the starting point of the query",
+      "C": "To determine which field to search by",
+      "D": "To filter the query results by date"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 8"
+    ],
+    "id": "6a7b8ff2-15cd-4221-948b-cf83645d5b3b"
+  },
+  {
+    "question": "What does the 'endCursor' in a paginated query result indicate?",
+    "options": {
+      "A": "The cursor used to obtain the next page of results",
+      "B": "The total number of available results",
+      "C": "The field to apply a filter on in the next query",
+      "D": "The point at which the query stops"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 8"
+    ],
+    "id": "b0b1cb47-cfce-4a96-a4bc-3ea26bf39a06"
+  },
+  {
+    "question": "What does a naming collision in GraphQL schema types indicate?",
+    "options": {
+      "A": "The newest creation date item or field has '_{guid}' appended to the name",
+      "B": "The schema is not compatible with Sitecore's naming conventions",
+      "C": "The item or field name is duplicated and needs to be resolved manually",
+      "D": "The schema needs to be regenerated for consistency"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "notes": "",
+    "tag": [
+      "Competency 8"
+    ],
+    "id": "86bd0a53-06ed-410c-9d47-bb40a9db24c0"
+  }
+]
