@@ -127,7 +127,7 @@ TOPIC OR TEXT TO CREATE QUESTION FROM:
           <div className="h-full">
             <label className="inline-flex items-center cursor-pointer">
               <div className="bg-gray-100 hover:bg-gray-200 text-sm text-gray-800 border border-gray-300 px-4 py-1.5 rounded shadow-sm">
-                Upload JSON File
+                Import JSON File
               </div>
               <input type="file" accept=".json" className="hidden" onChange={handleFileUpload} />
             </label>
